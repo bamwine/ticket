@@ -1,0 +1,2038 @@
+/*/////////////////////////////////////////////////////////
+/////////////////////// Theme Colors //////////////////////
+/////////////////////////////////////////////////////////*/
+
+/*/		Primary Color:		#52b046			/*/
+/*/		Secondary Color:	#005faf  			/*/
+/*/		Tetriary Color:		#969696				/*/
+
+/*/////////////////////////////////////////////////////////
+/////////////////////////  General ////////////////////////
+/////////////////////////////////////////////////////////*/
+
+.transition,
+.show__reservation__btns div,
+.select__day__container__select_day__table__day,
+.select__day__container__select_day__table__day .day__title,
+.select__day__container__select_day__table__prev__next__select__next__day,
+.select__day__container__select_day__table__prev__next__select__prev__day {
+	transition-duration: .3s;
+	-moz-transition-duration: .3s;
+	-webkit-transition-duration: .3s;
+}
+
+.flightslide__table__parkour__dep__arr,
+.process__nav > li.active > a,
+.flightslide__table__parkour__parkourloc,
+.flightslide__table .flight__hours .flight__hours__table .fare__info .fares,
+.search__selecion__info__table__inner__table__tbody__route{
+	color: #426386  !important;
+}
+
+#flightInfoPanel-sticky-wrapper .flight__selection__info__table__content .segment__table .segment__conn__number,
+.flightslide__table .flight__hours .flights .flight__rows .flight__row .hours .conn__info,
+.flightslide__table .flight__hours .flights .flight__rows .flight__row .hours .lay__time{
+    color: #005faf ;
+}
+
+.next__day__arr,
+.process__nav > li.active > a{
+	color: #426386 !important;
+}
+.currency__selector .caret,
+.input-group-select-down::after,
+.bootstrap-select.btn-group .btn .filter-option::after {
+	color: #005faf  !important;
+}
+
+.process__nav > li.active > a {
+	box-shadow: 0px -2px 0px #426386 inset;
+}
+
+.process__nav > li > a {
+	color: #AAA;
+	/*box-shadow: 0px -3px 0px #DDD inset;*/
+}
+
+.process__nav > li.disabled > a {
+	box-shadow: 0px -1px 0px #426386 inset;
+	color: #999;
+}
+
+.select-day .day-selected .day-title {
+	background: #005faf  none repeat scroll 0% 0% !important;
+	transition: all .3s linear;
+}
+
+.modal-header {
+	border-top: 0px !important;
+	background-color: #fc8d00 !important;
+}
+
+.modal-header .close {
+	line-height: 0.6;	
+}
+
+.modal-header .modal-title {
+	line-height: 1;
+}
+
+.day-selected,
+.monthly-day-btn,
+.btn-danger,
+.btn-danger:focus,
+.btn-alternative:hover,
+.selectpicker li.selected a,
+.div-radio.true,
+.chosen-container .chosen-results li.highlighted,
+.payment-attention-body .accept-button {
+	background: #d84434 none repeat scroll 0% 0% !important;
+	border-color: #d84434 !important;
+	transition: all .3s linear;
+	color: #FFF !important;
+}
+.btn-default {
+    color:#d84434;
+    border-color: #d84434 !important;
+}
+
+.monthly-day-btn:hover,
+.btn-danger:hover,
+.btn-alternative,
+.btn-alternative:focus,
+.unselectedBox input:checked ~ label,
+.navbar-custom .nav li a:hover,
+.navbar-custom .nav li a:focus,
+.payment-attention-body .accept-button:hover {
+	background-color: transparent;
+	border:None;
+	transition: all .3s linear;
+	color: #FFF !important;
+}
+
+/* BUGFIX: Mobile navbar fixes */
+.navbar-custom .nav li a {
+	position: relative;
+	display: block;
+	float: left;
+	width: 100%;
+	padding: 10px;
+	line-height: 2rem;
+}
+.container > .navbar-collapse {	padding: 0; }
+.navbar-nav { padding-right: 0 !important; }
+
+.div-radio.true {
+    border-color: #005faf ;
+}
+
+.btn-danger, .btn-danger:hover, .monthly-day-btn, .monthly-day-btn:hover {
+	border: 0px;
+}
+
+.nav-tabs.nav-justified > .active > a,
+.nav-tabs.nav-justified > .active > a:focus,
+.nav-tabs.nav-justified > .active > a:hover,
+.nav-tabs.nav-justified > li > a:hover {
+	box-shadow: 0px -2px 0px #426386 inset;
+	color: #005faf ;
+}
+
+.badge-primary {
+	background-color: #969696;
+	color: #FFF;
+	border-radius: 4px;
+}
+
+.search__selecion__info__table__inner__heading .search__selecion__info__table__inner__btn {
+	color: #FFF !important;
+	transition: all .3s linear;
+	background-color: #426386;
+	border-top-right-radius: 4px;
+	border-left: 0px none;
+	height: 46px;
+	overflow: visible
+}
+
+.search__selecion__info__table__inner__heading .search__selecion__info__table__inner__btn:hover {
+	color: #FFF !important;
+	transition: all .3s linear;
+	background-color: #969696;
+}
+
+.search__selecion__info__table__inner__heading .search__selecion__info__table__inner__btn > i {
+	line-height: 1.6px;
+}
+
+@media (min-width: 768px) {
+	.search__selecion__info__table__inner__table_thead__th {
+		position: absolute;
+		top: 5px;
+		left: 160px;
+	}
+}
+
+.segment_select tbody tr:hover {
+    background: #d84434 ;
+    cursor: pointer;
+    color: #fff;
+}
+
+.AvailabilityResults #flightInfoPanel-sticky-wrapper {
+	padding-left: 15px;
+	margin-top: -10px;
+}
+
+.Itinerary .btn-group > .btn:first-child {
+	padding-right: 15px;
+}
+
+/*/////////////////////////////////////////////////////////
+///////////////// Error Pages & Messages //////////////////
+/////////////////////////////////////////////////////////*/
+
+#the404 {
+	fill: #005faf ;
+}
+.thezero {
+	fill: #005faf ;
+}
+#circling-plane {
+	fill: #969696;
+	/*stroke: #FFF */
+}
+
+.error-div, .alert-red {
+    background-color: #e74c3c;
+	padding: 0 5px;
+}
+
+.alert-blue {
+	background-color: #969696;
+/*	color: #FFF;*/
+}
+
+.alert-info {
+	background-color: #005faf ;
+}
+
+.page-error2 .inside .inner .errorHeading {
+	color: #969696;
+}
+
+/*/////////////////////////////////////////////////////////
+/////////////////// Background Settings ///////////////////
+/////////////////////////////////////////////////////////*/
+
+body {
+	background-attachment:fixed;
+
+}
+
+@media screen and (min-width: 1920px) {
+	body {
+      
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}	
+	
+}
+	
+.form-control, .chosen-container {
+	background-color: #FFF;
+}
+
+.side__member__panel__body,
+.contacts__block .contact__info__wrapper,
+.pass__info__sidebar .flight__selection__info__table,
+#myTabContent1, #myTabContent2, #myTabContent3, #myTabContent4, #myTabContent5,
+.ticket__prev__summary, #discountPanel, #paymentTabContainer,
+#FlightSearch .main__container .availability__main__container .row #subContent>.col-lg-9,
+.ticket__print__sidebar .payment__summary__table,
+.ticketpreview-sticky.ticket__prev__sidebar,
+.ticketRefundContentDiv,
+.content.error__page__main__container,
+.contact__info__wrapper,
+.pass__tab__container .passenger__form,
+.addssr-sticky .panel, 
+.account-wall,
+.member__panel .member__panel__body,
+.checkin__panel .checkin__panel__body,
+.personal__panel .personal__panel__body,
+.points__panel .points__panel__body,
+.res__panel .res__panel__body,
+.missing__points__panel .missing__points__panel__body,
+.membership .tile,
+#flightInfoPanel-sticky-wrapper .currency__select,
+.site-footer,
+#sidebarInfoA .panel,
+.tile.purple.notify__points,
+.ssr__flight__summary,
+.ssrSeatSelectWrapper,
+.ssrCateringSelectWrapper,
+.ssrLuggageSelectWrapper,
+.ssrSportEqSelectWrapper,
+.ssrInsuranceSelectWrapper,
+.ssrInsuranceSelectContainer,
+.ssrSeatSelectContainer,
+.ssrCateringSelectContainer,
+.ssrLuggageSelectContainer,
+.ssrSportEqSelectContainer,
+.paymentConfirmContainer,
+.reservationContainer,
+.ticket__print__summary,
+.MemberRegister .register__content,
+.memberMainContent.show__reservation>.container>.row>div:nth-child(1),
+.show__reservation__sidebar,
+.memberMainContent.rezvEntryMainContent.res__entry,
+.MemberHome .reservation__table,
+.MemberHome .res__entry__body,
+.checkin__segment__list,
+.checkin__pass__information,
+.checkin__rules,
+.CheckinSelectSeat .flight__list,
+.CheckinSelectSeat .seat__selection__content,
+.CheckinConfirm .checkin__confirm .flight__list,
+.CheckinConfirm .checkin__confirm .seat__cost,
+.CheckinBoarding .checkinCoardingContentDiv,
+.CheckinBoarding .checkin__boarding__content .send__barcode,
+.ICIPNRSearch .pnr__search .pnr__search__main .pnr__search__panel,
+.PnrSearch .pnr__search__panel,
+.TicketRefundSummary .ticket__refund__summary__container
+{
+	background-color: rgba(255, 255, 255, 0.5) !important;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+	border-radius: 3px;
+}
+
+.tab-content > .tab-pane {
+	padding-bottom: 0px;
+	margin-bottom: 15px;
+}
+
+.mainContainer {
+	border: transparent 0 !important;
+}
+
+#topHeader .dropdown.member .dropdown-menu a,
+#topHeader .dropdown.loyalty .dropdown-menu a{
+    padding-left: 6px;
+}
+
+/*/////////////////////////////////////////////////////////
+/////////////////////// Input Boxes ///////////////////////
+/////////////////////////////////////////////////////////*/
+
+input[type="radio"]:checked ~ label::before {
+	border-color: #426386 !important;
+}
+
+input[type="radio"]:checked ~ label::before {
+	font-size: 19px !important;
+	line-height: 14px !important;
+}
+
+input[type="checkbox"]:checked ~ label::before {
+	color: #969696;
+	border-color: #005faf ;
+}
+
+input[type="checkbox"] ~ label:hover:before, input[type="radio"] ~ label:hover:before {
+	border-color: #005faf ;
+}
+
+.selectize-control.form-control.single,
+#card-owner, #card-number, #cvc, 
+.form-group>input[type="text"],
+input[type="tel"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+select {
+	border: 1px solid rgba(1, 67, 149, 0.2) !important;
+	box-shadow: none;
+	border-radius: 4px !important;
+	height: 37px;
+}
+
+.selectize-dropdown [data-selectable], .selectize-dropdown .optgroup-header,
+#card-owner, #card-number, #cvc {
+    padding: 5px 6px;
+}
+
+.form-group>input[type="text"],
+input[type="email"],
+.selectize-control.form-control.single input,
+.selectize-control.form-control.single .item {
+	padding-left: 5px !important;
+}
+
+.form-group>input[type="text"]:active, .form-group>input[type="text"]:focus,
+#card-owner:active, #card-number:active, #cvc:active, 
+.selectize-control.form-control.single:active,
+input[type="tel"]:active, input[type="tel"]:focus,
+input[type="number"]:active, input[type="number"]:focus,
+input[type="email"]:active, input[type="email"]:focus,
+input[type="password"]:active, input[type="password"]:focus,
+select:focus, select:active {
+	border: 1px solid #AAB2BD !important;
+}
+
+.bootstrap-select.form-control {
+	box-shadow: none;
+	border: 1px solid rgba(1, 67, 149, 0.2);
+	border-radius: 4px !important;
+	height: 35px;
+}
+
+.chosen-container-single .chosen-search input:focus {
+	outline: medium none;
+	box-shadow: 0px 0px 2px rgba(1, 67, 149, 0.2) inset;
+}
+
+.chosen-container .chosen-drop {
+	border-color: rgba(1, 67, 149, 0.2);
+	!important;
+}
+
+.chosen-container-single .chosen-single {
+	box-shadow: none;
+	border: 1px solid rgba(1, 67, 149, 0.2);
+	border-radius: 4px !important;
+	height: 36px;
+	padding-left: 5px;
+}
+
+.btn-select {
+	margin: 0px;
+	padding: 4px;
+}
+
+.bootstrap-select.btn-group .dropdown-menu {
+	width: 107px !important;
+}
+
+.dropdown-menu li a:focus, .dropdown-menu li a:hover {
+    background-color: #969696;
+}
+.bootstrap-select.btn-group .dropdown-menu.inner {
+	border-color: -moz-use-text-color rgba(1, 67, 149, 0.2);
+	border-color: rgba(1, 67, 149, 0.2) !important;
+	-moz-border-top-colors: rgba(1, 67, 149, 0.2);
+	-moz-border-right-colors: rgba(1, 67, 149, 0.2);
+	-moz-border-bottom-colors: rgba(1, 67, 149, 0.2);
+	-moz-border-left-colors: rgba(1, 67, 149, 0.2);
+}
+
+.chosen-container .chosen-drop {
+	border-color: rgba(1, 67, 149, 0.2) !important;
+}
+
+.dropdown-menu .active a, .dropdown-menu .active a:focus, .dropdown-menu .active a:hover, .dropdown-menu li a:focus, .dropdown-menu li a:hover,
+.selectize-dropdown-content .option:hover, .selectize-dropdown-content .option:focus, .selectize-dropdown-content .option:active  {
+    color: #fff;
+    background-color: #005faf  ;
+    outline: 0;
+}
+
+.pass_passport__expiry label {
+	white-space: nowrap;
+}
+
+.ticketRefundContentDiv .form-control {
+	border: 1px solid #006CB5;
+}
+
+.refund__details .refund__details__title {
+	padding-top: 8px;
+	margin-top: 8px;
+}
+
+#tickets .list-group-item {
+	background-color: #EAEEF5;
+}
+
+#tickets .list-group-item:hover, #tickets .list-group-item:active {
+	background-color: #D7DBE3;
+}
+
+.input-group-select-down .form-control {
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.tb32 {
+	text-align: right;
+}
+
+label[for="buy-rules"], label[for="checkin-rules"] {
+    color: #005faf ;
+}
+
+.btn-link, .btn-link.active, .btn-link.disabled, .btn-link:active, .btn-link:focus, .btn-link:hover, .btn-link[disabled] {
+    color: #005faf ;
+}
+.CheckinSelectSeat .btn-link {
+	color: #666;
+}
+
+.datepicker table tr td.disabled, .datepicker table tr td.disabled:hover {
+	color: #BBB;
+}
+
+/* datepicker dropdownlari biraz minik olsun ve nezih gorunsun */
+select.calendars-month-year {
+	height: 25px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.datepicker .datepicker-switch>select {
+	text-align: center;
+	text-align-last: center;
+	-ms-text-align-last: center;
+}
+@-moz-document url-prefix() {
+	.datepicker thead .datepicker-switch {padding: 4px 0;}
+	.datepicker select.calendars-year {width: 38%;}
+	.datepicker select.calendars-month {width: 59%;}
+	.datepicker .datepicker-switch>select {text-align: left;}
+}
+
+/* Fix for borderless datepickers */
+#departureDate, #arrivalDate, #returnDate, #startDate, #endDate {
+	border: 1px solid #DDD !important;
+	padding: 5px 10px;
+	border-radius: 4px;
+	box-shadow: none;
+	border-style: 
+}
+
+/* IE forms height fix */
+@media screen and (min-width:0\0) {
+	.form-signin .form-control {
+		height: 31.5px;
+	}
+}
+
+/*/////////////////////////////////////////////////////////
+/////////////////// Design Enhancements ///////////////////
+/////////////////////////////////////////////////////////*/
+
+.flightslide__table .flight__hours .flights .flight__rows .flight__row .prices .price__default .select__price__content .no__seat {
+	margin-top: 12px;
+	height: 40px;
+}
+
+.flightslide__table .flight__hours .flights .flight__rows .flight__row .prices .price__default .select__price__content .price {
+    font-size: 16px;
+    font-size: 1.6rem;
+}
+
+.flightslide__table .flight__hours .flights .flight__rows .flight__row .prices .price__default .select__price__content .price.TZS {
+		white-space: normal;
+}
+
+#flightInfoPanel-sticky-wrapper .flight__selection__info__table {
+	padding: 0;
+}
+
+#flightInfoPanel-sticky-wrapper .flight__selection__info__table .flight__selection__info__table__heading {
+	padding: 10px 5px;
+	background-color: #005faf ;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+/* Superscriptler superscript olmasin */
+.sticky sup {
+    margin: 0px 2px 0px -2px;
+	top: 0px;
+	font-size: 100%;
+}
+
+.pass__tab__container .passenger__form .inline-form .passenger__count {
+    color: #66667D;
+    padding-left: 10px;
+}
+
+.pass__tab__container .passenger__form .inline-form .passenger__type {
+    color: #666;
+}
+
+.checkin__segment__list__table .selectRouteRadio {
+	margin-right: 40px;
+}
+.checkin__pass__information__table td {
+	white-space: nowrap;
+}
+
+/*///////////////////////////////////////////////
+///////////////////  MOBILE  ////////////////////
+///////////////////////////////////////////////*/
+
+.hbox .b-r {
+	border-right: 1px solid #dee5e7;
+}
+
+.hbox .col {
+	text-align: center;
+}
+
+.mobile__index .dropdown-menu li a {
+	padding-left: 35px;
+	direction: rtl;
+}
+
+.theme-color-drk,
+.MobileIndex .navbar .caret,
+.MobileIndex .navbar-nav>li>a,
+.MobileIndex .navbar-custom .nav li a {
+	color: #000  !important;
+}
+
+.MobileIndex #bs-example-navbar-collapse-1 .navbar-nav > li > a:hover,
+.MobileIndex #bs-example-navbar-collapse-1 .navbar-nav > li > a:hover .caret,
+.MobileIndex .navbar-custom .nav li a:hover,
+.navbar .caret {
+	color: #FFF !important;
+}
+
+.theme-color-lgt {
+	color: #4D4991;
+}
+
+.navbar-toggle {
+	padding: 15px 3px;
+}
+
+.dropdown-menu li a:focus,
+.dropdown-menu li a:hover {
+	background-color: #122A68;
+}
+
+.btn-success,
+.btn-success .open .dropdown-toggle.btn,
+.btn-success.active,
+.btn-success.disabled,
+.btn-success:active,
+.btn-success[disabled] {
+	transition: all .3s linear;
+	background-color: #d84434 ;
+	border-color: #FFF;
+}
+
+.btn-success:focus,
+.btn-success:hover,
+.open .dropdown-toggle.btn-success {
+	transition: all .3s linear;
+	background-color: #426386;
+	border-color: #FFF;
+	color: white;
+}
+.site-footer{
+	text-align: center;
+	color: #333;
+	font-weight: 600;
+	background-color:  #f2f2f2 !important;
+}
+.site-footer .mobile {
+	display: block;
+	padding: 0;
+	padding-top: 10px;
+	background-color: #EEE;
+	color: #AAA;
+}
+
+.site-footer .mobile a {
+	color: #888;
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 736px) {
+	.rezvEntryMainContent {
+    padding-bottom: 150px; 
+}
+}
+
+
+.MobileIndex .navbar-toggle .icon-bar{
+	background-color: #005faf ;
+}
+
+/*///////////////////////////////////////////////////////
+///////////////// Actual Flight List ////////////////////
+///////////////////////////////////////////////////////*/
+
+.actual__flight__list__body .modal-header {
+    padding: 7px;
+    background-color: #fc8d00 !important;
+    color: #fff;
+}
+
+.actual__flight__list__body .actual-table-td .modal-side-links {
+    color: #767676;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.act_flight_table{
+    border-collapse: separate;
+}
+
+.act_flight_table, .act_flight_table td, .act_flight_table th  {
+    border: 1px solid #A0A0A0;
+}
+
+.arrow-right {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #000 !important;
+  background-color: transparent;
+  margin-left: 36%;
+}
+
+.arrow-left {
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #000 !important;
+  background-color: transparent;
+  margin-left: 36%;
+}
+
+.actual-table-td{
+    text-align: center;
+}
+
+#next__day__actual{
+    width: 5%;
+}
+
+.actual_flight_list_title{
+    font-size: 2.0rem;
+    font-weight: bold;
+}
+
+
+.act_flight_table, .act_flight_table td, .act_flight_table th {
+    border: 1px solid #A0A0A0;
+}
+.actual__flight__list__body .act-table-cover td {
+    border: 1px solid #A0A0A0;
+}
+
+.actual_flight_list_title{
+	color: #767676;
+	padding: 0;
+    float: none;
+	font-size: 16px;
+	background: white !important;
+    border-bottom: 2px solid #fce100;
+	text-align: center;
+	font-weight: bold;
+}
+
+.actual__flight__list__body .btn-danger{
+	background-color: #d84434 !important;
+}
+
+.actual__flight__list__body .selectize-input{
+	box-shadow: none;
+}
+
+.actual__flight__list__body .page__container {
+	background: #fefefe;
+}
+
+.actual__flight__list__body .page__container .title {
+	height: 48px;
+	margin-top: 10px;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	background-color: #fce100;
+	
+}
+
+.actual__flight__list__body .page__container .title .change__flight__icon {
+	display: none;
+}
+
+.actual__flight__list__body .page__container .title .info__bar {
+	position: relative;
+	padding-left: 10px;
+	display: inline-block;
+	float: left;
+	color: #000;
+	font-size: 18px;
+	line-height: 44px;
+	font-weight: 700;
+}
+
+.actual__flight__list__body .page__container .search__body {
+	margin-top: -0px;
+	padding-top: 10px;
+	padding-left: 5px;
+	padding-right: 10px;
+	padding-bottom: 20px;
+	background-color: #f0f0f0;
+}
+
+.actual__flight__list__body .page__container .label__margin {
+	min-height: 18px;
+}
+
+.actual__flight__list__body .page__container .departure__title {
+	padding: 10px 0 5px 12px;
+	background-color: #fce100;
+	color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	
+}
+
+.bootstrap-select.btn-group .btn .caret,
+.currency__selector .caret {
+	display: none !important;
+}
+
+
+.cinfoalert, .palert {
+	display: block !important;
+	background-color: #fce100;
+	border-color: #fce100;
+}
+.cinfoalert, .palert .message{
+	color:#000;
+}
+
+.search__body .input-error {left:0;}
+
+/*/////////////////////////////////////////////////////////
+///////////////////////// Sigorta /////////////////////////
+/////////////////////////////////////////////////////////*/
+
+.ssrInsuranceSelectContainer{background-color:#F0F0F1;border-bottom:1px solid #cecccc;border-left:1px solid #cecccc;border-right:1px solid #cecccc;margin-bottom:20px;padding:0 0 10px}.ssrInsuranceSelectContainerBody,.ssrInsuranceSelectContainerHeader{border-top:1px solid #cecccc}.passengerInsSelectWrapper{background-color:#faf9f8;border-bottom:1px solid #cecccc;cursor:pointer}.passengerInsSelectBodyRowFocus{display:table-row;cursor:pointer;outline:0;border-color:#3a539b;border-width:1px;border-style:solid none none;border-collapse:collapse;background-color:#3a539b;color:#fff}.passengerInsSelectBodyRowFocus .passengerInsSelectColAction a{background-color:#3a539b;color:#fff;text-decoration:underline}.passengerInsSelectColBirthday,.passengerInsSelectColBirthdayMonth,.passengerInsSelectColBirthdayYear,.passengerInsSelectColCheck,.passengerInsSelectColName,.passengerInsSelectRowCheck,.passengerInsSelectRowInput,.passengerInsSelectRowPrice,.passengerInsSelectRowVerify{background-color:transparent;border-color:#d6d3cc;border-width:1px}.passengerInsSelectRowCheck{font-weight:600;border-style:solid none none solid}.passengerInsSelectRowBirthday,.passengerInsSelectRowBirthdayMonth,.passengerInsSelectRowName{font-weight:600;background-color:transparent;border-color:#d6d3cc;border-width:1px;border-style:solid none none}.passengerInsSelectRowBirthdayYear{border-color:#d6d3cc;border-width:1px;border-style:solid none none}.passengerInsSelectRowInput{font-weight:600;border-style:solid solid none none}.passengerInsSelectRowPrice{display:table-cell;font-weight:600;border-style:solid none;padding:5px 6px;width:1%;text-align:left}.passengerInsSelectRowVerify{display:table-cell;font-weight:600;border-style:solid solid solid none;padding:5px 3px;width:5%;text-align:left}.passengerInsSelectColCheck{font-weight:600;border-style:solid none solid solid}.passengerInsSelectColCheck input[type=radio]+label{padding:0 8px!important}.passengerInsSelectColName{font-weight:600;border-style:solid none}.passengerInsSelectColBirthday{font-weight:400;border-right-style:none;border-top-style:solid;border-bottom-style:solid}.passengerInsSelectColBirthdayMonth,.passengerInsSelectColBirthdayYear{font-weight:400;border-style:solid none}.passengerInsSelectColBirthday .input-group .btn-group,.passengerInsSelectColBirthdayMonth .input-group .btn-group,.passengerInsSelectColBirthdayYear .input-group .btn-group{display:block;position:absolute;border-radius:0!important;cursor:pointer;background-color:#fff;margin:0;padding:5px 0 3px 4px!important;line-height:1;border:none;height:35px}.passengerInsSelectColBirthday .btn,.passengerInsSelectColBirthdayMonth .btn,.passengerInsSelectColBirthdayYear .btn{padding:3px 4px;background-color:#FFF!important;border-radius:0;height:36px;vertical-align:top;margin-top:-3px}.passengerInsSelectColInput{font-weight:600;background-color:transparent;border-color:#d6d3cc;border-width:1px;border-style:solid solid solid none}.passengerInsSelectColInput .form-control{width:169px;margin:-3px 0 0;padding:3px 4px!important;height:36px;min-height:27px;line-height:1;display:block;position:absolute;border:none;border-radius:0!important;cursor:initial;overflow:hidden}.passengerInsSelectColInputFail::after,.passengerInsSelectColInputSuccess::after{content:'✔';display:block;position:relative;text-align:right}.passengerInsSelectColInputSuccess::after{float:right;right:7px;color:#388E8E;bottom:-4px;margin:0;padding:0}.passengerInsSelectColInputFail::after{margin-top:3px;right:6px;color:#e00000}.passengerInsSelectColPrice,.passengerInsSelectColVerify{display:table-cell;font-weight:400;background-color:transparent;border-color:#d6d3cc;border-width:1px;padding:5px 3px;text-align:center}.passengerInsSelectColVerify{border-style:none solid solid none}.passengerInsSelectColPrice{border-style:none none solid;width:1%}.passengerInsSelectColVerifyText,.passengerInsSelectColVerifyText:hover{color:#000;text-decoration:underline;font-size:16px;font-size:1.6rem}.passengerInsSelectColAction>a{color:#95a5a6}.ssrInsSelectContainerFooter{border-top:1px solid #cecccc}.ssrInsSelectContainerFooterList>a{font-size:18px;color:#333;text-decoration:underline}.ssrInsSelectContainerFooterList>ul li,.ssrInsSelectContainerFooterList>ul li:before{list-style-type:none;content:'- '}
+
+/*/////////////////////////////////////////////////////////
+////////////////////// INSURANCE V2 ///////////////////////
+/////////////////////////////////////////////////////////*/
+
+.insuranceItem{background-color:#FAF9F8;border-bottom:1px solid #fff;border-right:5px solid #F0F0F1}.insuranceItemHeader{text-align:left;font-size:16px;font-size:1.6rem;font-weight:600}.InsuranceFare{font-size:22px;font-size:2.2rem;font-weight:800;text-align:right}.insuranceItemFooter{background-color:#fff;color:#3b5d9e;cursor:pointer}.insuranceItemFooter:hover,.insuranceItemFooterSelected{background-color:#3b5d9e;color:#fff}.insuranceItemFooter input[type=checkbox]~label{font-size:16px;vertical-align:middle}.insuranceItemFooter:hover input[type=checkbox]~label{color:#fff;font-size:16px}.insuranceItemFooter input[type=checkbox]~label:before{border-color:#3b5d9e;content:'●'}.insuranceItemFooter:hover input[type=checkbox]~label:before,.insuranceItemFooterSelected input[type=checkbox]~label:before,.insuranceItemFooterSelected label{color:#fff;border-color:#fff;margin-right:5px}
+
+
+/*///////////////////////////////////////////////
+/////////////////  Sticky Menu  /////////////////
+///////////////////////////////////////////////*/
+
+.payment__summary__table__content {
+	padding: 5px;
+	margin-bottom: 5px;
+}
+
+.flight__selection__sidebar .currency__select {
+	margin-bottom: 15px;
+}
+
+.tile.purple-2.tile__body {
+	margin-left: 15px;
+	margin-top: -10px;
+	margin-bottom:20px;
+	width: 277px;	
+	padding: 12px 10px;
+}
+
+.MemberHome .tile.purple-2.tile__body {
+	margin: 10px 0 15px 0;
+	width: 100%;
+}
+
+.notify-points.notify__points__wrapper {
+	border: 0;
+}
+
+.tile.purple {
+	color: #333;
+	padding: 15px 10px;
+}
+
+/* BUGFIX: Sticky'deki Cabin icin visual fix */
+.segment__flight__details .td__two {
+	padding: 5px !important;
+}
+
+/*///////////////////////////////////////////////
+//////////////////  Headings  ///////////////////
+///////////////////////////////////////////////*/
+
+
+/* Sidebar Headings */
+.MemberHome .side__member__panel__heading,
+.ticket__prev__sidebar .payment__summary__table ,
+.TicketPreview .ticket__prev__sidebar .payment__summary__table .payment__summary__table__heading,
+.TicketPrint .ticket__print__sidebar .payment__summary__table .payment__summary__table__heading,
+.ShowReservation .show__reservation__sidebar .payment__summary__table .payment__summary__table__heading,
+.AddSSR .addssr-sticky .panel .panel-heading {
+	padding: 10px 5px;
+	background-color:#fce100;
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+	line-height: 1;
+	color: #000 !important;
+}
+.ShowReservation .show__reservation__sidebar .payment__summary__table .tax__types__modal__link{
+	color: #d84434;
+}
+
+.TicketPrint .ticket__print__container .ticket__print__summary .pass__flight__summary__heading .pass__flight__summary__title,
+.TicketPreview .ssr-selection.discount__title,
+.TicketPreview .ssr-selection.payment__title,
+.TicketPreview .ticket__prev__summary .pass__flight__summary__heading .pass__flight__summary__title,
+.TicketPreview #paymentTabList,
+.ShowReservation .ssr-selection.res__details__heading,
+.ShowReservation .res__passengers__heading,
+.ShowReservation .reservation-pnr.hidden-lg.hidden-md.res__details__title__bar__right,
+.checkin__select__flight .checkin__segment__list .checkin__segment__list__heading,
+.checkin__select__flight .checkin__pass__information .checkin__pass__information__heading,
+.checkin__select__flight .checkin__rules h4,
+.CheckinSelectSeat .checkin__seat__select .flight__list .flight__list__heading,
+.CheckinSelectSeat .seat__selection__content h3.panel-title,
+.CheckinSelectSeat .ssr-selection.seat__selection__title,
+.CheckinBoarding .print__boarding__heading,
+.CheckinBoarding .send__barcode__alert,
+.CheckinConfirm .checkin__confirm .seat__cost .seat__cost__heading,
+.CheckinConfirm .checkin__confirm .flight__list .flight__list__heading,
+.MemberRegister .register__panel__heading .ssr-selection,
+.MemberHome .member__panel__heading,
+.MemberHome .checkin__panel__header,
+.MemberHome .personal__panel__header,
+.MemberHome .points__panel__header,
+.MemberHome .missing__points__panel__header,
+.ICIPNRSearch .pnr__search .pnr__search__main .pnr__search__panel .pnr__search__panel__heading,
+.PnrSearch .panel-heading.pnr__search__panel__heading {
+	margin: 0px;
+	padding: 15px !important;
+	font-size: 2.4rem;
+	color: #767676 !important;
+	font-weight: 400;
+	line-height: 1;
+	background-color: rgba(255, 255, 255, 0.75);
+	box-shadow: 0px 4px 4px -4px rgba(0, 0, 0, 0.3);
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+/* Seperate Headings (Outside Container) */
+
+.CheckinSelectSeat .ssr-selection.seat__selection__title,
+.RezvPaxEntry .contacts__block .heading .title,
+.RezvPaxEntry .pass__info__header .pass__info__title,
+.ContactChange .ssr-selection.title,
+.TicketRefund .ticket__refund__container .ticket__information .ticket__information__heading .ticket__information__title,
+.TicketRefund .refund__details .refund__details__title {
+	margin: 0px;
+	padding: 15px !important;
+	font-size: 2.4rem;
+	color: #555;
+	font-weight: 400;
+	line-height: 1;
+	background-color: rgba(255, 255, 255, 0.95);
+	box-shadow: 0px 4px 4px -4px rgba(0, 0, 0, 0.3);
+	border-top-right-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+/* Containers that are following Seperate Headings */
+.RezvPaxEntry .tab-content > .tab-pane,
+.RezvPaxEntry .contacts__block .contact__info__wrapper,
+.CheckinSelectSeat .seat__selection__content,
+.MemberHome .member__panel__body,
+.MemberHome .checkin__panel__body,
+.MemberHome .res__panel__body,
+.MemberHome .personal__panel__body,
+.MemberHome .points__panel__body,
+.MemberHome .missing__points__panel__body,
+.MemberHome .res__entry__body,
+.ContactChange .contact__info__wrapper {
+	padding-top: 65px !important;
+	margin-top: -55px;
+}
+
+.CheckinBoarding .print__boarding__content,
+.TicketRefund .ticket__information .ticket__information__body:nth-child(2),
+.TicketRefund .ticketRefundContentDiv.refund__details__body {
+	padding-top: 55px;
+	margin-top: -55px;
+}
+
+
+/*///////////////////////////////////////////////
+///////////////////  BUNDLE  ////////////////////
+///////////////////////////////////////////////*/
+
+.pricing .price-silver .price-title,
+.pricing .price-silver .price-foot {
+    background-color: #969696;
+}
+
+.pricing .price-gold .price-title,
+.pricing .price-gold .price-foot {
+    background-color: #005faf ;
+}
+
+.pricing .price-platinum .price-title,
+.pricing .price-platinum .price-foot  {
+    background-color: #426386;
+}
+
+.select__btns .select__class__btn .class__note {
+	font-size: 1.4rem;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.flightslide__table .flight__hours .flights .flight__rows .flight__row .prices .price__default label {
+	font-size: 1.1rem;
+}
+
+.select__btns .select__class__btn .class__icon {
+	background-image: none;
+}
+
+.select__btns .select__class__btn .class__exp,
+.select__btns .select__class__btn .class__fare__info {
+	padding: 0;
+	text-align: center;
+	width: 100%;
+}
+
+.flightslide__table .flight__hours .flight__hours__table .fare__info .fares .fare__title {
+	padding-left: 6px;
+}
+
+
+/*/////////////////////////////////////////////////////////
+///////////// Availability Results Flights ////////////////
+/////////////////////////////////////////////////////////*/
+
+.search__selecion__info__table__inner__table thead {
+	border-bottom: 0;
+}
+
+.search__selecion__info__table__inner__heading {
+	border-bottom: 1px solid #005faf ;
+	padding-bottom: 9px;
+	background-color: #F2F2F2;
+}
+
+.select__btns .select__class__btn .class__fare {
+	text-align: center;
+	font-weight: 500;
+	line-height: 1.1;
+	font-size: 1.8rem;
+}
+
+.select-day .day-title {
+    padding: 10px;
+	border: transparent 0;
+	background-color: transparent;
+}
+
+.select__day__container__select_day__table__day,
+.select__day__container__select_day__table__selected__day {
+	width: 10%;
+}
+
+.select__day__container__select_day__table__prev__next__select {
+	width: 2%;
+}
+
+.select__day__container__select_day__table__prev__next__select i {
+	margin:0;
+	top: -1px;
+}
+
+.select__day__container__select_day__table__day .day__title .day__title {
+	color: inherit;
+}
+
+.select__day__container__select_day__table__day:hover {
+	background-color: #717174;
+}
+
+.select__day__container__select_day__table__day:hover .day__title {
+	color: #FFF !important;
+}
+
+.select__day__container__select_day__table__day {
+	background-color: #F2F2F2;
+}
+
+.select__day__container__select_day__table__prev__next__select__next__day,
+.select__day__container__select_day__table__prev__next__select__prev__day {
+	height: 80px;
+}
+
+.select__day__container__select_day__table__prev__next__select__next__day:hover,
+.select__day__container__select_day__table__prev__next__select__prev__day:hover {
+	background-color: #005faf ;
+}
+
+.flightslide__table .flight__hours .flights .flight__rows .flight__row .hours .flight__number .book__icon {
+	top: 2px;
+	margin-right: 1px;
+}
+
+.flightslide__table .flight__hours .flights .flight__rows .flight__row .hours .flight__number .book__icon::before {
+	content: "\e043";
+	font-family: Flaticon;
+	font-style: normal;
+	margin-left: 2px;
+	margin-right: 2px;
+	font-size: 18px;
+	padding-top: 5px;
+	margin-top: 5px;
+}
+
+.flightslide__table .flight__hours .flights .flight__rows .flight__row .hours .flight__number {
+	margin: -2px;
+}
+
+.flight__info__modal__link {
+	color: #005faf ;
+}
+
+#flightInfoPanel-sticky-wrapper .flight__selection__info__table .total__details__content {
+	padding: 5px;
+	margin: -2px 5px 5px 5px;
+}
+
+#flightInfoPanel-sticky-wrapper .flight__selection__info__table .flight__selection__info__table__content {
+	margin: 5px;
+	padding: 0;
+}
+
+#FlightSearch .main__container .availability__main__container .row #subContent > div {
+	padding: 0 10px 10px 10px;
+}
+
+.AvailabilityResults .search__results__bottom .bottom__area {
+	padding: 0;
+}
+
+/* BUGFIX: AvailabilityResults sayfasindaki arrival date yazilari iki satira uzamasin */
+.flight__notes .next__day__arr {
+	width: auto;
+}
+
+/* BUGFIX: AvailabilityResults sayfasindaki tarih supremumlari duzgun gosterilsin */
+.flight__dest__hours .to sup {
+	float: initial;
+	top: -8px;
+	left: auto;
+}
+
+/* BUGFIX: AvailabilityResults sayfasindaki ucus destinationlari biraz minik olsun */
+.flightslide__table .flight__hours .flights .flight__rows .flight__row .hours .dep__time .from .from__loc,
+.flightslide__table .flight__hours .flights .flight__rows .flight__row .hours .arr__time .to .to__loc {
+	font-size: 1.6rem;
+	font-weight: 400;
+/* 	white-space: nowrap; */
+}
+
+/* BUGFIX: Connected flight infolarinin iconlari flight number iconu ile hizalansin */
+.conn__notes {
+	padding: 0px 0px 0px 8px;
+}
+
+/* BUGFIX: AvailabilityResults kum saati ve saat iconlarini cakismasin, sadece kum saati kalsin */
+.flightslide__table .flight__hours .flights .flight__rows .flight__row .hours .segment__dur .time__icon:before {
+	content: "\00a0";
+}
+
+/* BUGFIX: Validation borders fix for search again. */
+.availabilitySearchContainer span.input-error ~ .input-group div .selectize-input {
+	height: 100%;
+}
+
+/*/////////////////////////////////////////////////////////
+////////////////////// RezvPaxEntry ///////////////////////
+/////////////////////////////////////////////////////////*/
+
+.rezvPaxEntryContinue {
+	margin-top: 20px !important;
+}
+
+.contact__info__block .padder-10 {
+	padding: 0;
+}
+
+#addContactDiv .add-contact-info {
+	margin-top: -5px;
+}
+
+.btn-bitter,
+.btn-bitter.active,
+.btn-bitter.disabled,
+.btn-bitter:active,
+.btn-bitter[disabled] {
+	background-color: #426386;
+}
+
+.btn-bitter:focus,
+.btn-bitter:hover {
+	background-color: #969696;
+}
+
+#flightInfoPanel-sticky-wrapper .flight__selection__info__table .flight__selection__info__table__heading .flight__selection__info__table__title {
+	color: #FFF;
+}
+
+.table-condensed>tbody>tr:nth-child(odd),
+.tb3 {
+	background-color: #E2E2E2;
+}
+
+#flightInfoPanel-sticky-wrapper .flight__selection__info__table__content .segment__table {
+	background-color: #FFF;
+}
+
+.flinfo-b.segment__table .ports {
+	padding: 0 5px 0 5px;
+}
+
+/* BUGFIX: Red validation borders fix */
+.RezvPaxEntry span.input-error ~ .input-group .form-control,
+.RezvPaxEntry span.input-error ~ .input-group-select-down .single {
+	height: 36px;
+}
+.RezvPaxEntry span.input-error ~ input.form-control {
+	border-color: #DA4453 !important;
+	box-shadow: none;
+}
+
+/*/////////////////////////////////////////////////////////
+/////////////////////  Add SSR Page  //////////////////////
+/////////////////////////////////////////////////////////*/
+
+.basket__info .table-condensed > tbody > tr:nth-child(2n),
+.payment__summary__table__content .table-condensed > tbody > tr:nth-child(2n),
+.tb3 {
+	background-color: #FFF;
+}
+
+.ManageBundle .add__ssr__container .main__content,
+.AddSSR .add__ssr__container .main__content {
+	margin-top: 0;
+}
+
+.AddSSR .basket__info .well {
+	margin-bottom: 5px;
+}
+
+.ManageBundle .passengerSelectBodyRowFocus,
+.ManageBundle .passengerCatSelectBodyRowFocus,
+.AddSSR .passengerSelectBodyRowFocus,
+.AddSSR .passengerCatSelectBodyRowFocus {
+	border-color: #426386;
+	background-color: #005faf ;
+}
+
+.addssr-sticky {
+	margin: 0;
+}
+
+.addssr-sticky .panel {
+	padding: 0;
+}
+
+/* BUGFIX: Choose Baggage daki select box hizalansin. */
+.AddSSR .passengerLugSelectColSelectBox .selectize-input {
+	height: 35px;
+	margin-bottom: -13px;
+}
+
+.passengerSelectHead > .mergeDiv {
+	border-bottom: 0px none transparent;
+}
+.passengerLugSelectRowPrice,
+.passengerLugSelectColPrice {
+    width: 10%;
+}
+.passengerLugSelectRowBoughtLuggage,
+.passengerLugSelectColBoughtLuggage {
+    width: 15%;
+}
+
+/*/////////////////////////////////////////////////////////
+/////////////////// Ticket Preview Page ///////////////////
+/////////////////////////////////////////////////////////*/
+
+.TicketPreview #paymentTabList {
+	border-radius: 0;
+	padding: 0 !important;
+	font-size: 14px;
+}
+
+.TicketPreview hr.faded {
+	background: transparent;
+	display: none;
+}
+
+.TicketPreview .ticket__prev__summary .pass__flight__res__summary__body .segment__table tbody tr td {
+	border-color: #005faf  !important;
+}
+
+.TicketPreview .ticket__prev__sidebar .payment__summary__table .payment__summary__table__heading .payment__summary__table__title {
+	color: #FFF;
+	font-size: 2rem;
+	line-height: 1;
+	margin-left: 5px;
+}
+
+.TicketPreview .payment__summary__table__title::before {
+	content: "\e040";
+	font-family: Flaticon;
+	font-style: normal;
+	margin-left: 0px;
+	margin-right: 2px;
+}
+
+.TicketPreview .tab-content {
+	border: none;
+}
+
+.TicketPreview .payment__area .bottom__cont__area {
+	padding: 0 5px 0 0;
+}
+
+.TicketPreview #discountPanel,
+.TicketPreview #paymentTabContainer {
+	margin-bottom: 15px;
+}
+
+.TicketPreview #discountPanel {
+	padding: 0;
+}
+
+.TicketPreview .cont.discount__wrapper {
+	padding: 0;
+}
+
+.TicketPreview .loyalty__login .blue-bar {
+	display: none;
+}
+
+.TicketPreview .tpcp.discount__content .inline-form>div {
+	float: right;
+}
+
+/*/////////////////////////////////////////////////////////
+//////////////////// Ticket Print Page ////////////////////
+/////////////////////////////////////////////////////////*/
+
+.TicketPrint .ticket__print__sidebar .payment__summary__table {
+	padding: 0;
+}
+
+.TicketPrint .ticket__print__container .paymentConfirmContainer .f7,
+.TicketPrint .ticket__print__container .reservationContainer .f7 {
+	line-height: 0.85;
+	margin-bottom: -8px;
+	margin-left: -8px;
+}
+
+.TicketPrint .ticket__print__sidebar .payment__summary__table .payment__summary__table__heading .payment__summary__table__title {
+	color: #FFF;
+}
+
+.TicketPrint .ticket__print__summary .segment__table tbody tr td {
+	border-color: #005faf  !important;
+}
+
+.btn-blue,
+.btn-blue.active,
+.btn-blue.disabled,
+.btn-blue:active,
+.btn-blue[disabled],
+.btn-grass,
+.btn-grass.active,
+.btn-grass.disabled,
+.btn-grass:active,
+.btn-grass[disabled] {
+	background-color: #005faf ;
+	border-color: #005faf ;
+}
+
+.btn-blue:focus,
+.btn-blue:hover,
+.btn-grass:focus,
+.btn-grass:hover {
+	background-color: #969696;
+	border-color: #969696;
+}
+
+.TicketPrint .reservationContainer a {
+	color: #426386;
+}
+
+.TicketPrint .reservationContainer a:hover {
+	color: #005faf ;
+}
+
+/*/////////////////////////////////////////////////////////
+///////////////////// Show Reservation ////////////////////
+/////////////////////////////////////////////////////////*/
+
+.show__reservation__sidebar {
+	padding: 0;
+	margin: 0;
+}
+
+@media (min-width: 767px) {
+	
+	.show__reservation__btns .flight__change__icon,
+	.show__reservation__btns .goto___checkin__icon,
+	.show__reservation__btns .goto___cancel__checkin__icon, 
+	.show__reservation__btns .manage__bundle__icon,
+.show__reservation__btns .buy__ssr__icon,
+	.show__reservation__btns .change__contact__icon,
+	.show__reservation__btns .delete__segment__icon,
+	.show__reservation__btns .cancel__booking__icon,
+	.show__reservation__btns .buy__icon,
+	.show__reservation__btns .print__tickets__icon {
+		width: 64px;
+		height: 64px;
+		margin: 6px 8px;
+	}
+	
+	.show__reservation__btns .flight__change__btn__cont,
+	.show__reservation__btns .goto__checkin___btn__cont,
+	.show__reservation__btns .goto__cancel__checkin___btn__cont,
+	.show__reservation__btns .manage__bundle__btn__cont,
+    .show__reservation__btns .buy__ssr__btn__cont,
+	.show__reservation__btns .change__contact__btn__cont,
+	.show__reservation__btns .del__seg__btn__cont,
+	.show__reservation__btns .cancel__booking__btn__cont,
+	.show__reservation__btns .buy__btn__cont,
+	.show__reservation__btns .print__tickets__btn__cont {
+		font-size: 18px;
+		margin: 22px 0px 70px 39px;
+		width: 100px !important;
+		height: 100px;
+		border-radius: 56px;
+	}
+	
+	.show__reservation__btns .btn_text {
+		position: absolute;
+		top: 116px;
+		color: #555;
+		width: 120px;
+		margin: 0 -10px 0 -10px;
+		font-size: 1.6rem;
+		left: 1px;
+		text-align: center;
+	}
+}
+
+.show__reservation__btns .flight__change__btn__cont,
+	.show__reservation__btns .goto__checkin___btn__cont,
+	.show__reservation__btns .goto__cancel__checkin___btn__cont,
+	.show__reservation__btns .manage__bundle__btn__cont,
+    .show__reservation__btns .buy__ssr__btn__cont,
+	.show__reservation__btns .change__contact__btn__cont,
+	.show__reservation__btns .del__seg__btn__cont,
+	.show__reservation__btns .cancel__booking__btn__cont,
+	.show__reservation__btns .buy__btn__cont,
+	.show__reservation__btns .print__tickets__btn__cont {
+		background-color: #d84434 ;
+}
+
+	.show__reservation__btns .flight__change__btn__cont,
+	.show__reservation__btns .goto__checkin___btn__cont,
+	.show__reservation__btns .goto__cancel__checkin___btn__cont,
+	.show__reservation__btns .manage__bundle__btn__cont,
+    .show__reservation__btns .buy__ssr__btn__cont,
+	.show__reservation__btns .change__contact__btn__cont,
+	.show__reservation__btns .del__seg__btn__cont,
+	.show__reservation__btns .cancel__booking__btn__cont,
+	.show__reservation__btns .buy__btn__cont,
+	.show__reservation__btns .print__tickets__btn__cont {
+		color: #FFF;
+	}
+
+.show__reservation__btns div:hover {
+	background-color: #969696;
+}
+
+.show__reservation__btns .cancel__booking__btn__cont {
+	width: 200px;
+}
+
+.show__reservation,
+.show__reservation .pass {
+	background-color: transparent !important;
+	border: 0 !important;
+}
+
+.memberMainContent.show__reservation>.container>.row>div:nth-child(1) {
+	padding: 0;
+}
+
+.res__details__heading .res__details__title__bar,
+.res__passengers__title {
+	color: #767676;
+}
+
+.ShowReservation .ssr-selection.res__details__heading {
+	margin-top: -10px;
+}
+
+.ShowReservation .res__passengers__wrapper .res__passengers__body .passenger__select thead tr>th,
+.ShowReservation .res__flights__wrapper .res__flights__body .segment_select thead tr>th,
+.ShowReservation .res__passengers__wrapper .res__passengers__body .passenger__select thead tr .from {
+	border-color: #005faf ;
+}
+
+.res__entry .page__header {
+	margin: 0;
+}
+
+/* BUGFIX: Flight Change sayfasindaki dugmeler ust uste binmesin */
+.show__res__back__btn {
+	float: left;
+	margin-top: 15px;
+}
+
+.show__res__cont__btn {
+	float: right;
+	margin-top: 15px;
+}
+
+.div-checkbox {
+	background-color: #FFF;
+}
+
+#departureDate,
+#arrivalDate {
+	padding-left: 5px !important;
+}
+
+/*/////////////////////////////////////////////////////////
+//////////////////  Contact Change Page  //////////////////
+/////////////////////////////////////////////////////////*/
+
+.ContactChange .memberMainContent {
+	border: 0;
+}
+
+.ContactChange .memberMainContent .container .row > div {
+	padding: 0;
+}
+
+/*/////////////////////////////////////////////////////////
+////////////////  Check-in Select Flight  /////////////////
+/////////////////////////////////////////////////////////*/
+
+.checkin__select__flight .checkin__segment__list {
+	margin-bottom: 20px;
+	margin-top: 15px;
+}
+
+.checkin__select__flight .ssr-selection.pass__info__title {
+	display: none
+}
+
+.checkin__select__flight .checkin__rules h4 {
+	margin: -10px -10px 10px -10px;
+}
+
+.CheckinSelectSeat .tab-content,
+.CheckinSelectSeat .checkinSeatSelectContentDiv {
+	border: 0;
+}
+
+.CheckinSelectSeat .flight__list {
+	margin-bottom: 15px;
+}
+
+.CheckinSelectSeat .fade.in {
+	padding: 0;
+	margin: 0;
+}
+
+.CheckinSelectFlight .checkin__select__flight .checkin__segment__list .checkin__segment__list__body .checkin__segment__list__table thead tr,
+.CheckinSelectFlight .checkin__select__flight .checkin__pass__information .checkin__pass__information__body .checkin__pass__information__table thead tr,
+.CheckinOffload .checkin__select__flight .checkin__segment__list .checkin__segment__list__body .checkin__segment__list__table thead tr,
+.CheckinOffload .checkin__select__flight .checkin__pass__information .checkin__pass__information__body .checkin__pass__information__table thead tr {
+    border-bottom: 1px solid #005faf ;
+}
+
+/*/////////////////////////////////////////////////////////
+/////////////////  Check-in Select Seat  //////////////////
+/////////////////////////////////////////////////////////*/
+.CheckinSelectSeat #navigationWrap , .CheckinConfirm #navigationWrap {
+    position: absolute;
+    margin-left: 45%;
+    top: 38px;
+}
+.CheckinSelectSeat #navigationWrap .process__nav > li.active > a , .CheckinConfirm #navigationWrap .process__nav > li.active > a{
+	box-shadow: 0px -2px 0px  #d84434 inset;
+	color: #d84434 !important;
+}
+.CheckinSelectSeat #navigationWrap .process__nav > li.disabled > a , .CheckinConfirm #navigationWrap .process__nav > li.disabled > a {
+    box-shadow: 0px -1px 0px #d84434 inset;
+}
+
+.CheckinSelectSeat #mainContent .alert-info{
+	color: #767676 !important;
+	background-color: rgba(255, 255, 255, 0.75);
+	box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+.CheckinSelectSeat .passengerSelect {
+    width: 83%;
+}
+.CheckinSelectSeat .passengerSelect .passengerSelectBodyRowFocus, .passengerCatSelectBodyRowFocus {
+    border-collapse: collapse;
+    color: #000;
+}
+/*/////////////////////////////////////////////////////////
+///////////////////  Check-in Confirm  ////////////////////
+/////////////////////////////////////////////////////////*/
+
+.CheckinConfirm .checkin__confirm .checkin__confirm__heading {
+	display: none;
+}
+
+.CheckinConfirm .checkin__confirm .flight__list {
+	margin: 15px 0;
+}
+
+.CheckinConfirm .checkin__confirm .flight__list .flight__list__body .flight__list__table thead tr,
+.CheckinConfirm .checkin__confirm .seat__cost .seat__cost__body .seat__cost__table thead tr{
+	border-bottom: 1px solid #d84434;
+}
+
+/*/////////////////////////////////////////////////////////
+///////////////////  Check-in Boarding  ///////////////////
+/////////////////////////////////////////////////////////*/
+.CheckinBoarding #navigationWrap, .CheckinSelectFlight #navigationWrap {
+    position: absolute;
+    margin-left: 45%;
+    top: 38px;
+}
+.CheckinBoarding #navigationWrap .process__nav > li.active > a , .CheckinSelectFlight #navigationWrap .process__nav > li.active > a {
+	box-shadow: 0px -2px 0px  #d84434 inset;
+	color: #d84434 !important;
+}
+.CheckinBoarding #navigationWrap .process__nav > li.disabled > a , .CheckinSelectFlight #navigationWrap .process__nav > li.disabled > a  {
+    box-shadow: 0px -1px 0px #d84434 inset;
+}
+
+.CheckinBoarding .checkinCoardingContentDiv.checkin__boarding__rules {
+	color: #555 !important;
+}
+
+.CheckinBoarding .checkin__boarding__content .print__icon__title,
+.CheckinBoarding .checkin__boarding__content .send__barcode__alert .title {
+	margin: 0;
+}
+
+/*/////////////////////////////////////////////////////////
+/////////////////////  Ticket Refund  /////////////////////
+/////////////////////////////////////////////////////////*/
+
+.TicketRefund .ssr-selection.refund__title {
+	display: none;
+}
+
+.TicketRefund .ticket__refund__container,
+.TicketRefund .panel-heading {
+	background-color: transparent;
+	border: 0;
+}
+
+.ticket__refund__container .ticket__information {
+	margin-bottom: 15px;
+}
+
+.TicketRefund .ticket__refund__container .refund__details .refund__details__body .refund__details__table thead tr,
+.TicketRefund .ticketRefundContentDiv .form-control{
+    border-color: #005faf ;
+}
+
+/* BUGFIX: Header seperation line */
+.TicketRefund .ticket__information__table thead>tr {
+	border-bottom: 1px dashed #BBB;
+}
+
+/*/////////////////////////////////////////////////////////
+/////////////////  Ticket Refund Summary  /////////////////
+/////////////////////////////////////////////////////////*/
+
+.TicketRefundSummary .ticket__refund__summary__container {
+	padding: 0 !important;
+	margin-bottom: 50px !important;
+	margin-top: 50px !important;
+}
+
+.TicketRefundSummary .ssr-selection {
+	margin: 0px;
+	padding: 15px !important;
+	font-size: 2.4rem;
+	color: #555;
+	line-height: 1;
+}
+
+/*/////////////////////////////////////////////////////////
+////////////////////  ICI PNR Search  /////////////////////
+/////////////////////////////////////////////////////////*/
+
+/*/////////////////////////////////////////////////////////
+//////////////////////  PNR Search  ///////////////////////
+/////////////////////////////////////////////////////////*/
+
+/*/////////////////////////////////////////////////////////
+/////////////////  Main Page Detail Login  ////////////////
+/////////////////////////////////////////////////////////*/
+
+body.MainPageDetailLogin {
+	background: transparent;
+}
+
+.main__page__detail__login__body .col-lg-5.col-sm-6.col-md-4.col-md-offset-4.col-sm-offset-3 {
+    width: 100% !important;
+    margin: 0px !important;
+    padding: 0px;
+}
+
+.main__page__login__body .content, .main__page__login__body .container, .main__page__detail__login__body .content, .main__page__detail__login__body .container {
+    padding: 0px;
+    width: auto;
+}
+
+.MainPageDetailLogin .contentRightMemberLogin .formItem.form-group {
+	border: 0 !important
+}
+
+.MainPageDetailLogin .contentRightMemberLogin {
+	background-color: #F7F7F7;
+	width: 290px;
+	height: 235px;
+    display: block;
+    padding: 15px;
+	padding-left: 30px;
+}
+
+.MainPageDetailLogin .label {
+	background-color: #426386;
+	font-size: 1.3rem;
+	z-index: 3;
+	position: relative;
+	padding-bottom: 5px;
+}
+
+.MainPageDetailLogin .formInput, .MainPageDetailLogin .intl-tel-input {
+	z-index: 9;
+	position: relative;
+}
+
+.MainPageDetailLogin .saver  {
+	display: none;
+}
+.MainPageDetailLogin .newGirisForm>.formItem:nth-child(4),
+.MainPageDetailLogin .btnUyeOl{
+	float: left;
+}
+
+.MainPageDetailLogin .btnGiris {
+	float: right;
+}
+
+.MainPageDetailLogin .newGirisForm>.formItem:nth-child(4),
+.MainPageDetailLogin .newGirisForm>.formItem:nth-child(5) {
+	margin: 0 !important;
+	height: 25px;
+}
+
+.MainPageDetailLogin .need-help {
+	margin: 0;
+	padding: 0 5px;
+	color: #999;
+	background-color: transparent;
+	border: 0 transparent !important;
+	font-size: 1.3rem;
+}
+
+.MainPageDetailLogin .btnGiris, .MainPageDetailLogin .btnUyeOl {
+	background: #005faf  none repeat scroll 0% 0% !important;
+	transition: all 0.3s linear 0s;
+	color: #FFF;
+	border: none;
+	display: inline-block;
+	padding: 6px 14px;
+	margin: 10px 0 0 0;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-moz-user-select: none;
+	border-radius: 4px;
+}
+.MainPageDetailLogin .btnGiris:hover, .MainPageDetailLogin .btnUyeOl:hover {
+	background: #426386 none repeat scroll 0% 0% !important;
+	transition: all 0.3s linear 0s;
+	color: #FFF !important;
+}
+
+.MainPageDetailLogin input[type="tel"],  .MainPageDetailLogin input[type="password"] {
+	height: 34px;
+	padding-left: 10px;
+}
+
+/*/////////////////////////////////////////////////////////
+////////////////////  Member Register  ////////////////////
+/////////////////////////////////////////////////////////*/
+
+.MemberRegister .register__panel__body {
+	padding-top: 15px;
+}
+
+.MemberRegister .register__bottom {
+	padding: 0 15px;
+}
+
+.MemberRegister #btnSave {
+	float: right;
+	margin-bottom: 13px;
+	margin-top: -11px;
+}
+
+/*/////////////////////////////////////////////////////////
+/////////////////////  Member Login  //////////////////////
+/////////////////////////////////////////////////////////*/
+
+.MemberLogin .member__login__icon {
+	background-color: #005faf ;
+}
+
+.MemberLogin .member__login__title {
+	background-color: #969696;
+}
+
+.MemberLogin .account-wall {
+	border-radius: 4px;
+}
+
+
+/*/////////////////////////////////////////////////////////
+/////////////////////// Member Home ///////////////////////
+/////////////////////////////////////////////////////////*/
+
+span.member__checkin__icon, span.member__res__icon, span.member__personal__icon, span.member__points__icon, span.member__missing__icon, span.member__card__icon {
+	height: 100px;
+	width: 100px;
+}
+
+.member__panel .member__panel__body .member__icon__wrap .member__checkin__icon,
+.member__panel .member__panel__body .member__icon__wrap .member__res__icon,
+.member__panel .member__panel__body .member__icon__wrap .member__personal__icon,
+.member__panel .member__panel__body .member__icon__wrap .member__points__icon,
+.member__panel .member__panel__body .member__icon__wrap .member__missing__icon,
+.member__panel .member__panel__body .member__icon__wrap .member__card__icon {
+	background-color: #426386;
+}
+
+.member__panel .member__panel__body .member__icon__wrap span.true,
+.member__panel .member__panel__body .member__icon__wrap span:hover:nth-child(1) {
+	background-color: #005faf ;
+}
+
+.MemberHome .flight__search__btn {
+	margin-left: 68px;
+}
+
+.MemberHome .side__member__panel__body {
+	padding-top: 10px;
+}
+
+.MemberHome .content {
+	padding-top: 0;
+}
+
+.MemberHome .process__nav {
+	position: relative;
+	margin-top: 0;
+	top: 41px;
+}
+
+.MemberHome .process__nav li > a {
+	margin-right: 0px;
+	background-color: transparent;
+	border: medium none;
+	color: #666;
+	box-shadow: 0px -1px 0px #DDD inset;
+	transition: all 0.2s ease 0s;
+	position: relative;
+	display: block;
+	padding: 5px 9px;
+	font-size: 1.6rem;
+}
+
+.MemberHome .member__checkin .row > form > div {
+	padding: 0;
+}
+
+.MemberHome .update__btn {
+	float:right;
+	margin: -15px 15px 15px;
+}
+
+.MemberHome .member__id,
+.MemberHome .member__tier {
+	font-size: 1.6rem;
+	line-height: 1rem;
+	vertical-align: top;
+}
+
+/* BUGFIX: My Point Status kismindaki Tab larin tab oldugu belli olsun */
+.MemberHome #searchBody ul.nav-tabs>li {
+	background-color: #FFF;
+	border: 1px solid #DDD;
+}
+.MemberHome .table table.table,
+.MemberHome #data-tbl {
+	border: 1px solid #DDD !important;
+	border-width: 0px 1px 1px 1px !important;
+	margin-bottom: 15px;
+	background-color: #FFF;
+}
+
+/* BUGFIX: Yeni reservasyon yaparken flight search dugmesi sagda gorunsun */
+.MemberHome .res__entry__bootom {
+	float: right;
+	margin: 20px 0px 0px;
+}
+
+/* BUGFIX: Red error borders display fix */
+.MemberHome span.input-error ~ .input-group #departureDate,
+.MemberHome span.input-error ~ .input-group #returnDate,
+.MemberHome span.input-error ~ .form-control .selectize-input,
+.MemberHome span.input-error ~ input.form-control {
+	border: 1px solid #DA4453 !important;
+}
+.MemberHome span.input-error ~ .input-group .selectize-input.items,
+.MemberHome span.input-error ~ .selectize-control.single .selectize-input input {
+	height: 33px !important;
+}
+
+/* BUGFIX: Flight date kismi biraz ayrilsin. */
+.MemberHome #select-date span.input-error ~ #departureDate1,
+.MemberHome #select-date span.input-error,
+.MemberHome .search__flight {
+	margin-bottom: 15px;
+}
+
+/* BUGFIX: Fix for borderless inputs */
+.MemberHome .form-control,
+.MemberHome .selectize-control{
+	border: 1px solid #DDD !important;
+	padding: 5px 10px;
+	border-radius: 4px;
+	box-shadow: none;
+}
+
+/*///////////////////////////////////////////////////////
+///////////////// Hitit (HCS) Specific //////////////////
+///////////////////////////////////////////////////////*/
+
+.logo {
+	background: url(../img/logo-big.png) no-repeat;
+	height: 60px;
+	background-position: 11% 47%;
+	margin-left: -13px;
+	border-radius: 110px;
+	z-index: -1;
+	margin-top: -16px;
+}
+
+
+
+.navbar-custom {
+	background-color: #d84434 !important;
+
+}
+
+/* Alert info-lar hcs-de gorunsun */
+.contacts__block .contact__info__alert {
+	display: block;
+	position: relative;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.RezvPaxEntry .contacts__block .contact__info__wrapper {
+	padding-top: 120px !important;
+	margin-top: -137px;
+}
+
+.ContactChange .contacts__block .contact__info__wrapper {
+    margin-top: -137px;
+    padding-top: 128px !important;
+}
+
+/*/////////////////////////////////////////////////////////
+/////////////////////// Bug Fixes /////////////////////////
+/////////////////////////////////////////////////////////*/
+
+/* BUGFIX: Availability xs responsive fix for overflowing paddings */
+.AvailabilityResults .hidden-md.hidden-lg.fares-mobile {
+	padding: 0;
+}
+
+.day-num {
+   display:block;
+}
+
+.flightslide__table .flight__hours .flight__hours__table .fare__info .fares .fare__title {
+     color: #404040; 
+}
+
+/** Flag BugFix **/
+.dropdown.language .dropdown-menu li {
+	min-height: 40px;
+}
+.dropdown-menu .flag {
+	margin-top: 14px;
+	z-index: 999;
+}
+
+.dropdown.language{
+	display: none;}
+
+	nav.navbar.navbar-custom {
+		height: 40px !important;
+		background-color:  #fce100 !important;
+	}
+	.header2{
+		background-color: #fff;
+	}
+
+	.navbar-custom .nav li a {
+		display: block;
+		color: #000 !important;
+	}
+
+	.selectize-dropdown .active,.selectize-dropdown:hover {
+		background-color:#d84434 !important;
+	}
+
+	.CheckinSelectSeat .assignAuto {
+		background-color:#005faf    ; 
+		border-color: #005faf  ; 
+		border-radius: .25rem;
+	}

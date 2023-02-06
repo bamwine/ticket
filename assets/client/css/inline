@@ -1,0 +1,106 @@
+
+.tab {
+	overflow: hidden;
+	border-bottom: 1px solid #ccc;
+}
+
+.tablinks {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+	transition: 0.3s;
+	background-color: #ccc;
+}
+
+.tablinks:hover {
+    background-color: #ccc;
+}
+
+.tablinks.active {
+    background-color: #69b342;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+	border-top: none;
+	margin-bottom: 10px;
+	width: 100%;
+	float: left;
+}
+.rules{
+	float: left;
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+	padding: 5px;
+	background-color: #fff;
+}
+.rules .label {
+    float: left;
+    font-weight: bold;
+    font-size: 16px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.rules .rule__explanation {
+    display: none;
+    float: left;
+    width: 100%;
+    margin-top: 3px;
+    font-size: 14px;
+    margin-left: 5px;
+    white-space: pre;
+}
+.rules .rule__explanation.toggled {
+    display:block;
+}
+
+.segment__fare__rules{
+	display: none;
+}
+
+.segment__fare__rules.toggled{
+	display: block;
+}
+
+.segment__button{
+	cursor: pointer;
+    border: 1px solid #e5e5e5;
+    background-color: #e5e5e5;
+    padding: 5px;
+	margin-bottom: 5px;
+	float: left;
+	color: #404040;
+}
+.segment__button.toggled{
+	background-color: #69b342;
+	color: #fff;
+}
+
+
+.rules .table-striped > tbody > tr:nth-of-type(odd){
+	background-color: #fafafa;
+}
+
+.rules .label {
+	background-color: #fff;
+	color: #404040;
+}
+
+#fareRulesDetailModal .modal-body{
+	float: left;
+	width: 100%;
+}
+.segment__fare__rules table{
+	width: 65%;
+}
+	

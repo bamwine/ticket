@@ -1,0 +1,2212 @@
+/*MIN - WIDTH*/
+
+@media (min-width: 1200px) {
+	#mainContent {
+		background-color: #fff;
+		width: 1170px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 60px;
+	}
+	.mainContainer {
+		width: 1170px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 30px;
+	}
+	.show__reservation {
+		padding-top: 0 !important;
+		background-color: #fff;
+		width: 1170px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 30px;
+		border: 1px solid #dddddd;
+	}
+	.memberMainContent {
+		padding-top: 0 !important;
+		width: 1170px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 30px;
+		border: 1px solid #dddddd;
+	}
+	.ticket__refund__container {
+		background-color: #fff;
+		width: 1170px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 20px;
+		border: 1px solid;
+		border-color: rgb(221, 221, 221);
+	}
+	.ticket__refund__summary__container {
+		background-color: #fff;
+		width: 1170px;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 20px;
+		border: 1px solid;
+		border-color: rgb(221, 221, 221);
+	}
+	.visible-lg {
+		display: block;
+	}
+	table.visible-lg {
+		display: table;
+	}
+	tr.visible-lg {
+		display: table-row;
+	}
+	td.visible-lg,
+	th.visible-lg {
+		display: table-cell;
+	}
+	.visible-lg-block {
+		display: block;
+	}
+	.visible-lg-inline {
+		display: inline;
+	}
+	.visible-lg-inline-block {
+		display: inline-block;
+	}
+	.hidden-lg {
+		display: none;
+	}
+}
+
+@media (min-width: 1025px) {
+	.step-navigation-wrap {
+		width: 1170px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.modal-lg.modal-dialog {
+		width: 900px;
+	}
+	.dynamic-receipt-td {
+		display: block;
+		width: 112%;
+	}
+}
+
+@media (min-width: 800px) {
+	.step-navigation .step-title {
+		display: inline-block;
+		line-height: 1.4;
+		margin-top: 0;
+		white-space: pre;
+		font-weight: 400;
+	}
+}
+
+@media (min-width: 768px) {
+	.show__reservation {
+		padding-top: 0 !important;
+		border: 1px solid #dddddd;
+	}
+	.memberMainContent {
+		border: 1px solid #dddddd;
+	}
+	.ticket__refund__container {
+		border: 1px solid;
+		border-color: rgb(221, 221, 221);
+	}
+	.ticket__refund__summary__container {
+		background-color: #fff;
+		border: 1px solid;
+		border-color: rgb(221, 221, 221);
+	}
+	.form-horizontal .control-label {
+		padding-top: 7px;
+		margin-bottom: 0;
+		text-align: right;
+	}
+	.form-horizontal .form-group-lg .control-label {
+		padding-top: 14.3px;
+	}
+	.form-horizontal .form-group-sm .control-label {
+		padding-top: 6px;
+	}
+	.navbar-right .dropdown-menu {
+		right: 0;
+		left: auto;
+	}
+	.navbar-right .dropdown-menu-left {
+		right: auto;
+		left: 0;
+	}
+	.nav-tabs.nav-justified>li {
+		display: table-cell;
+		width: 1%
+	}
+	.nav-tabs.nav-justified>li>a {
+		margin-bottom: 0;
+		color: #fff;
+		margin-right: 0;
+		background-color: transparent;
+		border: none;
+		color: #666666;
+		-webkit-box-shadow: inset 0 -1px 0 #dddddd;
+		box-shadow: inset 0 -1px 0 #dddddd;
+		-webkit-transition: all 0.2s;
+		-o-transition: all 0.2s;
+		transition: all 0.2s;
+	}
+	.nav-tabs.nav-justified>li>a {
+		border-bottom: transparent;
+	}
+	.nav-justified>li {
+		display: table-cell;
+		width: 1%
+	}
+	.nav-justified>li>a {
+		margin-bottom: 0;
+	}
+	.nav-tabs-justified>li>a {
+		border-bottom: 1px solid #ddd;
+		border-radius: 4px 4px 0 0;
+	}
+	.nav-tabs-justified>.active>a,
+	.nav-tabs-justified>.active>a:focus,
+	.nav-tabs-justified>.active>a:hover {
+		border-bottom-color: #fff;
+	}
+	.navbar {
+		border-radius: 4px;
+	}
+	.navbar-header {
+		float: left;
+	}
+	.navbar-collapse {
+		width: auto;
+		border-top: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	.navbar-collapse.collapse {
+		display: block;
+		height: auto;
+		padding-bottom: 0;
+		overflow: visible;
+	}
+	.navbar-collapse.in {
+		overflow-y: visible;
+	}
+	.navbar-fixed-bottom .navbar-collapse,
+	.navbar-fixed-top .navbar-collapse,
+	.navbar-static-top .navbar-collapse {
+		padding-right: 0;
+		padding-left: 0;
+	}
+	.navbar-static-top {
+		border-radius: 0;
+	}
+	.navbar-fixed-bottom,
+	.navbar-fixed-top {
+		border-radius: 0;
+	}
+	.navbar>.container .navbar-brand,
+	.navbar>.container-fluid .navbar-brand {
+		margin-left: -15px;
+	}
+	.navbar-toggle {
+		display: none;
+	}
+	.navbar-nav {
+		float: left;
+		margin: 0;
+	}
+	.navbar-nav>li {
+		float: left;
+	}
+	.navbar-nav.navbar-right:first-child {
+		margin-right: -15px;
+	}
+	.navbar-left {
+		float: left;
+	}
+	.navbar-right {
+		float: right;
+	}
+	.navbar-form .form-group {
+		display: inline-block;
+		margin-bottom: 0;
+		vertical-align: middle;
+	}
+	.navbar-form .form-control {
+		display: inline-block;
+		width: auto;
+		vertical-align: middle;
+	}
+	.navbar-form .input-group {
+		display: inline-table;
+		vertical-align: middle;
+	}
+	.navbar-form .input-group .form-control,
+	.navbar-form .input-group .input-group-addon,
+	.navbar-form .input-group .input-group-btn {
+		width: auto;
+	}
+	.navbar-form .input-group>.form-control {
+		width: 100%
+	}
+	.navbar-form .control-label {
+		margin-bottom: 0;
+		vertical-align: middle;
+	}
+	.navbar-form .checkbox,
+	.navbar-form .radio {
+		display: inline-block;
+		margin-top: 0;
+		margin-bottom: 0;
+		vertical-align: middle;
+	}
+	.navbar-form .checkbox label,
+	.navbar-form .radio label {
+		padding-left: 0;
+	}
+	.navbar-form .checkbox input[type=checkbox],
+	.navbar-form .radio input[type=radio] {
+		position: relative;
+		margin-left: 0;
+	}
+	.navbar-form .has-feedback .form-control-feedback {
+		top: 0;
+	}
+	.navbar-form {
+		width: auto;
+		padding-top: 0;
+		padding-bottom: 0;
+		margin-right: 0;
+		margin-left: 0;
+		border: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	.navbar-form.navbar-right:first-child {
+		margin-right: -15px;
+	}
+	.navbar-text {
+		float: left;
+		margin-right: 15px;
+		margin-left: 15px;
+	}
+	.navbar-text.navbar-right:first-child {
+		margin-right: 0;
+	}
+	.nav-tabs.nav-justified > li {
+		display: table-cell;
+		width: 1%;
+	}
+	.nav-tabs.nav-justified>li>a {
+		margin-bottom: 0;
+		color: #fff;
+	}
+	.navbar-custom {
+		top: 0;
+		left: 0;
+		border: none;
+		border-radius: 0;
+		background: transparent;
+		width: 100%;
+	}
+	.navbar-custom .nav li a {
+		display: block;
+	}
+	.navbar-custom .nav li a.current,
+	.navbar-custom .nav li a:hover {
+		/* border-bottom: 3px solid #50c1e9; */
+	}
+	.navbar-custom .nav li input {
+		display: block;
+		color: #666;
+		width: 100%;
+		text-align: left;
+	}
+	.navbar-custom .nav li input:focus,
+	.navbar-custom .nav li input:hover {
+		color: #50c1e9;
+	}
+	.navbar-custom .nav li input.current,
+	.navbar-custom .nav li input:hover {
+		/* border-bottom: 3px solid #50c1e9; */
+	}
+	.navbar-custom .navbar-toggle {
+		position: relative;
+		background-color: #50c1e9;
+		border-color: #50c1e9;
+	}
+	.navbar-custom .navbar-toggle:focus,
+	.navbar-custom .navbar-toggle:hover {
+		background-color: #50c1e9;
+	}
+	.navbar-custom .navbar-toggle .icon-bar {
+		background-color: rgba(255, 255, 255, .9);
+	}
+	.navbar-custom .navbar-brand {
+		padding: 5px 15px;
+		/* opacity: 0; */
+	}
+	.navbar-custom .navbar-brand:active,
+	.navbar-custom .navbar-brand:hover {
+		opacity: 1;
+	}
+	.navbar-default .navbar-collapse {
+		border-color: #e7e7e7;
+	}
+	.dl-horizontal dt {
+		float: left;
+		width: 160px;
+		overflow: hidden;
+		clear: left;
+		text-align: right;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.dl-horizontal dd {
+		margin-left: 180px;
+	}
+	.modal-dialog {
+		width: 900px;
+		margin: 30px auto;
+	}
+	.modal-content {
+		-webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+		box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+	}
+	.modal-sm {
+		width: 300px;
+	}
+	.form-inline .form-group {
+		display: inline-block;
+		margin-bottom: 0;
+		vertical-align: middle;
+		width: 100%;
+	}
+	.form-inline .form-control {
+		display: inline-block;
+		width: 100%;
+		vertical-align: middle;
+		margin-bottom: 15px;
+	}
+	.form-inline .input-group {
+		display: inline-block;
+		vertical-align: middle;
+		/* width: auto; */
+	}
+	.form-inline .input-group .form-control,
+	.form-inline .input-group .input-group-addon,
+	.form-inline .input-group .input-group-btn {
+		/* width: auto; */
+		/* float: right; */
+	}
+	.form-inline .input-group>.form-control {
+		/* width: 100px; */
+	}
+	.form-inline .control-label {
+		margin-bottom: 0;
+		vertical-align: middle;
+		line-height: 4vh;
+	}
+	.form-inline .checkbox,
+	.form-inline .radio {
+		display: inline-block;
+		margin-top: 0;
+		margin-bottom: 0;
+		vertical-align: middle;
+	}
+	.form-inline .checkbox label,
+	.form-inline .radio label {
+		padding-left: 0;
+	}
+	.form-inline .checkbox input[type=checkbox],
+	.form-inline .radio input[type=radio] {
+		position: relative;
+		margin-left: 0;
+	}
+	.form-inline .has-feedback .form-control-feedback {
+		top: 10px;
+		right: -20px;
+	}
+    .flightslide__table .flight__hours .flights .vayant__modal .modal-dialog {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+	.carousel-control .glyphicon-chevron-left,
+	.carousel-control .glyphicon-chevron-right,
+	.carousel-control .icon-next,
+	.carousel-control .icon-prev {
+		width: 30px;
+		height: 30px;
+		margin-top: -15px;
+	}
+	.carousel-control .glyphicon-chevron-left,
+	.carousel-control .icon-prev {
+		margin-left: -15px;
+	}
+	.carousel-control .glyphicon-chevron-right,
+	.carousel-control .icon-next {
+		margin-right: -15px;
+	}
+	.carousel-caption {
+		right: 20%;
+		left: 20%;
+		padding-bottom: 30px;
+	}
+	.carousel-indicators {
+		bottom: 20px;
+	}
+}
+
+
+/*MAX - WIDTH*/
+
+@media (max-width: 1199px) {
+	.site-footer {
+		display: none;
+	}
+	.MemberPages .side__member {
+		margin-top: 10px;
+	}
+	.step-navigation-wrap {
+		display: none;
+	}
+	.mainContainer {
+		border-top: 1px solid rgb(221, 221, 221);
+		margin-bottom: 2em;
+	}
+	.availability__main__container {
+		border: 1px solid rgb(221, 221, 221);
+	}
+	.step-navigation-wrap {
+		border: none;
+	}
+	.show__reservation {
+		margin-bottom: 2em;
+	}
+	.lock__prices {
+		margin-top: 0;
+	}
+	.circlingplane {
+		display: none;
+	}
+}
+
+@media (max-width: 1050px) {
+	.step-navigation-step > a,
+	.step-navigation-step > span {
+		height: 50px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.dynamic-receipt-td {
+		display: block;
+		width: 123%;
+	}
+}
+
+@media (max-width: 995px) {
+	.checkin__boarding__content .checkin__boarding__rules .checkin__icon__wrapper {
+		width: 100%;
+		text-align: center;
+	}
+	.checkin__boarding__content .checkin__boarding__rules .checkin__message {
+		width: 100%;
+	}
+}
+
+@media (max-width: 992px) {
+	.navbar-custom .navbar-brand {
+		width: 223px;
+		overflow: hidden;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	body {
+		background-position-x: 120px;
+		background-position-y: 0;
+	}
+	.smpl-step > .smpl-step-step .smpl-step-info {
+		padding-top: 7px;
+	}
+	.smpl-step > .smpl-step-step > .smpl-step-icon {
+		margin-left: -28px;
+	}
+	.smpl-step > .smpl-step-step > .progress > .progress-bar {
+		width: 0px;
+		box-shadow: none;
+		background: #fff;
+	}
+	.h4,
+	h4 {
+		margin-top: 10px;
+	}
+	.padding-top {
+		padding-top: 30px;
+	}
+	.step-navigation .step-title {
+		display: none;
+	}
+	.chosen-container .chosen-results {
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;
+	}
+	.printItinerary:not(.printMode){
+		display:none;
+	}
+	#myTab_seatFlight li>a,
+	#myTab_wBagFlight li>a,
+	#myTab_cateringFlight li>a,
+	#myTab_WchFlight li>a,
+	#myTab_SpcFlight li>a {
+		padding: 12px 3px;
+		text-align: left;
+	}
+	.active .caret2 {
+		display: inline-block;
+		position: absolute;
+		width: 0;
+		right: 7px;
+		top: 47%;
+		height: 0;
+		margin-left: 2px;
+		vertical-align: middle;
+		border-top: 6px solid;
+		border-right: 3px solid transparent;
+		border-left: 3px solid transparent;
+		color: #fff;
+	}
+	.caret2 {
+		display: inline-block;
+		position: absolute;
+		width: 0;
+		right: 7px;
+		top: 47%;
+		height: 0;
+		margin-left: 2px;
+		vertical-align: middle;
+		border-top: 6px solid;
+		border-right: 3px solid transparent;
+		border-left: 3px solid transparent;
+		color: #717174;
+	}
+	.monthly-day-btn {
+		width: 33.33333%;
+		height: auto;
+	}
+	.res__details__title__bar__right {
+		float: left;
+	}
+	.ticket__refund__container .ticket__information .ticket__information__heading {
+		min-height: 28px;
+	}
+	.sticky {
+		width: 100%;
+	}
+	.availabilitySearchContainer .col-sm-4 span.input-error,
+	.availabilitySearchContainer .col-xs-4 span.input-error {
+		bottom: auto;
+		white-space: pre-wrap;
+		top: 78%;
+	}
+	.select__flight span.input-error {
+		margin-top: 3px;
+		margin-left: 22px;
+		bottom: auto;
+		vertical-align: super;
+		position: relative;
+		min-height: 20px;
+	}
+	.cc__shot span.input-error {
+		display: none;
+	}
+
+	/* Force table to not be like tables anymore */
+	#paxlistTable table,
+	#paxlistTable thead,
+	#paxlistTable tbody,
+	#paxlistTable th,
+	#paxlistTable td,
+	#paxlistTable tr {
+		display: block;
+	}
+		
+	/* Hide table headers (but not display: none;, for accessibility) */
+
+	#paxlistTable tr {
+		border: 1px solid #ccc;
+		margin-bottom: 5px;
+	}
+	#paxlistTable td {
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 48%;
+		white-space: normal;
+		text-align: left;
+		/* padding-left: 15px; */
+		min-height: 27px;
+	}
+	#paxlistTable td:before {
+		position: absolute;
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+		text-align: left;
+		font-weight: bold;
+		content: attr(data-title);
+	}
+	.tooltip.bottom {
+		display: none;
+	}
+	.flightslide__table .flight__hours .flights {}
+	.flightslide__table .flight__hours .flights .flight__rows .flight__row .hours .divider {
+		padding: 0;
+	}
+	.flightslide__table .flight__hours .flights .flight__rows .flight__row .hours .divider .right__arrow {
+		line-height: 1;
+	}
+	input#bill_toggle:checked ~ #bill {
+		max-height: 100%;
+	}
+	.contacts__block .contact__info__wrapper .contact__info__block .contact__info__block__body .remove__contact .delete__contact__btn {
+		position: relative;
+		top: 34px;
+		margin-bottom: 51px;
+	}
+	.printModal {
+		width: 100%;
+	}
+	/* Force table to not be like tables anymore */
+	#no-more-tables table,
+	#no-more-tables thead,
+	#no-more-tables tbody,
+	#no-more-tables th,
+	#no-more-tables td,
+	#no-more-tables tr {
+		display: block;
+	}
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#no-more-tables thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	#no-more-tables tr {
+		border: 0px solid;
+		margin-bottom: 5px;
+	}
+	#no-more-tables td {
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		white-space: normal;
+		text-align: left;
+		padding-left: 50%;
+	}
+	#no-more-tables td:before {
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+		text-align: left;
+		font-weight: bold;
+	}
+	/*    Label the data    */
+	#no-more-tables td:before {
+		content: attr(data-title);
+	}
+	.dynamic-receipt-td {
+		display: block;
+		width: 115%;
+	}
+	.missing__points__panel__body,
+	.checkin__panel__body,
+	.personal__panel__body {
+		min-height: 1px;
+	}
+	.select__btns .select__class__btn {
+		padding-top: 10px;
+	}
+	.select__btns .select__class__btn .class__icon {
+		height: 30px;
+		background-position: inherit;
+	}
+	#seatSelectionMobileModalBody #plane-seat-selection {
+/* 		left: auto; */
+	}
+	#seatSelectionMobileModalBody #selectRow {
+    display: none;
+	}
+	#seat-first #selectRow table{
+	    display: none;
+	}  
+}
+
+@media (max-width: 767px) {
+	.logo {
+		max-width: 100%;
+		height: 50px;
+		background: url(../img/logo-m@2x.png) no-repeat;
+		background-size: 80%;
+		margin: 0;
+	}
+	.navbar-form .form-group {
+		margin-bottom: 5px;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+		color: #777;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+		color: #333;
+		background-color: transparent;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+	.navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover {
+		color: #555;
+		background-color: #e7e7e7;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>.disabled>a,
+	.navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:hover {
+		color: #ccc;
+		background-color: transparent;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu>.dropdown-header {
+		border-color: #080808;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+		background-color: #080808;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+		color: #777;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus,
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+		color: #fff;
+		background-color: transparent;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu>.active>a,
+	.navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:focus,
+	.navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:hover {
+		color: #fff;
+		background-color: #080808;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu>.disabled>a,
+	.navbar-inverse .navbar-nav .open .dropdown-menu>.disabled>a:focus,
+	.navbar-inverse .navbar-nav .open .dropdown-menu>.disabled>a:hover {
+		color: #444;
+		background-color: transparent;
+	}
+	.navbar-nav {
+		overflow-x: hidden;
+	}
+	.navbar-nav .dropdown-menu {
+		position: static;
+		width: auto;
+		margin-top: 0;
+		background-color: transparent;
+		border: 0;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	.home {
+		background: 0 0;
+	}
+	.navbar-custom {
+		position: relative;
+		top: 0;
+		width: 100%;
+		float: left;
+		opacity: .85;
+		box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(0, 0, 0, 0.05);
+	}
+	.navbar-custom .navbar-nav>li>a,
+	.navbar-custom .navbar-nav>li>a:focus,
+	.navbar-custom .navbar-nav>li>a:hover {
+		color: #000;
+	}
+	.l-horizontal-samewidth-list > li {
+		margin: 1% 1%;
+		width: 18%;
+	}
+	.is-active .step-caption:after {
+		content: ""
+	}
+	.step-navigation-wrap {
+		width: 100%;
+		padding: 5% 5%;
+	}
+	.navbar {
+		height: auto;
+	}
+	body {
+		background: #fff;
+	}
+	.flightslide__table .flight__hours .flights .flight__rows .flight__row .hours .dep__time .from,
+	.flightslide__table .flight__hours .flights .flight__rows .flight__row .hours .arr__time .to {
+		margin: 0;
+	}
+	.flightslide__table .flight__hours .flights .flight__rows:nth-child(even)>.flight__row {
+		background-color: #f2f2f2;
+		margin: 0 0 5px 0 !important;
+		padding: 0 0 5px 0;
+	}
+	.flightslide__table .flight__hours .flights .flight__rows:nth-child(oddd)>.flight__row {
+		background-color: #eee;
+		margin: 0 0 5px 0 !important;
+		padding: 0 0 5px 0;
+	}
+	.flightslide__table .flight__hours .flight__hours__table {
+		display: block;
+		height: 31px;
+	}
+	.flightslide__table .flight__hours .flight__hours__table .table__info {
+		text-align: left;
+		padding: 6px 4px;
+		min-height: 32px;
+	}
+	.flightslide__table .flight__hours .flights .flight__rows .flight__row .prices .price__body {
+		padding: 5px 0 10px 0;
+		min-height: 65px;
+	}
+
+	.l-horizontal-samewidth-list {
+		border-bottom: 1px solid #eee;
+	}
+	.ajax-text {
+		left: 0;
+		width: 100%;
+		max-width: 767px;
+	}
+	.visible-xs-block {
+		display: block;
+	}
+	.visible-xs-inline {
+		display: inline;
+	}
+	.visible-xs-inline-block {
+		display: inline-block;
+	}
+	.hidden-xs {
+		display: none;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>.divider,
+	.navbar-default .navbar-nav>li>a:focus,
+	.navbar-default .navbar-nav>li>a:hover {
+		background-color: #48cfad;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a {
+		color: #26816a;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>.active>a,
+	.navbar-default .navbar-nav .open .dropdown-menu>.active>a:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu>.active>a:hover,
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover {
+		color: #fff;
+		background-color: #48cfad;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>.dropdown-header {
+		color: #26816a;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu>.disabled>a,
+	.navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:focus,
+	.navbar-default .navbar-nav .open .dropdown-menu>.disabled>a:hover {
+		color: #2b957a;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu>.divider,
+	.navbar-inverse .navbar-nav>li>a:focus,
+	.navbar-inverse .navbar-nav>li>a:hover {
+		background-color: #000;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a {
+		color: #8c8c8c;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu>.active>a,
+	.navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:focus,
+	.navbar-inverse .navbar-nav .open .dropdown-menu>.active>a:hover,
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:focus,
+	.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover {
+		color: #fff;
+		background-color: #000;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu>.dropdown-header {
+		color: #bfbfbf;
+	}
+	.navbar-inverse .navbar-nav .open .dropdown-menu>.disabled>a,
+	.navbar-inverse .navbar-nav .open .dropdown-menu>.disabled>a:focus,
+	.navbar-inverse .navbar-nav .open .dropdown-menu>.disabled>a:hover {
+		color: #666;
+	}
+	.visible-xs {
+		display: block;
+	}
+	table.visible-xs {
+		display: table;
+	}
+	tr.visible-xs {
+		display: table-row;
+	}
+	td.visible-xs,
+	th.visible-xs {
+		display: table-cell;
+	}
+	.btn-danger,
+	.btn-default,
+	.btn-default:not(.selectpicker) {
+		font-weight: 400;
+		padding: 8px 15px;
+	}
+	.tab-content>.active {
+		margin-bottom: 20px;
+	}
+	#paxlistTable td table tbody tr,
+	#paxlistTable td table tbody tr td {
+		border: none;
+		padding-left: 0;
+		height: 12px;
+	}
+	.right-icon {
+		/* display: none; */
+	}
+	.pass__tab__container .passenger__form .inline-form .pass__adult__form {
+		padding: 20px 0;
+	}
+	.contacts__block .contact__info__wrapper .contact__info__block .contact__info__block__body {
+		padding: 0 5px;
+	}
+	.ticket__prev__summary .pass__flight__res__summary__body {
+		padding: 15px 5px;
+	}
+	.ticket__prev__summary .pass__flight__res__summary__body .pre__info .pass__numbers {
+		text-align: right;
+	}
+	.ticket__prev__summary .pass__flight__summary__heading {
+		padding: 10px 0;
+	}
+	.contacts__block .contact__info__wrapper {
+		padding: 10px;
+	}
+	.discount__wrapper .discount__heading {
+		padding: 10px 0 !important;
+	}
+	.payment__area .payment__heading .payment__title {
+		display: block;
+		font-size: 1.5rem;
+	}
+	.payment__area .payment__heading .payment__title .total__payment {
+		display: block;
+		margin: 0px 0 10px 0;
+	}
+	.payment__area .payment__selection__container .buy__area {
+		margin: 0;
+		padding: 10px 0;
+	}
+	.payment__area .payment__selection__container .form-group {
+		margin-bottom: 5px;
+	}
+	.payment__area .payment__selection__container input[type=checkbox].css-checkbox + label.css-label,
+	input[type=checkbox].css-checkbox + label.css-label.clr {
+		white-space: normal;
+		line-height: 1.4;
+		vertical-align: top;
+		margin-top: 22px;
+	}
+	.ticket__prev__summary .pass__flight__res__summary__body .segment__body .segment__body__info {
+		margin: 5px 0 !important;
+	}
+	.ticket__prev__summary .pass__flight__res__summary__body .segment__body .dep__time {
+		margin: 5px 0 !important;
+	}
+	.ticket__prev__summary .pass__flight__res__summary__body .segment__body .arr__time {
+		margin: 5px 0 !important;
+	}
+	.ticket__print__container .ticket__print__summary .pass__flight__res__summary__content {
+		padding: 5px;
+	}
+	.ticketModal {
+		width: 100%;
+	}
+	.ticket__print__container .payment__results {
+		text-align: center;
+		padding: 0 0 19px 0;
+	}
+	.ticket__print__container .payment__results .payment__results__block .completed__payment__text {
+		line-height: 1.5;
+	}
+	.ticket__print__container .ticket__print__summary .pass__flight__summary__heading {
+		min-height: 0;
+	}
+	#res-tables table,
+	#res-tables thead,
+	#res-tables tbody,
+	#res-tables th,
+	#res-tables td,
+	#res-tables tr {
+		display: block;
+	}
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#res-tables thead tr {
+        display: none;
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	#res-tables tr {
+		/* border: 1px solid #ccc; */
+		margin-bottom: 5px;
+	}
+	#res-tables td {
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 48%;
+		white-space: normal;
+		text-align: left;
+		/* padding-left: 15px; */
+		min-height: 25px;
+		line-height: 1;
+		font-weight: bold;
+		margin: 0;
+		text-align: right;
+	}
+	#res-tables td:before {
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		text-align: left;
+		font-weight: normal;
+	}
+	/*
+	Label the data
+	*/
+	#res-tables td:before {
+		content: attr(data-title);
+	}
+	#checkin-tables table,
+	#checkin-tables thead,
+	#checkin-tables tbody,
+	#checkin-tables th,
+	#checkin-tables td,
+	#checkin-tables tr {
+		display: block;
+	}
+	#res-tables td .selectRouteRadio tr {
+		/* margin: 0; */
+	}
+	#res-tables td .selectRouteRadio td {
+		padding: 0;
+		border-bottom: none;
+		min-height: 0;
+		line-height: 0;
+	}
+	.apisInfo{
+		padding-left: 15px !important;
+	}
+	.checkin__boarding__content .send__barcode__passenger__content .sms__form {
+		width: 100%;
+	}
+	.checkin__boarding__content .send__barcode__passenger__content .email__form {
+		width: 100%;
+	}
+	.checkin__boarding__content .send__barcode__passenger__content .email__form .form-control {
+		width: 100%;
+	}
+	.ticket__print__container .reservation__results .reservation__results__icon__block {
+		text-align: center;
+	}
+	.m__fare__wrapper {
+		padding: 0;
+		margin: 0;
+	}
+	.discount__wrapper .discount__heading .discount__title {
+		font-size: 1.8rem;
+		margin: 0;
+	}
+	.ticket__prev__summary .pass__flight__summary__heading .pass__flight__summary__title {
+		font-size: 1.8rem;
+		margin: 0;
+	}
+	.pass__info__sidebar .flight__selection__info__table .flight__selection__info__table__heading .flight__selection__info__table__title {
+		font-size: 1.8rem;
+	}
+	.addssr-sticky .panel-title {
+		font-size: 1.8rem;
+	}
+	.add__ssr__container .special__selection__heading {
+		font-size: 1.8rem;
+	}
+	.add__ssr__container .baggage__selection__heading .baggage__selection__title {
+		font-size: 1.8rem;
+	}
+	.add__ssr__container .seat__selection .seat__selection__heading .seat__selection__title {
+		font-size: 1.8rem;
+	}
+	.panel-title {
+		font-size: 1.8rem;
+	}
+	.add__ssr__container .passenger__summary .passenger__summary__heading .passenger__summary__title {
+		font-size: 1.8rem;
+	}
+	.ticket__prev__sidebar .payment__summary__table .payment__summary__table__heading .payment__summary__table__title .basket {
+		font-size: 1.8rem;
+	}
+	.reservation__results__block .completed__reservation__text {
+		font-size: 1.8rem;
+	}
+	.ticket__print__container .ticket__print__summary .pass__flight__summary__heading .pass__flight__summary__title {
+		margin: 0 0 5px 0;
+	}
+	.ticket__print__sidebar .payment__summary__table .payment__summary__table__heading {
+		margin: 20px 0 5px 0;
+		min-height: 0;
+		padding: 0;
+	}
+	.res__flights__wrapper .res__flights__heading .res__flights____title {
+		font-size: 1.8rem;
+	}
+	.res__details__heading {
+		font-size: 1.8rem;
+	}
+	.res__passengers__wrapper .res__passengers__heading {
+		font-size: 1.8rem;
+	}
+	.show__reservation__sidebar .payment__summary__table .payment__summary__table__heading {
+		font-size: 1.8rem;
+		margin: 0;
+		padding: 0;
+		min-height: 0;
+	}
+	.res__entry .page__header {
+		font-size: 1.8rem;
+		margin: 0;
+		padding: 0;
+		min-height: 0;
+	}
+	.ticket__print__container .payment__results .payment__results__icon__block {
+		font-size: 50px;
+		margin: 0;
+		padding: 0;
+		min-height: 0;
+	}
+	.checkin__select__flight .pass__info__title {
+		font-size: 1.8rem;
+	}
+	.checkin__select__flight .checkin__segment__list .checkin__segment__list__heading {
+		font-size: 1.8rem;
+	}
+	.checkin__select__flight .checkin__pass__information .checkin__pass__information__heading {
+		font-size: 1.8rem;
+	}
+	.checkin__seat__select .flight__list .flight__list__heading {
+		font-size: 1.8rem;
+		margin: 0;
+	}
+	.checkin__confirm .checkin__confirm__heading {
+		font-size: 1.8rem;
+		margin: 10px 0 5px 0;
+	}
+	.checkin__confirm .flight__list .flight__list__heading {
+		font-size: 1.8rem;
+		margin: 0;
+	}
+	.checkin__confirm .seat__cost .seat__cost__heading {
+		font-size: 1.8rem;
+		margin: 0;
+	}
+	.checkin__seat__select .seat__selection__heading .seat__selection__title {
+		font-size: 1.8rem;
+		margin: 10px 0 0 0;
+	}
+	.price__label {
+		display: block;
+		margin: 0 0 5px 0;
+		font-size: 1.4rem;
+		font-weight: 400;
+	}
+	.fare__title {
+		font-size: 1.4rem;
+	}
+	.select-fare, .no__seat {
+		padding: 0px !important;
+	}
+	.price__body{
+		border: none !important;
+	}
+	.hidden-md.hidden-lg.fares-mobile {
+	    margin-bottom: 5px;
+	}
+	.ssrCateringSelectContainerBody {
+		width: 100%;
+		padding: 0 10px;
+	}
+	.ssrCateringSelectTablist {
+		width: 100%;
+		float: none;
+		margin-right: auto;
+		padding: 5px;
+	}
+	a[id^='mobileSeatSelectButton'] {
+		white-space: normal;
+	}
+	.lug-selection__pass-list .passengerSelectHead,
+	.lug-selection__pass-list .passengerSelectBody,
+	.speq-selection__pass-list .passengerSelectHead,
+	.speq-selection__pass-list .passengerSelectBody {
+		width: 50%;
+		display: block;
+		float: left;
+	}
+	.passengerLugSelectBodyRow,
+	.passengerSportEqSelectBodyRow {
+		height: auto;
+		display: block;
+	}
+	.passengerLugSelectRowName,
+	.passengerLugSelectRowFreeLuggage,
+	.add__ssr__container .mergeDiv,
+	.passengerLugSelectRowBoughtLuggage,
+	.passengerLugSelectRowPrice,
+	.passengerLugSelectColName,
+	.passengerLugSelectColFreeLuggage,
+	.passengerLugSelectColBoughtLuggage,
+	.passengerLugSelectColPrice,
+	.passengerLugSelectColAction,
+	.passengerLugSelectColSelectBox,
+	.passengerLugSelectRowSelectBox,
+	.passengerLugSelectRowAction {
+		display: block;
+		width: 100%;
+		min-height: 40px;
+		height: 40px;
+	}
+	.passengerSportEqSelectBodyRow .passengerSportEqSelectColEq {
+		display: block;
+	}
+	.passengerLugSelectColBoughtLuggage .btn-link {
+		position: relative;
+		top: -15px;
+		left: 82px;
+		white-space: 
+	}
+
+	.add__ssr__container .mergeDiv {
+		height: 80px;
+	}
+	.passengerSelectHead .hidden {
+		display: block!important;
+		visibility: visible !important;
+	}
+	.passengerLugSelectColName, .passengerLugSelectColFreeLuggage, .passengerLugSelectColBoughtLuggage, .passengerLugSelectColPrice, .passengerSelectBody .mergeDiv, .passengerLugSelectColAction, .passengerLugSelectColSelectBox {
+		border-bottom: 1px solid #ccc;
+		border-left: 1px solid #ccc;
+	}
+	.passengerLugSelectColAction,
+	.passengerLugSelectRowSelectBox  {
+		border-bottom: 2px solid #3C590C ;
+	}
+	.passengerSportEqSelectColSelectBox .selectize-control {
+		width: auto;
+	}
+	.passengerSportEqSelectColSelectBox .btn-link {
+		height: 31px;
+		text-align: center;
+		padding-top: 9px;
+		width: 100%;
+		margin-top: 12px;
+		background: #00266D;
+		color: #fefefe;
+	}
+	#checkin-tables thead tr {
+		position: absolute;
+        top: -9999px;
+		left: -9999px;
+
+	}
+	#checkin-tables tr {
+		/* border: 1px solid #ccc; */
+		margin-bottom: 5px;
+	}
+	#checkin-tables td {
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		padding-left: 48%;
+		white-space: normal;
+		text-align: left;
+		/* padding-left: 15px; */
+		min-height: 25px;
+		line-height: 1.2;
+		font-weight: bold;
+	}
+	#checkin-tables td:before {
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		text-align: left;
+		font-weight: normal;
+	}
+	/*
+	Label the data
+	*/
+	#checkin-tables td:before {
+		content: attr(data-title);
+	}
+	.flightslide__table .flight__hours .flights .flight__table .flight__rows .flight__row .hours,
+	.flightslide__table .flight__hours .flights .flight__table .flight__rows .flight__row .prices {
+		display: block;
+		float: left;
+	}
+	.ManageBundle .passengerSelect,
+.AddSSR .passengerSelect,
+	.CheckinSelectSeat .passengerSelect {
+		padding: 0 !important;
+		margin: 0 !important;
+	}
+	.ManageBundle .seatoverview,
+	.AddSSR .seatoverview,
+	.CheckinSelectSeat .seatoverview {
+		display: none;
+	}
+	.seat-select {
+		display: none;
+		height: auto;
+		margin: auto;
+		float: none;
+		border: 0px none transparent;
+	}
+	.ManageBundle .passengerSelect,
+.AddSSR .passengerSelect { 
+		width: 100% !important;
+	}	
+}
+
+@media screen and (max-width: 767px) {
+	.flightslide__table .flight__hours .flights .flight__rows .flight__row .hours {
+		padding: 5px 0 5px 5px;
+	}
+	.pass__tab__container {
+		margin: 0;
+	}
+	.tpm {
+		margin-top: 83px;
+	}
+}
+
+@media only screen and (max-width: 750px) {
+	.step-navigation-wrap {
+		margin-bottom: 10px;
+	}
+	.step-navigation-step > a,
+	.step-navigation-step > span {
+		height: auto;
+		padding: 5px 6px;
+	}
+}
+
+@media (max-width: 600px) {
+	input[type=radio].css-radio + label.css-radio-label,
+	input[type=radio].css-radio + label.css-radio-label.clr {
+		margin-left: 0;
+		margin-right: 0px;
+	}
+	.modal-header .close {
+		margin-top: 0;
+	}
+	#calendar0 .col-lg-8.col-sm-12.col-xs-12.col-md-8,
+	#calendar1 .col-lg-8.col-sm-12.col-xs-12.col-md-8 {
+		padding: 0;
+	}
+	.month {
+		padding: 0px;
+		padding-top: 7px;
+		border-bottom: 0px;
+	}
+	.header-col {
+		display: none;
+	}
+	.navbar-toggle {
+		/* margin-right: 18px; */
+	}
+	.container-fluid>.navbar-collapse,
+	.container-fluid>.navbar-header,
+	.container>.navbar-collapse,
+	.container>.navbar-header {
+		/* margin-left: 0; */
+	}
+       .seat-plan{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+	/* Force table to not be like tables anymore */
+	#no-more-tables-hor2 table,
+	#no-more-tables-hor2 thead,
+	#no-more-tables-hor2 tbody,
+	#no-more-tables-hor2 th,
+	#no-more-tables-hor2 td,
+	#no-more-tables-hor2 tr {
+		display: block;
+	}
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#no-more-tables-hor2 thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	#no-more-tables-hor2 tr {
+		border: 1px solid #ccc;
+		margin-bottom: 5px;
+	}
+	#no-more-tables-hor2 td {
+		/* Behave  like a "row" */
+		border: none;
+		/* border-bottom: 1px solid #eee; */
+		position: relative;
+		padding-left: 0%;
+		white-space: normal;
+		text-align: left;
+		padding: 5px 0;
+	}
+	#no-more-tables-hor2 td:before {
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+		text-align: left;
+		font-weight: bold;
+	}
+	/*
+	Label the data
+	*/
+	#no-more-tables-hor2 td:before {
+		content: attr(data-title);
+	}
+	#tripType tbody tr td {
+		display: table-row;
+	}
+	.dynamic-receipt-td {
+		display: block;
+		width: 120%;
+	}
+}
+
+@media only screen and (max-width: 599px) {
+	/* Force table to not be like tables anymore */
+	#no-more-tables-hor table,
+	#no-more-tables-hor thead,
+	#no-more-tables-hor tbody,
+	#no-more-tables-hor th,
+	#no-more-tables-hor td,
+	#no-more-tables-hor tr {
+		display: block;
+	}
+	/* Hide table headers (but not display: none;, for accessibility) */
+	#no-more-tables-hor thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	#no-more-tables-hor tr {
+		border: 1px solid #ccc;
+		margin-bottom: 5px;
+	}
+	#no-more-tables-hor td {
+		/* Behave  like a "row" */
+		border: none;
+		border-bottom: 1px solid #eee;
+		position: relative;
+		white-space: normal;
+		text-align: left;
+		padding-left: 50%;
+	}
+	#no-more-tables-hor td:before {
+		/* Now like a table header */
+		position: absolute;
+		/* Top/left values mimic padding */
+		top: 6px;
+		left: 6px;
+		width: 45%;
+		padding-right: 10px;
+		white-space: nowrap;
+		text-align: left;
+		font-weight: bold;
+	}
+	/*
+	Label the data
+	*/
+	#no-more-tables-hor td:before {
+		content: attr(data-title);
+	}
+	/* Force table to not be like tables anymore */
+	.s-f-r table,
+	.s-f-r thead,
+	.s-f-r tbody,
+	.s-f-r th,
+	.s-f-r td,
+	.s-f-r tr {
+		display: block;
+	}
+	/* Hide table headers (but not display: none;, for accessibility) */
+	.s-f-r thead tr {
+		position: absolute;
+		top: -9999px;
+		left: -9999px;
+	}
+	.s-f-r tr {
+		/* border: 1px solid #ccc; */
+		margin-bottom: 5px;
+	}
+	.s-f-r td {
+		/* Behave  like a "row" */
+		border: none;
+		/* border-bottom: 1px solid #eee; */
+		position: relative;
+		padding-left: 0%;
+		white-space: normal;
+		text-align: left;
+		padding: 4px 0;
+	}
+	.select-day .day-title {
+		padding: 12px 8px 12px 8px;
+	}
+}
+
+@media (max-width: 480px) {
+	.dynamic-receipt-td {
+		display: block;
+		width: 128%;
+	}
+	body>form, .MemberHome #content, .UploadResources #content {
+		padding-bottom: 0;
+	}
+	.MemberRegister #confirm_signup {
+		float: left;
+	}
+	.MemberRegister #confirm_signup_label {
+		display: block;
+		width: 50%;
+		white-space: normal!important;
+		float: left;
+		margin-left: 3px;
+	}
+	.member__panel .member__panel__item:first-child:nth-last-child(6), .member__panel .member__panel__item:first-child:nth-last-child(6) ~ .member__panel__item {
+	    width: 19.6%;
+	}
+	.MemberHome .member__panel__body {
+	    min-height: 180px;
+	}
+	.member__panel .member__panel__body .member__icon__wrap .member__checkin__icon,
+	.member__panel .member__panel__body .member__icon__wrap .member__res__icon,
+	.member__panel .member__panel__body .member__icon__wrap .member__personal__icon,
+	.member__panel .member__panel__body .member__icon__wrap .member__points__icon,
+	.member__panel .member__panel__body .member__icon__wrap .member__missing__icon,
+	.member__panel .member__panel__body .member__icon__wrap .member__card__icon {
+		width: 50px;
+	    height: 50px;
+	    background-size: 25px;
+	}
+	
+}
+
+@media (max-width: 424px) {
+	input[type=radio],
+	input[type=checkbox],
+	input[type=checkbox].css-checkbox {
+		position: relative;
+		z-index: 1;
+		left: auto;
+		overflow: auto;
+		height: auto;
+		width: auto;
+		margin: auto;
+		opacity: 1;
+		line-height: 4;
+		top: 4px;
+	}
+	.Availability input[type=radio],
+	.Availability input[type=checkbox]{
+		visibility: hidden;
+	}
+
+	input[type="radio"]:checked ~ label::before,
+	input[type="radio"] ~ label::before,
+	input[type=checkbox] ~ label::before,
+	input[type=checkbox]:checked ~ label::before {
+		content: none;
+	}
+	.passengerSelectBodyRow input[type="checkbox"],
+	.passengerCatSelectBodyRow input[type="checkbox"],
+	.passengerLugSelectBodyRow input[type="checkbox"],
+	.passengerSelectBodyRowFocus input[type="checkbox"],
+	.passengerCatSelectBodyRowFocus input[type="checkbox"],
+	.passengerLugSelectBodyRowFocus input[type="checkbox"] {
+		display: none;
+	}
+	.passengerSelectBodyRowFocus label,
+	.passengerCatSelectBodyRowFocus label,
+	.passengerLugSelectBodyRowFocus label {
+		padding-left: 4px;
+	}
+	.passengerSelectBodyRowFocus:after,
+	.passengerCatSelectBodyRowFocus:after {
+		border-left: none;
+	}
+	
+	.cvc__form ~ .confirm__label {
+		margin-top: 40px;
+	}
+	.f2 {
+		font-size: 12px;
+		vertical-align: top;
+	}
+	.dynamic-receipt-td {
+		display: block;
+		width: 135%;
+	}
+	.ssr__bundle__pack__details .sticky__bundle__details .pack__info {
+		width: 64%;
+	}
+	.ssr__bundle__pack__details .sticky__bundle__details .pack__upg {
+		width: 36%;
+	}
+	.sticky__bundle__details .cat,
+	.sticky__bundle__details .bag,
+	.sticky__bundle__details .seat,
+	.sticky__bundle__details .point,
+	.sticky__bundle__details .rebook,
+	.sticky__bundle__details .refund,
+	.sticky__bundle__details .sandvich-drink {
+		width: 100%;
+		background-position: inherit;
+		padding-top: 0px;
+		margin-bottom: 2px;
+	}
+	.ssrSeatSelectContainerSelect {
+		display: none;
+	}
+	.passengerSelectWrapper {
+		padding: 0 10px;
+	}
+	.seat-select {
+		display: none;
+		height: auto;
+		margin: auto;
+		float: none;
+	}
+	.seatPriceLabelsModal .label {
+		width: 49%;
+	}
+}
+
+@media (max-width: 414px) {
+	body {
+		overflow-y: auto;
+	}
+	.search__selecion__info__table__inner__heading .search__selecion__info__table__inner__btn,
+	.search__selecion__info__table__inner__heading .search__selecion__info__table__inner__btn:hover,
+	.search__selecion__info__table__inner__heading .search__selecion__info__table__inner__btn:active,
+	.search__selecion__info__table__inner__heading .search__selecion__info__table__inner__btn:focus {}
+	.search__selecion__info__table {
+		padding: 0;
+	}
+	.top__nav li a {
+		color: #333;
+	}
+	.tooltip {
+		width: 50%;
+	}
+	#flightGrid0,
+	#flightGrid1,
+	#flightGrid2 {
+		margin: 0 -15px;
+	}
+}
+
+@media (max-width: 400px) {
+	.refund__title .refund__pnr {
+		float: left;
+	}
+	.dynamic-receipt-td {
+		display: block;
+		width: 136%;
+	}
+}
+
+@media (max-width: 360px) {
+	.flightslide__table__parkour__dep__arr {
+		margin: 0;
+		line-height: 1;
+	}
+	.flightslide__table__parkour__parkourloc {
+		line-height: 1;
+		margin: 4px 0px 0 8px;
+	}
+}
+
+@media (max-width: 320px) {
+	.ajax-text {
+		margin-left: 0px;
+	}
+	.plane-loader {
+		left: 0%;
+	}
+	.plane-loader-reverse {
+		left: 0%;
+	}
+	.dynamic-receipt-td {
+		display: block;
+		width: 150%;
+	}
+}
+
+
+/*  LANDSCAPE */
+
+@media (width: 568px) and (height: 320px) {
+	.site-footer {
+		display: none;
+	}
+}
+
+@media (width: 480px) and (height: 320px) {
+	.site-footer {
+		display: none;
+	}
+}
+
+@media (max-device-width: 480px) and (orientation: landscape) {
+	.step-navigation-step > a,
+	.step-navigation-step > span {
+		height: auto;
+		padding: 5px 6px;
+	}
+	.navbar-fixed-bottom .navbar-collapse,
+	.navbar-fixed-top .navbar-collapse {
+		max-height: 200px;
+	}
+}
+
+@media (width: 320px) and (height: 480px) {}
+
+@media (width: 320px) and (height: 568px) {}
+
+
+/*MIN - WIDTH & MAX - WIDTH*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+	.visible-md {
+		display: block;
+	}
+	table.visible-md {
+		display: table;
+	}
+	tr.visible-md {
+		display: table-row;
+	}
+	td.visible-md,
+	th.visible-md {
+		display: table-cell;
+	}
+	.visible-md-block {
+		display: block;
+	}
+	.visible-md-inline {
+		display: inline;
+	}
+	.visible-md-inline-block {
+		display: inline-block;
+	}
+	.hidden-md {
+		display: none;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+	.mainContainer {
+		border-top: 1px solid rgb(221, 221, 221);
+	}
+	.pass__tab__container .passenger__form .inline-form .pass__adult__form {
+		padding: 20px 0;
+	}
+	.contacts__block .contact__info__wrapper {
+		padding: 20px 7px;
+	}
+	.ticket__prev__summary {
+		margin-top: 20px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.visible-sm {
+		display: block;
+	}
+	table.visible-sm {
+		display: table;
+	}
+	tr.visible-sm {
+		display: table-row;
+	}
+	td.visible-sm,
+	th.visible-sm {
+		display: table-cell;
+	}
+	.visible-sm-block {
+		display: block;
+	}
+	.visible-sm-inline {
+		display: inline;
+	}
+	.visible-sm-inline-block {
+		display: inline-block;
+	}
+	.hidden-sm {
+		display: none;
+	}
+}
+
+@media (min-width: 415px) and (max-width: 1199px) {
+	.availabilityresults-sticky {
+		padding: 0 15px;
+	}
+}
+
+@media (min-width: 400px) and (max-width: 600px) {
+	.ajax-text {
+		margin-left: 0px;
+	}
+	.plane-loader {
+		left: 15%;
+	}
+	.plane-loader-reverse {
+		left: 15%;
+	}
+	.seatPriceLabelsModal .label {
+		width: 32.5%;
+	}
+}
+
+@media (min-width: 321px) and (max-width: 399px) {
+	.ajax-text {
+		margin-left: 0px;
+	}
+	.plane-loader {
+		left: 10%;
+	}
+	.plane-loader-reverse {
+		left: 10%;
+	}
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+
+	.seatPriceLabels,
+	.seatPriceLabelsRight{
+		display: none;
+	}
+
+}
+
+
+
+/*  OTHER   */
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+	/* Safari only override */
+	::i-block-chrome,
+	.step-navigation-step {
+		display: block;
+	}
+	::i-block-chrome,
+	.l-horizontal-samewidth-list > li {
+		margin: 0 3%;
+	}
+}
+
+@media (min-height: 801px) {
+	.fixed {
+		position: fixed;
+	}
+}
+
+@media (min-height: 768px) {
+	.fixed2 {
+		position: fixed;
+	}
+}
+
+@media print {
+	* {
+		color: #000;
+		text-shadow: none;
+		background: transparent;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+	}
+	a,
+	a:visited {
+		text-decoration: underline;
+	}
+	a[href]:after {
+		content: " (" attr(href)")"
+	}
+	abbr[title]:after {
+		content: " (" attr(title)")"
+	}
+	a[href^="javascript:"]:after,
+	a[href^="#"]:after {
+		content: ""
+	}
+	blockquote,
+	pre {
+		border: 1px solid #999;
+		page-break-inside: avoid;
+	}
+	thead {
+		display: table-header-group;
+	}
+	img,
+	tr {
+		page-break-inside: avoid;
+	}
+	img {
+		max-width: 100%;
+	}
+	h2,
+	h3,
+	p {
+		orphans: 3;
+		widows: 3;
+	}
+	h2,
+	h3 {
+		page-break-after: avoid;
+	}
+	select {
+		background: #fff;
+	}
+	.navbar {
+		display: none;
+	}
+	.table td,
+	.table th {
+		background-color: #fff;
+	}
+	.btn>.caret,
+	.dropup>.btn>.caret {
+		border-top-color: #000;
+	}
+	.label {
+		border: 1px solid #000;
+	}
+	.table {
+		border-collapse: collapse;
+	}
+	.table-bordered td,
+	.table-bordered th {
+		border: 1px solid #ddd;
+	}
+	.visible-print {
+		display: block;
+	}
+	table.visible-print {
+		display: table;
+	}
+	tr.visible-print {
+		display: table-row;
+	}
+	td.visible-print,
+	th.visible-print {
+		display: table-cell;
+	}
+	.visible-print-block {
+		display: block;
+	}
+	.visible-print-inline {
+		display: inline;
+	}
+	.visible-print-inline-block {
+		display: inline-block;
+	}
+	.hidden-print {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
+    .MonthlyAnnualPrices .site-footer {
+		display: none;
+	}
+	#calendarAll .day,
+	#calendarAll .day.not-current {
+		line-height: 1;
+	}
+	#calendarAll .day.not-current {
+    display: none;
+	}
+	.responsive-calendar .day,
+	.responsive-calendar .day:nth-child(7n+7) {
+		display: block;
+		height: 40px !important;
+		width: 100%;
+	}
+	day not-current
+	#calendarAll .responsive-calendar .day-headers {
+		display: none;
+	}
+	#calendarAll .responsive-calendar .day .passive-price {
+		width: 50%;
+		display: inline-block;
+		text-align: left;
+		height: 26px;
+		line-height: 2.3;
+	}
+	#calendarAll .responsive-calendar .day .cal-badge-not-available {
+		width: 19%;
+		display: inline-block;
+		text-align: left;
+		color: #2A4D90;
+		height: 16px;
+	}
+	#calendarAll .responsive-calendar .day .day-num,
+	#calendarAll .responsive-calendar .day .day-name {
+		display: inline-block;
+		text-align: left;
+		font-size: 20px;
+		font-size: 1.5rem;
+		line-height: 2.3;
+		height: 22px;
+		margin: 0;
+		float: left;
+		position: relative;
+	}
+	#calendarAll .responsive-calendar .day .day-name{
+		width: 17%;
+	}
+	#calendarAll .responsive-calendar .day .day-num {
+		width: 18%;
+	}
+	#calendarAll .responsive-calendar .day .div-radio {
+		width: 19px;
+		display: inline-block;
+		margin: 10px 0 0 0;
+		vertical-align: bottom;
+		text-align: left;
+		position: relative;
+		float: left;
+	}
+    .circle__toggle{
+        top:1px;       
+    }
+	#calendarAll .responsive-calendar .day .cal-price {
+		width: 32%;
+		display: inline-block;
+		text-align: right;
+		white-space: normal;
+		font-weight: 600;
+		height: 24px;
+		line-height: 2.3;
+		vertical-align: bottom;
+		margin: 0 0 0 0 !important;
+		position: relative;
+		float: right;
+	}
+	#calendarAll .responsive-calendar .day .best__price {
+		width: 29%;
+		display: inline-block;
+		margin-top: 5px;
+	}
+	.cal-price,
+	.day-num span {}
+	#calendar0 .col-lg-8.col-sm-12.col-xs-12.col-md-8,
+	#calendar1 .col-lg-8.col-sm-12.col-xs-12.col-md-8 {
+		padding: 0;
+	}
+	#calendarAll .month {
+		font-size: 2.2rem;
+		padding: 0px;
+		padding-top: 5px;
+		border-bottom: 7px solid rgba(0, 0, 0, 0);
+		margin-top: 14px;
+	}
+	#calendarAll .responsive-calendar .day a {
+		padding: 0 2px;
+	}
+	#calendarAll .month .glyphicon-chevron-left,
+	#calendarAll .month .glyphicon-chevron-right {
+		font-size: 18px;
+		font-size: 1.8rem;
+	}
+	#calendarAll .day-headers{
+	display:none;
+	}
+}
+
+/* iPhone specific */
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+   .CheckinSelectFlight [type='generatePDF'],
+    .CheckinBoarding [type='generatePDF']{
+      	width: 110px;
+	    height: 45px;
+	    white-space: pre-line;
+	    font-weight: 500;
+	    font-size: 1.5rem;
+	    margin-bottom: 2px;
+	    border-radius: 7px;
+   }
+   .addToAppleWallet{
+   		display: inline-block;
+   }
+}
+
+/* iPad Specific */
+@media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
+       .CheckinSelectFlight [type='generatePDF'],
+    .CheckinBoarding [type='generatePDF']{
+      	width: 110px;
+	    height: 45px;
+	    white-space: pre-line;
+	    font-weight: 500;
+	    font-size: 1.5rem;
+	    margin-bottom: 2px;
+	    border-radius: 7px;
+        line-height: 1;
+   }
+   .addToAppleWallet{
+   		display: inline-block;
+   }
+}

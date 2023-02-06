@@ -1,0 +1,1544 @@
+/*------------------------------- General Colors ------------------------------- */
+/*------------------------------- Header ------------------------------- */
+/*------------------------------- Footer ------------------------------- */
+/*------------------------------- Modal ------------------------------- */
+/*------------------------------- PassengerInfo -------------------------------*/
+/*------------------------------- Ancillary -------------------------------*/
+/*------------------------------- PaymentInfo -------------------------------*/
+/*------------------------------- Confirmation -------------------------------*/
+/*------------------------------- CalendarView -------------------------------*/
+/*------------------------------- Button Colors ------------------------------- */
+@import url(./flaticon.css);
+@import url(./gfont.css);
+html {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  font-size: 62.5%;
+  color: #666666;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size-adjust: 0.5;
+  height: 100%; }
+
+* {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+  *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit; }
+
+body {
+  position: relative;
+  margin: 0;
+  overflow-y: scroll;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.42857143;
+  font-size: 14px;
+  font-size: 1.4rem;
+  letter-spacing: 0;
+  zoom: 1;
+  min-height: 100%;
+  position: relative;
+  overflow: auto; }
+
+#header .header2 {
+  min-height: 60px;
+  transition: all .5s;
+  background-color: #fff;
+  padding: 25px 0px 14px; }
+
+a {
+  color: #404040;
+  text-decoration: none;
+  background: 0 0;
+  outline: none; }
+  a:focus, a:hover, a:active {
+    color: inherit;
+    outline: 0; }
+  a:focus {
+    outline: none; }
+
+header, nav {
+  display: block; }
+
+img {
+  border: 0; }
+
+button {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  cursor: pointer;
+  margin-bottom: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0; }
+
+img {
+  vertical-align: middle; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0; }
+
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 10px; }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px; } }
+@media (min-width: 992px) {
+  .container {
+    width: 970px; } }
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px; } }
+.collapse {
+  display: none; }
+
+.dropdown {
+  position: relative; }
+
+.dropdown-toggle:focus {
+  outline: 0; }
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none; }
+  .nav > li {
+    position: relative;
+    display: block; }
+    .nav > li > a {
+      position: relative;
+      display: block;
+      padding: 9px;
+      /* height: 42px; */ }
+      .nav > li > a:focus, .nav > li > a:hover {
+        text-decoration: none;
+        background-color: transparent; }
+
+.navbar {
+  position: relative;
+  height: 40px;
+  border: 1px solid transparent; }
+
+.navbar-collapse {
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+  border-top: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+
+.navbar-brand {
+  float: left;
+  height: auto;
+  padding: 5px;
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 20px; }
+  .navbar-brand:focus, .navbar-brand:hover {
+    text-decoration: none; }
+  @media (max-width: 601px) {
+    .navbar-brand {
+      height: 60px; } }
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 19px 20px;
+  margin-top: 8px;
+  margin-right: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px; }
+  .navbar-toggle:focus {
+    outline: 0; }
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #fff; }
+    .navbar-toggle .icon-bar + .icon-bar {
+      margin-top: 4px; }
+
+.navbar-nav {
+  margin: 7.5px -15px; }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff; }
+
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7; }
+  .navbar-default .navbar-brand {
+    color: #777; }
+    .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+      color: #5e5e5e;
+      background-color: transparent; }
+  .navbar-default .navbar-nav > li > a {
+    color: #777; }
+    .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+      color: #333;
+      background-color: transparent; }
+  .navbar-default .navbar-nav > .active > a {
+    color: #555;
+    background-color: #e7e7e7; }
+    .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+      color: #555;
+      background-color: #e7e7e7; }
+  .navbar-default .navbar-toggle {
+    border-color: #ddd; }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+      background-color: #ddd; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #888; }
+  .navbar-default .navbar-collapse {
+    border-color: #e7e7e7; }
+
+.container:after, .container:before {
+  display: table;
+  content: " "; }
+
+.nav:after, .nav:before {
+  display: table;
+  content: " "; }
+
+.navbar-collapse:after, .navbar-collapse:before {
+  display: table;
+  content: " "; }
+
+.navbar-header:after, .navbar-header:before {
+  display: table;
+  content: " "; }
+
+.navbar:after, .navbar:before {
+  display: table;
+  content: " "; }
+
+.container:after, .nav:after, .navbar-collapse:after, .navbar-header:after, .navbar:after {
+  clear: both; }
+
+@-ms-viewport {
+  width: device-width; }
+@-webkit-viewport {
+  width: device-width; }
+@-moz-viewport {
+  width: device-width; }
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+@viewport {
+  width: device-width; }
+.navbar-default {
+  background-color: #37bc9b;
+  border-color: #37bc9b; }
+  .navbar-default .navbar-brand {
+    color: #26816a; }
+    .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+      color: #fff;
+      background-color: transparent; }
+  .navbar-default .navbar-nav > li > a {
+    color: #26816a; }
+    .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+      color: #fff; }
+  .navbar-default .navbar-nav > .active > a {
+    color: #fff;
+    background-color: #48cfad; }
+    .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+      color: #fff;
+      background-color: #48cfad; }
+  .navbar-default .navbar-toggle {
+    background-color: #26816a;
+    border-color: #26816a; }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+      background-color: #2b957a;
+      border-color: #2b957a; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #37bc9b; }
+  .navbar-default .navbar-collapse {
+    border-color: #48cfad; }
+
+/*/////////////////////////////////////////////////////////////// Old - IBE.css /////////////////////////////////////////////////////////////////*/
+/* BUGFIX: Responsive de stickynin altina girmesi sorunu */
+/* BUGFIX: Red validation borders fix */
+*|html[xmlns*=""] .step-navigation-step {
+  width: 230px; }
+
+#navigationWrap {
+  position: absolute;
+  margin-left: 45%;
+  top: 94px; }
+
+[data-toggle="collapse"] {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.front:hover:not(.card >) {
+  max-width: 27px;
+  max-height: 27px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADUgAAA1IBEAAkSgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAC4SURBVEiJ7ZQ7CgJBEERfGWxqJHgwz+AFTDyGZgp7AUMDjyB4AyNjAzPBuAw0WHadGfcHIlvQWdd7wTQj2/SZUa/0QfAfAkmZpJWki6R5ZcF24wEyYA/4PbfKTodwA7tOBAH4CRgnBcAMOAJLQG3gIcG1UMyLkrrwkOBQAmwBNYGHBFPgXAJtmsCDjxyQ1IZHrygi+RqePNMPklpw268LiUXSBFgAD2Bt+x4tlPspQdv8/m86CFrnCTspDyp52dYpAAAAAElFTkSuQmCCc1be9ed3910f4ce45b4edba01ad84c4f");
+  background-color: #fff; }
+
+.step-navigation-wrap {
+  border-width: 1px 0;
+  background-color: transparent !important; }
+
+.step-navigation {
+  text-align: center; }
+  .step-navigation .step-caption {
+    text-overflow: ellipsis;
+    white-space: inherit; }
+    .step-navigation .step-caption .step-title {
+      text-overflow: ellipsis;
+      white-space: inherit; }
+
+.step-navigation-step {
+  position: relative;
+  display: inline-block; }
+  .step-navigation-step > span {
+    display: block;
+    height: 50px;
+    position: relative;
+    text-decoration: none; }
+  .step-navigation-step.is-active > span:after, .step-navigation-step.is-active > span:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -10px; }
+
+.l-horizontal-samewidth-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+  .l-horizontal-samewidth-list > li {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1; }
+
+.nonselectable {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/*///////////////////////////////////// CHECKBOX ////////////////////////////////////*/
+.first {
+  text-align: left; }
+
+.fifth {
+  text-align: right; }
+
+/*Z-index Fix*/
+/*Flags*/
+/********/
+/*Main*/
+/* FlightSelect.js Tab Classes */
+/* END - FlightSelect.js Tab Classes */
+/*Searcy Results Sidebar*/
+/*      PASSENGER INFORMATION         */
+/*Pass Info Sidebar*/
+/*    TICKET PREVIEW:     */
+/*        TICKET PRINT       */
+/*    TICKET REFUND      */
+/*        CHANGE FLIGHT         */
+/*    CONTACT CHANGE     */
+/*        CHECKIN         */
+/*        GECICI ADSSR         */
+/*        PNR SEARCH PANEL         */
+/*////////////////////////////////////// Calendar //////////////////////////////////////*/
+/*		BUNDLE TEST		*/
+/*	COMPARISON TABLE	*/
+/*		BUNDLE TEST		*/
+/*	COMPARISON TABLE	*/
+/*///////////////////////////////////////////////
+///////////////////  MOBILE  ////////////////////
+///////////////////////////////////////////////*/
+/*///////////////////////////////////////////////
+/////////////////////////////////////////////////
+///////////////////////////////////////////////*/
+/* 		ADD SSR 		*/
+/* Adaptive Wide Body Aircraft Seat Selection Implementation */
+/* Seat Selection modal for responsive */
+/* BUGFIX: Select seat visual fix for CHROME */
+/* ******************* Sigorta ******************* */
+/*		INSURANCE V2 		*/
+/*///////////////////////////////////////////////
+/////////////////  SSR SHARED  //////////////////
+///////////////////////////////////////////////*/
+/* ******************* Nit. Bilet ******************* */
+/*      SHOW RESERVATION        */
+/*/////////////////////////////////////////////////////////
+////////////////// Error Pages Parameters /////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+Availability and TicketPreview Tax Display Type Modal Links
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+	Availability Flight Number Flight Info Modal Link Class
+	/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+/////////////////// Loyalty Login Screen //////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+/////////////////////// Member Home ///////////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+////////////////////// Member Inside //////////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+////////////////////// ICIPNRSearch ///////////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+///////////////////// Frontend Panel //////////////////////
+/////////////////////////////////////////////////////////*/
+/* ie 10+ fixes */
+@-moz-document url-prefix() {}
+/* IE only fix for seat selection arrow on seatselection (OHY only) */
+/* BUGFIX: Wrapping long currencies */
+/*///////////////////////////////////////////////
+///////////////  Message Editor  ////////////////
+///////////////////////////////////////////////*/
+/*///////////////////////////////////////////////
+//////////////////  Feedback  ///////////////////
+///////////////////////////////////////////////*/
+/*.Feedback .tab-pane {
+	display:none;
+}
+
+.Feedback .tab-pane.active {
+	display:block;
+}*/
+/* BUGFIX: Availability xs responsive fix for overflowing paddings */
+/* BUGFIX: Languages' flags */
+/* ManageBundle Page */
+/* Safari 4.0 - 8.0 */
+/* Standard syntax */
+/*///////////////////////////////////////////////
+///////////////////  The End  ///////////////////
+///////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+/////////////////////// Theme Colors //////////////////////
+/////////////////////////////////////////////////////////*/
+/*/		Primary Color:		#717171				/*/
+/*/		Secondary Color:	#FED350 			/*/
+/*/		Tetriary Color:		#444				/*/
+/*/////////////////////////////////////////////////////////
+////////////////////// CSS With Path //////////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+////////////////// Error Pages Parameters /////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+////////////////////// Base Changes ///////////////////////
+/////////////////////////////////////////////////////////*/
+body {
+  background-position-x: 45%;
+  background-position-y: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ebebeb;
+  color: #333; }
+
+.navbar-collapse {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+
+.navbar-toggle {
+  background-color: #FED350; }
+
+/*/////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////*/
+.step-navigation-wrap {
+  margin-left: auto;
+  margin-right: auto;
+  height: 140px;
+  margin-top: 14px;
+  margin-bottom: -11px; }
+
+.is-active .step-caption:after, .is-deactive .step-caption:after {
+  top: 98%;
+  left: 100%;
+  position: absolute;
+  content: url("../../img/nav-divider-active.png"); }
+
+.step-navigation-step:last-child .step-caption:after {
+  top: 98%;
+  left: 100%;
+  position: absolute;
+  content: ""; }
+
+.step-navigation {
+  background-color: transparent !important;
+  height: 300px; }
+  .step-navigation .step-caption {
+    display: block;
+    padding: 5px 0;
+    margin: -5px 0;
+    font-size: 18px;
+    font-size: 1.8rem;
+    vertical-align: super; }
+    .step-navigation .step-caption .step-title {
+      vertical-align: super; }
+
+.step-navigation-step {
+  border-width: 0 1px 0 0; }
+  .step-navigation-step > span {
+    padding: 2px 10px;
+    color: #dddddd; }
+  .step-navigation-step.is-active > span {
+    color: #FED350;
+    font-weight: bold; }
+    .step-navigation-step.is-active > span:after {
+      content: initial; }
+
+.step-first-icon, .step-second-icon, .step-third-icon, .step-fourth-icon, .step-fifth-icon {
+  display: block;
+  font-size: 50px;
+  font-size: 5rem;
+  font-weight: 400; }
+
+.l-horizontal-samewidth-list > li {
+  margin: 0 5%;
+  width: 20%; }
+
+/*////////////////////////////
+////////// Calendar //////////
+////////////////////////////*/
+#navigationWrap {
+  position: relative;
+  margin-left: auto;
+  top: auto;
+  background: transparent !important;
+  margin-top: 13px;
+  margin-bottom: 7px; }
+
+/*///////////////////////////////////////////////
+///////////////////  MOBILE  ////////////////////
+///////////////////////////////////////////////*/
+.navbar-toggle {
+  padding: 19px 15px; }
+
+/*///////////////////////////////////////////////////////
+///////////////// Actual Flight List ////////////////////
+///////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+///////////////////////// Sigorta /////////////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+////////////////////// INSURANCE V2 ///////////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+////////////////// New Show Reservation ///////////////////
+/////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////
+/////////////  SSR THEME SPECIFIC  //////////////
+///////////////////////////////////////////////*/
+/*///////////////////////////////////////////////
+///////////////////  BUNDLE  ////////////////////
+///////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+///////////// AvailabilityResults Flights /////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+////////////////////// Member Login ///////////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+/////////////////////// Member Home ///////////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+///////////////////// Show Reservation ////////////////////
+/////////////////////////////////////////////////////////*/
+/*
+.memberMainContent.show__reservation>.container>.row>div:nth-child(1) {
+	padding: 0;
+}
+*/
+/* BUGFIX: Flight Change sayfasindaki dugmeler ust uste binmesin */
+/*/////////////////////////////////////////////////////////
+/////////////// March 2016 Defect Summary /////////////////
+/////////////////////////////////////////////////////////*/
+/* Only for IE Hacks  */
+/* Firefox specific hack */
+@-moz-document url-prefix() {}
+.flaticon-credit50.step-fifth-icon {
+  text-align: center; }
+
+/*/////////////////////////////////////////////////////////
+/////////////////////// Bug Fixes /////////////////////////
+/////////////////////////////////////////////////////////*/
+/* Sticky'deki Cabin icin visual fix */
+/* Ticket Print sayfasinda PNR kismi nezih gorunsun */
+/* AvailabilityResults sayfasindaki tarih supremumlari duzgun gosterilsin */
+/* AvailabilityResults sayfasindaki ucus destinationlari biraz minik olsun */
+/* Connected flight infolarinin iconlari flight number iconu ile hizalansin */
+/* AvailabilityResults kum saati ve saat iconlarini cakismasin, sadece kum saati kalsin */
+/* Selectize-Control Input Dropdown Caret leri rtl ve ltr icin dogru yerlerde dursunlar */
+/* Hata mesajlari uyarilari nesma sarisi olsun */
+/* CheckinSelectSeat.xhtml sayfasindaki sigmayip asagi kayan koltuklar tasmasin  */
+/* BUGFIX: Availability xs responsive fix for overflowing paddings */
+/* ===============================================
+	Footer Section 
+=================================================*/
+/* ===============================================
+	Header Section 
+=================================================*/
+header {
+  background-color: #fff;
+  position: relative; }
+  header:before {
+    position: absolute;
+    width: 160px;
+    height: 191px;
+    background-size: 100% 100%;
+    left: 0;
+    top: 0;
+    content: '';
+    z-index: 9;
+    display: none; }
+  header:after {
+    position: absolute;
+    width: 132px;
+    height: 181px;
+    background-size: 100% 100%;
+    right: 0;
+    top: 0;
+    content: '';
+    z-index: 9;
+    display: none; }
+
+.loggNav {
+  padding: 0 0 0;
+  width: 100%; }
+
+.nav > li a {
+  color: #fff;
+  font-size: 14px;
+  background-repeat: no-repeat; }
+
+.navbar-nav > li a {
+  padding: 0 18px;
+  font-weight: normal; }
+  @media (max-width: 601px) {
+    .navbar-nav > li a {
+      height: 50px;
+      line-height: 50px; } }
+.navbar-nav > li:nth-child(7) a {
+  font-family: 'ge_ss_two_medium';
+  /*color: #468C00;*/ }
+
+/*.navbar-nav > li:last-child a{
+	color:#D90000;
+}*/
+.nav > li:last-child a {
+  background-image: none; }
+.nav > li > a:hover, .nav > li > a:visited, .nav > li > a:focus {
+  background-image: none;
+  color: #fff;
+  background-color: transparent; }
+.nav > li.active a {
+  background-image: none;
+  background-color: transparent; }
+.nav .opener {
+  top: 0;
+  right: 0;
+  z-index: 20;
+  width: 40px;
+  height: 40px;
+  display: none;
+  cursor: pointer;
+  background: #444;
+  text-align: center;
+  position: absolute; }
+  .nav .opener:after {
+    top: 18px;
+    left: 16px;
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 7px 5px 0;
+    border-color: #fff transparent transparent; }
+
+header nav.navbar {
+  position: relative; }
+  header nav.navbar:after {
+    background-color: rgba(0, 0, 0, 0);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    content: "";
+    height: 24px;
+    position: absolute;
+    top: 95%;
+    width: 292px;
+    z-index: 99; }
+
+.navbar-nav > li {
+  position: relative; }
+
+.nav > li > a:hover, .nav > li > a:visited, .nav > li > a:focus {
+  background-image: none;
+  color: #fff;
+  background-color: transparent !important;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase; }
+.nav .opener {
+  top: 0;
+  right: 0;
+  z-index: 20;
+  width: 40px;
+  height: 40px;
+  display: none;
+  cursor: pointer;
+  background: #444;
+  text-align: center;
+  position: absolute; }
+
+.navbar-nav {
+  margin: 0;
+  margin-top: 10px; }
+
+.navbar-default {
+  background-color: transparent !important;
+  border-color: transparent !important; }
+  .navbar-default .navbar-nav > .active > a {
+    color: black;
+    background-color: #30312e;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase; }
+    .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+      color: black;
+      background-color: #30312e;
+      font-family: 'Roboto Condensed', sans-serif;
+      text-transform: uppercase; }
+  .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: black;
+    background-color: #30312e; }
+
+.dropdown > a, .navbar-right li {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase; }
+  .dropdown > a:focus, .dropdown > a:hover, .navbar-right li:focus, .navbar-right li:hover {
+    background-color: transparent;
+    border-color: transparent; }
+
+.navbar-brand {
+  margin-top: 15px; }
+
+.navbar-default .navbar-toggle {
+  background-color: #30312e;
+  border-color: #30312e; }
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #30312e;
+    border-color: #30312e; }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: black; }
+.navbar-default .navbar-collapse {
+  border-color: #e7e7e7; }
+
+.navbar-toggle {
+  margin-top: 18px; }
+
+.navbar-brand img {
+  height: 45px;
+  width: auto; }
+
+.nesma-main .navbar-nav > li a {
+  height: 50px;
+  line-height: 50px; }
+  .nesma-main .navbar-nav > li a i {
+    padding-right: 5px; }
+
+.navbar-brand {
+  margin-top: 0 !important; }
+
+.nesma-main .navbar-nav > li:last-child:before {
+  top: 15px; }
+
+.first {
+  text-align: center !important; }
+
+.step-caption .step-first-icon, .step-caption .step-second-icon, .step-caption .step-third-icon, .step-caption .step-fourth-icon, .step-caption .step-fifth-icon {
+  font-size: 3rem; }
+
+.is-active .step-first-icon, .is-active .step-second-icon, .is-active .step-third-icon, .is-active .step-fourth-icon, .is-active .step-fifth-icon, .is-active .step-title, .is-deactive .step-first-icon, .is-deactive .step-second-icon, .is-deactive .step-third-icon, .is-deactive .step-fourth-icon, .is-deactive .step-fifth-icon, .is-deactive .step-title {
+  color: #d84434; }
+
+.step-navigation .step-caption {
+  font-size: 1.5rem !important; }
+
+#navigationWrap .step-navigation-wrap {
+  height: 90px; }
+
+.l-horizontal-samewidth-list .is-active .step-caption:after, .is-deactive .step-caption:after {
+  top: 50%; }
+
+.site-header-area .container {
+  padding: 0; }
+
+@media (max-width: 600px) {
+  .navbar-default .navbar-collapse {
+    float: left;
+    width: 100%; } }
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+  background-color: #FED23F; }
+
+.navbar .caret {
+  color: #fff; }
+
+.navbar-header .navbar-toggle {
+  position: relative;
+  bottom: 8px;
+  padding: 15px 10px !important; }
+
+@media (max-width: 600px) {
+  .navbar-brand img {
+    position: relative;
+    top: 15px;
+    left: 5px; } }
+
+@media (max-width: 600px) {
+  .navbar-nav > li:last-child:before {
+    background: #fff; } }
+
+@media (max-width: 600px) {
+  .navbar-right {
+    text-align: right; } }
+
+body {
+  background-image: url(../../img/bg_gradient_blue.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #f3f7fc; }
+
+nav.navbar.navbar-custom {
+  background-color: #fce100 !important;
+  border: none; }
+  nav.navbar.navbar-custom a {
+    color: #000; }
+    nav.navbar.navbar-custom a:hover {
+      color: #000; }
+
+.logo {
+  background: url(../../img/logo-big.png) no-repeat;
+  height: 60px;
+  background-position: 11% 47%;
+  margin-left: -13px;
+  border-radius: 110px;
+  z-index: -1;
+  margin-top: -16px; }
+
+.dropdown.language {
+  display: none; }
+
+/*------------------------------- General Colors ------------------------------- */
+/*------------------------------- Header ------------------------------- */
+/*------------------------------- Footer ------------------------------- */
+/*------------------------------- Modal ------------------------------- */
+/*------------------------------- PassengerInfo -------------------------------*/
+/*------------------------------- Ancillary -------------------------------*/
+/*------------------------------- PaymentInfo -------------------------------*/
+/*------------------------------- Confirmation -------------------------------*/
+/*------------------------------- CalendarView -------------------------------*/
+/*------------------------------- Button Colors ------------------------------- */
+.site-footer {
+  z-index: 1;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  background-color: #f2f2f2 !important;
+  border-radius: 3px; }
+  .site-footer a {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #383838; }
+    .site-footer a:active {
+      text-decoration: none; }
+    .site-footer a:hover {
+      text-decoration: none; }
+  .site-footer .copyright p:last-child {
+    margin-top: 10px; }
+
+.PassengerInfo {
+  background-color: transparent; }
+  .PassengerInfo .form-control {
+    background-color: #fafafa !important;
+    border-radius: 0 !important;
+    border-bottom-width: 2px !important; }
+  .PassengerInfo label {
+    font-size: 1.4rem;
+    line-height: 1.5; }
+  .PassengerInfo .btn-continueDiv {
+    text-align: right; }
+  .PassengerInfo .error-div {
+    font-size: 18.08px;
+    background-color: #d20400;
+    color: #fff;
+    padding: 0 5px; }
+  .PassengerInfo .btn-danger {
+    border-color: #d84434;
+    color: #fff;
+    border: 0;
+    background-color: #d84434;
+    border-radius: 5px; }
+  .PassengerInfo .btn-continueDiv .btn-danger {
+    font-size: 1.8rem;
+    border-color: #d84434;
+    color: #fff;
+    border: 0;
+    background: url(../../img/right-arrow.png) no-repeat #d84434;
+    background-position: 98% 50%;
+    border-radius: 5px; }
+  .PassengerInfo .btn-back2 {
+    background: url(../../img/cancel.png) no-repeat;
+    background-position: 5% 50%;
+    border-color: #d84434 !important;
+    border-radius: 5px;
+    color: #d84434; }
+  .PassengerInfo [data-toggle="collapse"] {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .PassengerInfo .sticky {
+    display: inline-block;
+    z-index: 999;
+    width: 280px;
+    background-color: transparent;
+    margin: 0;
+    padding: 0; }
+  .PassengerInfo .clearline {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 10px;
+    display: block; }
+  .PassengerInfo .not-visible {
+    visibility: hidden !important; }
+  .PassengerInfo .ssr-selection {
+    font-weight: 400;
+    padding-bottom: 0;
+    padding-left: 0;
+    font-size: 2.5rem; }
+  .PassengerInfo select::-ms-expand {
+    display: none; }
+  .PassengerInfo .flinfo-b {
+    padding: 5px;
+    margin: 2px 0; }
+  .PassengerInfo .adultContentDiv {
+    padding: 20px;
+    margin-top: 5px; }
+  .PassengerInfo .tab-container {
+    margin-top: -15px; }
+  .PassengerInfo .rezvPaxEntryContinue {
+    margin-top: 20px !important;
+    margin-bottom: 15px; }
+  .PassengerInfo .rezvpaxentry-tab-content {
+    border: 0; }
+  .PassengerInfo small {
+    font-size: 100%; }
+  .PassengerInfo table {
+    width: 100%; }
+    .PassengerInfo table .td__four, .PassengerInfo table .td__six {
+      text-align: right; }
+  .PassengerInfo .table {
+    width: 100%;
+    display: table; }
+  .PassengerInfo .pass__info__header {
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px solid #767676; }
+    @media (max-width: 601px) {
+      .PassengerInfo .pass__info__header {
+        padding: 10px 0 !important; } }
+    .PassengerInfo .pass__info__header .pass__info__title {
+      font-size: 1.8rem;
+      color: #767676;
+      font-weight: bold;
+      margin: 10px 0 5px 0 !important;
+      text-align: center; }
+      .PassengerInfo .pass__info__header .pass__info__title i {
+        display: none; }
+      .PassengerInfo .pass__info__header .pass__info__title .pass_info__icon:before {
+        display: none; }
+      .PassengerInfo .pass__info__header .pass__info__title .avatar__icon:before {
+        content: "\e046";
+        font-family: Flaticon;
+        font-style: normal;
+        margin-left: 2px;
+        margin-right: 2px; }
+    .PassengerInfo .pass__info__header hr {
+      display: none; }
+  .PassengerInfo .pass__tab__container {
+    margin-top: 5px; }
+    .PassengerInfo .pass__tab__container .passenger__form {
+      border: 0;
+      -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3); }
+      .PassengerInfo .pass__tab__container .passenger__form .inline-form .passenger__count {
+        background-color: transparent;
+        border: none !important;
+        padding-top: 0;
+        font-size: 1.8rem;
+        color: inherit;
+        text-align: left;
+        line-height: 1.4;
+        font-weight: 600;
+        display: inline-block;
+        padding-left: 0; }
+      .PassengerInfo .pass__tab__container .passenger__form .inline-form .passenger__type {
+        background-color: transparent;
+        border: none !important;
+        padding-top: 0;
+        font-size: 1.8rem;
+        text-align: left;
+        line-height: 1.4;
+        font-weight: 400;
+        color: #767676; }
+      .PassengerInfo .pass__tab__container .passenger__form .inline-form .pass__adult__form {
+        padding: 15px 5px;
+        margin-top: 10px; }
+      .PassengerInfo .pass__tab__container .passenger__form .wheel-chair-block, .PassengerInfo .pass__tab__container .passenger__form .other-assistance-block {
+        margin: 5px 0; }
+        .PassengerInfo .pass__tab__container .passenger__form .wheel-chair-block input[type=radio], .PassengerInfo .pass__tab__container .passenger__form .other-assistance-block input[type=radio] {
+          display: none !important; }
+        .PassengerInfo .pass__tab__container .passenger__form .wheel-chair-block input[type="radio"] ~ label:before, .PassengerInfo .pass__tab__container .passenger__form .other-assistance-block input[type="radio"] ~ label:before {
+          content: "";
+          position: relative;
+          top: 5px;
+          border: none;
+          height: 20px;
+          width: 20px;
+          background-color: #fafafa;
+          border-radius: 50%;
+          line-height: 5px;
+          border: 2px solid #767676; }
+        .PassengerInfo .pass__tab__container .passenger__form .wheel-chair-block input[type="radio"]:checked ~ label:before, .PassengerInfo .pass__tab__container .passenger__form .other-assistance-block input[type="radio"]:checked ~ label:before {
+          content: "";
+          border: none;
+          height: 20px;
+          width: 20px;
+          background-color: #2196F3;
+          border-radius: 50%;
+          border: 4px solid #767676; }
+      .PassengerInfo .pass__tab__container .passenger__form .wheel-chair-block td, .PassengerInfo .pass__tab__container .passenger__form .other-assistance-block td {
+        padding-top: 5px; }
+      .PassengerInfo .pass__tab__container .passenger__form .other-assistance-block {
+        margin-top: 0; }
+      .PassengerInfo .pass__tab__container .passenger__form .wheel-chair-block {
+        margin-bottom: 0; }
+  .PassengerInfo .contacts__block {
+    margin-top: 15px;
+    background-color: #fff;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2); }
+    .PassengerInfo .contacts__block .heading {
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      border-bottom: 2px solid #767676; }
+      .PassengerInfo .contacts__block .heading .title {
+        padding: 0;
+        margin: 20px 0 10px;
+        font-size: 1.8rem;
+        font-weight: 400;
+        line-height: 1;
+        color: #333;
+        color: #767676;
+        font-weight: bold;
+        margin: 10px 0 5px 0 !important; }
+        .PassengerInfo .contacts__block .heading .title .title__bar {
+          margin-left: 2px;
+          text-align: center; }
+        .PassengerInfo .contacts__block .heading .title i {
+          display: none; }
+        .PassengerInfo .contacts__block .heading .title .arrow__icon .contact__icon:before {
+          font-family: Flaticon;
+          font-style: normal;
+          margin-left: 2px;
+          margin-right: 2px;
+          content: "\e035"; }
+      .PassengerInfo .contacts__block .heading hr {
+        display: none; }
+      .PassengerInfo .contacts__block .heading i {
+        display: none; }
+    .PassengerInfo .contacts__block .contact__info__wrapper {
+      margin-top: 5px;
+      -webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+      border: none !important;
+      padding: 0;
+      box-shadow: none !important;
+      padding-top: 65px !important;
+      margin-top: -55px; }
+      .PassengerInfo .contacts__block .contact__info__wrapper .contact__info__block {
+        margin-bottom: 10px;
+        border: none; }
+        .PassengerInfo .contacts__block .contact__info__wrapper .contact__info__block .contact__info__block__body {
+          padding: 5px 0;
+          color: #767676; }
+          .PassengerInfo .contacts__block .contact__info__wrapper .contact__info__block .contact__info__block__body label {
+            font-weight: bold; }
+        @media (min-width: 1200px) {
+          .PassengerInfo .contacts__block .contact__info__wrapper .contact__info__block .pass-city, .PassengerInfo .contacts__block .contact__info__wrapper .contact__info__block .pass-postal {
+            width: 33.333%; } }
+  .PassengerInfo .nopadding {
+    padding: 0; }
+  .PassengerInfo #memberLoginContainer {
+    background-color: #fff;
+    box-shadow: 0 0px 1px rgba(0, 0, 0, 0.2);
+    margin-bottom: 10px; }
+    @media (max-width: 601px) {
+      .PassengerInfo #memberLoginContainer {
+        margin-top: -5px; } }
+  .PassengerInfo .passenger__information {
+    background-color: #fff;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 2px; }
+  .PassengerInfo .tax__types__modal__link {
+    color: #d84434;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline; }
+    .PassengerInfo .tax__types__modal__link:hover {
+      color: #767676;
+      border-bottom: 1px solid #767676; }
+  .PassengerInfo input[type="checkbox"] ~ label::before {
+    border-radius: 0px;
+    content: "\2713 " !important; }
+  .PassengerInfo input[type="checkbox"] ~ label:before {
+    border-color: #767676; }
+  .PassengerInfo input[type="checkbox"] ~ label:hover:before {
+    border-color: #29c2ef; }
+  .PassengerInfo input[type="checkbox"]:checked ~ label:before {
+    color: #767676 !important;
+    border-color: #d20400 !important;
+    background-color: #fafafa; }
+  .PassengerInfo .input-group-select-down::after {
+    color: #767676 !important; }
+  .PassengerInfo .modal-header {
+    border-top: 0 !important;
+    background-color: #fc8d00 !important;
+    color: #fff; }
+    .PassengerInfo .modal-header .close {
+      line-height: 0.6;
+      color: #fff; }
+    .PassengerInfo .modal-header .modal-title {
+      line-height: 1;
+      color: #fff; }
+      .PassengerInfo .modal-header .modal-title button {
+        color: #fff; }
+  .PassengerInfo .modal-dialog .modal-content .modal-header {
+    color: #fff; }
+    .PassengerInfo .modal-dialog .modal-content .modal-header button {
+      color: #fff;
+      opacity: 1 !important; }
+      .PassengerInfo .modal-dialog .modal-content .modal-header button:focus {
+        outline: none !important; }
+  .PassengerInfo .modal-dialog button {
+    color: #fff; }
+    .PassengerInfo .modal-dialog button:hover {
+      color: #fff; }
+  .PassengerInfo .dropdown-menu .flag {
+    margin-top: 15px; }
+  .PassengerInfo .dropdown-menu li a:focus {
+    color: #fff;
+    outline: 0;
+    background-color: #d20400; }
+  .PassengerInfo .dropdown-menu li a:hover {
+    color: #fff;
+    outline: 0;
+    background-color: #d20400; }
+  .PassengerInfo .form-control {
+    background-color: #fff; }
+  .PassengerInfo .mainContainer {
+    border: none !important;
+    margin-top: 25px;
+    border-color: transparent !important;
+    background-color: transparent; }
+  .PassengerInfo input[type="tel"], .PassengerInfo input[type="password"] {
+    border-bottom: 2px solid #ededed !important;
+    box-shadow: none;
+    border-radius: 0px !important;
+    height: 35px; }
+    .PassengerInfo input[type="tel"]:active, .PassengerInfo input[type="password"]:active {
+      border-bottom: 2px solid #ededed !important; }
+    .PassengerInfo input[type="tel"]:focus, .PassengerInfo input[type="password"]:focus {
+      border-bottom: 2px solid #ededed !important; }
+  .PassengerInfo input[type="email"] {
+    border-bottom: 2px solid #ededed !important;
+    box-shadow: none;
+    border-radius: 0px !important;
+    height: 35px;
+    padding-left: 5px !important; }
+    .PassengerInfo input[type="email"]:active {
+      border-bottom: 2px solid #ededed !important; }
+    .PassengerInfo input[type="email"]:focus {
+      border-bottom: 2px solid #ededed !important; }
+  .PassengerInfo select {
+    border-bottom: 2px solid #ededed !important;
+    box-shadow: none;
+    border-radius: 4px !important;
+    height: 35px; }
+    .PassengerInfo select:focus {
+      border-bottom: 2px solid #ededed !important; }
+    .PassengerInfo select:active {
+      border-bottom: 2px solid #ededed !important; }
+  .PassengerInfo .input-group-select-down .form-control {
+    text-overflow: ellipsis;
+    white-space: nowrap; }
+  .PassengerInfo .input-group-select-down select {
+    padding-left: 5px; }
+  .PassengerInfo .btn-success {
+    background-color: #d84434;
+    border-color: #d84434; }
+    .PassengerInfo .btn-success:active {
+      background-color: #d84434;
+      border-color: #d84434; }
+    .PassengerInfo .btn-success:focus {
+      transition: all .3s linear;
+      background-color: #d84434;
+      border-color: #d84434;
+      color: #fff; }
+    .PassengerInfo .btn-success:hover {
+      transition: all .3s linear;
+      background-color: #d84434;
+      border-color: #d84434;
+      color: #fff; }
+  .PassengerInfo .header2 {
+    padding: 35px 0 14px; }
+  .PassengerInfo .passenger-sticky {
+    padding: 0 15px 15px;
+    color: #4a4a4a; }
+    .PassengerInfo .passenger-sticky .passenger-sticky-top-header {
+      background: #fce100;
+      padding: 10px;
+      font-size: 1.6rem;
+      color: #000; }
+      .PassengerInfo .passenger-sticky .passenger-sticky-top-header .ps-left-side {
+        font-weight: bold; }
+    .PassengerInfo .passenger-sticky .segment__table {
+      background-color: #fff !important; }
+    .PassengerInfo .passenger-sticky .text-dect {
+      font-weight: bold; }
+    .PassengerInfo .passenger-sticky .total__details__content {
+      background: #fff;
+      margin-top: 5px;
+      padding: 5px; }
+      .PassengerInfo .passenger-sticky .total__details__content .td__three, .PassengerInfo .passenger-sticky .total__details__content .td__four, .PassengerInfo .passenger-sticky .total__details__content .td__five, .PassengerInfo .passenger-sticky .total__details__content .td__six {
+        background-color: transparent;
+        height: 27px;
+        width: 50%;
+        vertical-align: middle; }
+    .PassengerInfo .passenger-sticky .flight__selection__info__table__content .header {
+      padding: 5px;
+      background: #fff;
+      margin-top: 5px; }
+      .PassengerInfo .passenger-sticky .flight__selection__info__table__content .header span i {
+        display: none; }
+      .PassengerInfo .passenger-sticky .flight__selection__info__table__content .header span strong {
+        font-size: 2rem;
+        margin-left: 25px; }
+      .PassengerInfo .passenger-sticky .flight__selection__info__table__content .header span:before {
+        content: url(../../img/AC-Picto-y.png);
+        position: absolute; }
+  .PassengerInfo details {
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+    padding: 10px; }
+    .PassengerInfo details summary i {
+      color: #d20400; }
+    .PassengerInfo details summary #bill__label {
+      color: #383838; }
+    .PassengerInfo details label {
+      font-weight: bold; }
+  .PassengerInfo input[type=checkbox] + label {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; }
+  .PassengerInfo input[type=checkbox] {
+    display: none; }
+  .PassengerInfo * html[xmlns*=""] .step-navigation-step {
+    width: 230px; }
+  .PassengerInfo .front:hover:not(.card >) {
+    max-width: 27px;
+    max-height: 27px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADUgAAA1IBEAAkSgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAC4SURBVEiJ7ZQ7CgJBEERfGWxqJHgwz+AFTDyGZgp7AUMDjyB4AyNjAzPBuAw0WHadGfcHIlvQWdd7wTQj2/SZUa/0QfAfAkmZpJWki6R5ZcF24wEyYA/4PbfKTodwA7tOBAH4CRgnBcAMOAJLQG3gIcG1UMyLkrrwkOBQAmwBNYGHBFPgXAJtmsCDjxyQ1IZHrygi+RqePNMPklpw268LiUXSBFgAD2Bt+x4tlPspQdv8/m86CFrnCTspDyp52dYpAAAAAElFTkSuQmCCc1be9ed3910f4ce45b4edba01ad84c4f");
+    background-color: #fff; }
+  .PassengerInfo hr.carved2 {
+    clear: both;
+    float: none;
+    width: 100%;
+    height: 2px;
+    margin: 0 0 1.4em;
+    border: none;
+    vertical-align: middle;
+    background: #ddd;
+    background-image: -moz-linear-gradient(center top, #ddd 50%, #fff 50%);
+    display: none; }
+  .PassengerInfo .passenger__info__bottom .bottom__area .bottom__back__button {
+    padding: 0;
+    margin: 0;
+    float: left; }
+  .PassengerInfo .passenger__info__bottom .bottom__area .bottom__cont__btn {
+    padding: 0;
+    margin: 0;
+    float: right; }
+  .PassengerInfo .container > .navbar-collapse {
+    padding: 0; }
+  .PassengerInfo .dropdown.language .dropdown-menu li {
+    min-height: 40px; }
+  .PassengerInfo .tab-content > .tab-pane {
+    padding-bottom: 0;
+    margin-bottom: 15px;
+    padding-top: 65px !important;
+    margin-top: -55px; }
+  .PassengerInfo .form-group > input[type="text"] {
+    border-bottom: 2px solid #ededed !important;
+    box-shadow: none;
+    border-radius: 0px !important;
+    height: 35px;
+    padding-left: 5px !important; }
+    .PassengerInfo .form-group > input[type="text"]:active {
+      border-bottom: 1px solid rgba(1, 67, 149, 0.2) !important; }
+    .PassengerInfo .form-group > input[type="text"]:focus {
+      border-bottom: 1px solid rgba(1, 67, 149, 0.2) !important; }
+  .PassengerInfo .table-condensed > tbody > tr:nth-child(odd) {
+    background-color: transparent; }
+  @media (min-width: 1200px) {
+    .PassengerInfo .passenger__information .pass__tab__container .pass__birthday__day.col-lg-2, .PassengerInfo .passenger__information .pass__tab__container .pass__birthday__month.col-lg-2, .PassengerInfo .passenger__information .pass__tab__container .pass__birthday__year.col-lg-2 {
+      width: 25%; } }
+  .PassengerInfo .passenger__information .pass__tab__container .rezvpaxentry-tab-content .passenger__count {
+    color: #383838; }
+  .PassengerInfo .passenger__information .pass__tab__container .rezvpaxentry-tab-content .pass__adult__form {
+    border: none !important;
+    padding: 0;
+    color: #767676; }
+    .PassengerInfo .passenger__information .pass__tab__container .rezvpaxentry-tab-content .pass__adult__form label {
+      font-weight: bold; }
+    .PassengerInfo .passenger__information .pass__tab__container .rezvpaxentry-tab-content .pass__adult__form .pass__birthday__calendar {
+      padding-top: 9px; }
+  .PassengerInfo .passenger__information .pass__tab__container .pax-inline-label {
+    margin-left: 15px; }
+  .PassengerInfo .passenger__information .pass__tab__container .passenger__form {
+    box-shadow: none !important; }
+  .PassengerInfo .sticky__bundle__details {
+    border: 2px dashed #767676;
+    padding: 5px; }
+
+@media screen and (max-width: 760px) {
+  .PassengerInfo .mainContainer {
+    padding: 10px; }
+    .PassengerInfo .mainContainer .passenger__info__bottom .rezvPaxEntryContinue {
+      margin-top: 20px !important;
+      margin-bottom: 20px; }
+  .PassengerInfo .passenger__information {
+    border: none; }
+    .PassengerInfo .passenger__information .pass__info__header {
+      margin-left: 0;
+      padding: 10px 0; }
+    .PassengerInfo .passenger__information .pass__tab__container .pax-inline-label {
+      margin-left: 15px;
+      margin-bottom: 15px; }
+    .PassengerInfo .passenger__information .pass__tab__container .rezvpaxentry-tab-content .pass__adult__form {
+      padding: 0;
+      margin: 0;
+      width: 100%; }
+  .PassengerInfo .contacts__block .heading {
+    margin-left: 0;
+    padding: 10px 0; }
+    .PassengerInfo .contacts__block .heading:before {
+      content: ''; }
+  .PassengerInfo .contacts__block .contact__info__wrapper .contact__info__block .panel-body .inline-form {
+    border: none; }
+  .PassengerInfo .passenger-sticky {
+    width: 100%; }
+  .PassengerInfo .pass__info__header:before {
+    content: ''; } }
+@media only screen and (max-device-width: 768px) {
+  .PassengerInfo select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: ''; } }
+@media screen and (max-width: 768px) {
+  .PassengerInfo .mainContainer {
+    margin-top: 0; } }
+@-moz-document url-prefix() {}
+.ajax-cover {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: fixed;
+  background: black;
+  background: rgba(0, 0, 0, 0.5);
+  filter: alpha(opacity=70);
+  z-index: 99999999999999999; }
+
+.ajax-text {
+  color: #fff !important; }
+
+.form-control:focus, .form-control {
+  border-color: transparent !important; }
+
+.selectize-dropdown .active {
+  background-color: #767676 !important; }
+
+.totalSurchargeIncludeFuelSurchargeTotal, .showCurrencyTotal {
+  font-weight: bold; }
+
+.modal-body .td__two {
+  text-align: right; }
+
+.selectize-input {
+  background-color: #fafafa !important;
+  border-bottom: 2px solid #ededed !important;
+  box-shadow: none !important; }
+
+.input-group.input-group-select-down select {
+  -moz-appearance: none;
+  /* Firefox */
+  -webkit-appearance: none;
+  /* Safari and Chrome */
+  appearance: none; }
+.input-group.input-group-select-down:after {
+  width: auto !important;
+  right: 15px !important;
+  top: 15px !important;
+  height: 34px !important;
+  position: absolute;
+  pointer-events: none;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #808080 transparent transparent transparent; }
+
+.pass-info-warning-message-name, .pass-info-warning-message-surname {
+  color: #2196F3;
+  display: none; }
+
+.member__login__title {
+  display: none; }
+
+.loyalty__login .passenger-login-body {
+  margin-top: 15px; }
+  @media (max-width: 601px) {
+    .loyalty__login .passenger-login-body {
+      padding-bottom: 10px; } }
+
+.loyalty__alert {
+  line-height: 60px; }
+
+#loginBtn {
+  font-size: 1.4rem;
+  padding: 8px 25px;
+  position: relative;
+  top: 21px;
+  border-radius: 0; }
+  @media (max-width: 601px) {
+    #loginBtn {
+      float: right;
+      top: auto;
+      position: initial; } }
+
+.add-contact-info {
+  padding-bottom: 10px; }
+  .add-contact-info a {
+    padding: 10px;
+    background: #d20400 none repeat scroll 0 0 !important;
+    color: #fff; }
+
+.pass__birthday__calendar label {
+  position: relative;
+  top: 20px; }
+
+.segment__conn__number {
+  background-color: #767676;
+  padding: 0;
+  color: #333; }
+
+.passengerinfo-top-disclaimer {
+  padding: 5px 15px;
+  border: 1px solid #69b342;
+  margin-top: 10px; }
+
+.fare-rules-modal {
+  background: #fff;
+  margin-top: 5px;
+  padding: 5px;
+  word-break: break-all; }
+  .fare-rules-modal a {
+    color: #d20400;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline; }
+
+.account-wall label {
+  color: #d20400;
+  font-weight: bold; }
+
+.sms-receive {
+  display: inline; }
+  @media (max-width: 601px) {
+    .sms-receive {
+      display: inline;
+      white-space: normal; } }
+
+/*# sourceMappingURL=passengerinfo.css.map */

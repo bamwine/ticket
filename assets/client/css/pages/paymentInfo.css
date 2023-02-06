@@ -1,0 +1,2060 @@
+/*------------------------------- General Colors ------------------------------- */
+/*------------------------------- Header ------------------------------- */
+/*------------------------------- Footer ------------------------------- */
+/*------------------------------- Modal ------------------------------- */
+/*------------------------------- PassengerInfo -------------------------------*/
+/*------------------------------- Ancillary -------------------------------*/
+/*------------------------------- PaymentInfo -------------------------------*/
+/*------------------------------- Confirmation -------------------------------*/
+/*------------------------------- CalendarView -------------------------------*/
+/*------------------------------- Button Colors ------------------------------- */
+@import url(./flaticon.css);
+@import url(./gfont.css);
+html {
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  font-size: 62.5%;
+  color: #666666;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  font-size-adjust: 0.5;
+  height: 100%; }
+
+* {
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+  box-sizing: inherit; }
+  *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit; }
+
+body {
+  position: relative;
+  margin: 0;
+  overflow-y: scroll;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.42857143;
+  font-size: 14px;
+  font-size: 1.4rem;
+  letter-spacing: 0;
+  zoom: 1;
+  min-height: 100%;
+  position: relative;
+  overflow: auto; }
+
+#header .header2 {
+  min-height: 60px;
+  transition: all .5s;
+  background-color: #fff;
+  padding: 25px 0px 14px; }
+
+a {
+  color: #404040;
+  text-decoration: none;
+  background: 0 0;
+  outline: none; }
+  a:focus, a:hover, a:active {
+    color: inherit;
+    outline: 0; }
+  a:focus {
+    outline: none; }
+
+header, nav {
+  display: block; }
+
+img {
+  border: 0; }
+
+button {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  overflow: visible;
+  text-transform: none;
+  -webkit-appearance: button;
+  cursor: pointer;
+  margin-bottom: 5px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit; }
+  button::-moz-focus-inner {
+    padding: 0;
+    border: 0; }
+
+img {
+  vertical-align: middle; }
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0; }
+
+ol, ul {
+  margin-top: 0;
+  margin-bottom: 10px; }
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto; }
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px; } }
+@media (min-width: 992px) {
+  .container {
+    width: 970px; } }
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px; } }
+.collapse {
+  display: none; }
+
+.dropdown {
+  position: relative; }
+
+.dropdown-toggle:focus {
+  outline: 0; }
+
+.nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none; }
+  .nav > li {
+    position: relative;
+    display: block; }
+    .nav > li > a {
+      position: relative;
+      display: block;
+      padding: 9px;
+      /* height: 42px; */ }
+      .nav > li > a:focus, .nav > li > a:hover {
+        text-decoration: none;
+        background-color: transparent; }
+
+.navbar {
+  position: relative;
+  height: 40px;
+  border: 1px solid transparent; }
+
+.navbar-collapse {
+  padding-right: 15px;
+  padding-left: 15px;
+  overflow-x: visible;
+  -webkit-overflow-scrolling: touch;
+  border-top: 1px solid transparent;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+
+.navbar-brand {
+  float: left;
+  height: auto;
+  padding: 5px;
+  font-size: 18px;
+  font-size: 1.8rem;
+  line-height: 20px; }
+  .navbar-brand:focus, .navbar-brand:hover {
+    text-decoration: none; }
+  @media (max-width: 601px) {
+    .navbar-brand {
+      height: 60px; } }
+
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 19px 20px;
+  margin-top: 8px;
+  margin-right: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px; }
+  .navbar-toggle:focus {
+    outline: 0; }
+  .navbar-toggle .icon-bar {
+    display: block;
+    width: 22px;
+    height: 2px;
+    border-radius: 1px;
+    background-color: #fff; }
+    .navbar-toggle .icon-bar + .icon-bar {
+      margin-top: 4px; }
+
+.navbar-nav {
+  margin: 7.5px -15px; }
+  .navbar-nav > li > a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #fff; }
+
+.navbar-default {
+  background-color: #f8f8f8;
+  border-color: #e7e7e7; }
+  .navbar-default .navbar-brand {
+    color: #777; }
+    .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+      color: #5e5e5e;
+      background-color: transparent; }
+  .navbar-default .navbar-nav > li > a {
+    color: #777; }
+    .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+      color: #333;
+      background-color: transparent; }
+  .navbar-default .navbar-nav > .active > a {
+    color: #555;
+    background-color: #e7e7e7; }
+    .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+      color: #555;
+      background-color: #e7e7e7; }
+  .navbar-default .navbar-toggle {
+    border-color: #ddd; }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+      background-color: #ddd; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #888; }
+  .navbar-default .navbar-collapse {
+    border-color: #e7e7e7; }
+
+.container:after, .container:before {
+  display: table;
+  content: " "; }
+
+.nav:after, .nav:before {
+  display: table;
+  content: " "; }
+
+.navbar-collapse:after, .navbar-collapse:before {
+  display: table;
+  content: " "; }
+
+.navbar-header:after, .navbar-header:before {
+  display: table;
+  content: " "; }
+
+.navbar:after, .navbar:before {
+  display: table;
+  content: " "; }
+
+.container:after, .nav:after, .navbar-collapse:after, .navbar-header:after, .navbar:after {
+  clear: both; }
+
+@-ms-viewport {
+  width: device-width; }
+@-webkit-viewport {
+  width: device-width; }
+@-moz-viewport {
+  width: device-width; }
+@-ms-viewport {
+  width: device-width; }
+@-o-viewport {
+  width: device-width; }
+@viewport {
+  width: device-width; }
+.navbar-default {
+  background-color: #37bc9b;
+  border-color: #37bc9b; }
+  .navbar-default .navbar-brand {
+    color: #26816a; }
+    .navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+      color: #fff;
+      background-color: transparent; }
+  .navbar-default .navbar-nav > li > a {
+    color: #26816a; }
+    .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+      color: #fff; }
+  .navbar-default .navbar-nav > .active > a {
+    color: #fff;
+    background-color: #48cfad; }
+    .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+      color: #fff;
+      background-color: #48cfad; }
+  .navbar-default .navbar-toggle {
+    background-color: #26816a;
+    border-color: #26816a; }
+    .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+      background-color: #2b957a;
+      border-color: #2b957a; }
+    .navbar-default .navbar-toggle .icon-bar {
+      background-color: #37bc9b; }
+  .navbar-default .navbar-collapse {
+    border-color: #48cfad; }
+
+/*/////////////////////////////////////////////////////////////// Old - IBE.css /////////////////////////////////////////////////////////////////*/
+/* BUGFIX: Responsive de stickynin altina girmesi sorunu */
+/* BUGFIX: Red validation borders fix */
+*|html[xmlns*=""] .step-navigation-step {
+  width: 230px; }
+
+#navigationWrap {
+  position: absolute;
+  margin-left: 45%;
+  top: 94px; }
+
+[data-toggle="collapse"] {
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+.front:hover:not(.card >) {
+  max-width: 27px;
+  max-height: 27px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADUgAAA1IBEAAkSgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAC4SURBVEiJ7ZQ7CgJBEERfGWxqJHgwz+AFTDyGZgp7AUMDjyB4AyNjAzPBuAw0WHadGfcHIlvQWdd7wTQj2/SZUa/0QfAfAkmZpJWki6R5ZcF24wEyYA/4PbfKTodwA7tOBAH4CRgnBcAMOAJLQG3gIcG1UMyLkrrwkOBQAmwBNYGHBFPgXAJtmsCDjxyQ1IZHrygi+RqePNMPklpw268LiUXSBFgAD2Bt+x4tlPspQdv8/m86CFrnCTspDyp52dYpAAAAAElFTkSuQmCCc1be9ed3910f4ce45b4edba01ad84c4f");
+  background-color: #fff; }
+
+.step-navigation-wrap {
+  border-width: 1px 0;
+  background-color: transparent !important; }
+
+.step-navigation {
+  text-align: center; }
+  .step-navigation .step-caption {
+    text-overflow: ellipsis;
+    white-space: inherit; }
+    .step-navigation .step-caption .step-title {
+      text-overflow: ellipsis;
+      white-space: inherit; }
+
+.step-navigation-step {
+  position: relative;
+  display: inline-block; }
+  .step-navigation-step > span {
+    display: block;
+    height: 50px;
+    position: relative;
+    text-decoration: none; }
+  .step-navigation-step.is-active > span:after, .step-navigation-step.is-active > span:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    margin-left: -10px; }
+
+.l-horizontal-samewidth-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+  .l-horizontal-samewidth-list > li {
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1; }
+
+.nonselectable {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none; }
+
+/*///////////////////////////////////// CHECKBOX ////////////////////////////////////*/
+.first {
+  text-align: left; }
+
+.fifth {
+  text-align: right; }
+
+/*Z-index Fix*/
+/*Flags*/
+/********/
+/*Main*/
+/* FlightSelect.js Tab Classes */
+/* END - FlightSelect.js Tab Classes */
+/*Searcy Results Sidebar*/
+/*      PASSENGER INFORMATION         */
+/*Pass Info Sidebar*/
+/*    TICKET PREVIEW:     */
+/*        TICKET PRINT       */
+/*    TICKET REFUND      */
+/*        CHANGE FLIGHT         */
+/*    CONTACT CHANGE     */
+/*        CHECKIN         */
+/*        GECICI ADSSR         */
+/*        PNR SEARCH PANEL         */
+/*////////////////////////////////////// Calendar //////////////////////////////////////*/
+/*		BUNDLE TEST		*/
+/*	COMPARISON TABLE	*/
+/*		BUNDLE TEST		*/
+/*	COMPARISON TABLE	*/
+/*///////////////////////////////////////////////
+///////////////////  MOBILE  ////////////////////
+///////////////////////////////////////////////*/
+/*///////////////////////////////////////////////
+/////////////////////////////////////////////////
+///////////////////////////////////////////////*/
+/* 		ADD SSR 		*/
+/* Adaptive Wide Body Aircraft Seat Selection Implementation */
+/* Seat Selection modal for responsive */
+/* BUGFIX: Select seat visual fix for CHROME */
+/* ******************* Sigorta ******************* */
+/*		INSURANCE V2 		*/
+/*///////////////////////////////////////////////
+/////////////////  SSR SHARED  //////////////////
+///////////////////////////////////////////////*/
+/* ******************* Nit. Bilet ******************* */
+/*      SHOW RESERVATION        */
+/*/////////////////////////////////////////////////////////
+////////////////// Error Pages Parameters /////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+Availability and TicketPreview Tax Display Type Modal Links
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+	Availability Flight Number Flight Info Modal Link Class
+	/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+/////////////////// Loyalty Login Screen //////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+/////////////////////// Member Home ///////////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+////////////////////// Member Inside //////////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+////////////////////// ICIPNRSearch ///////////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+///////////////////// Frontend Panel //////////////////////
+/////////////////////////////////////////////////////////*/
+/* ie 10+ fixes */
+@-moz-document url-prefix() {}
+/* IE only fix for seat selection arrow on seatselection (OHY only) */
+/* BUGFIX: Wrapping long currencies */
+/*///////////////////////////////////////////////
+///////////////  Message Editor  ////////////////
+///////////////////////////////////////////////*/
+/*///////////////////////////////////////////////
+//////////////////  Feedback  ///////////////////
+///////////////////////////////////////////////*/
+/*.Feedback .tab-pane {
+	display:none;
+}
+
+.Feedback .tab-pane.active {
+	display:block;
+}*/
+/* BUGFIX: Availability xs responsive fix for overflowing paddings */
+/* BUGFIX: Languages' flags */
+/* ManageBundle Page */
+/* Safari 4.0 - 8.0 */
+/* Standard syntax */
+/*///////////////////////////////////////////////
+///////////////////  The End  ///////////////////
+///////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+/////////////////////// Theme Colors //////////////////////
+/////////////////////////////////////////////////////////*/
+/*/		Primary Color:		#717171				/*/
+/*/		Secondary Color:	#FED350 			/*/
+/*/		Tetriary Color:		#444				/*/
+/*/////////////////////////////////////////////////////////
+////////////////////// CSS With Path //////////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+////////////////// Error Pages Parameters /////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+////////////////////// Base Changes ///////////////////////
+/////////////////////////////////////////////////////////*/
+body {
+  background-position-x: 45%;
+  background-position-y: 0;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #ebebeb;
+  color: #333; }
+
+.navbar-collapse {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1); }
+
+.navbar-toggle {
+  background-color: #FED350; }
+
+/*/////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////*/
+.step-navigation-wrap {
+  margin-left: auto;
+  margin-right: auto;
+  height: 140px;
+  margin-top: 14px;
+  margin-bottom: -11px; }
+
+.is-active .step-caption:after, .is-deactive .step-caption:after {
+  top: 98%;
+  left: 100%;
+  position: absolute;
+  content: url("../../img/nav-divider-active.png"); }
+
+.step-navigation-step:last-child .step-caption:after {
+  top: 98%;
+  left: 100%;
+  position: absolute;
+  content: ""; }
+
+.step-navigation {
+  background-color: transparent !important;
+  height: 300px; }
+  .step-navigation .step-caption {
+    display: block;
+    padding: 5px 0;
+    margin: -5px 0;
+    font-size: 18px;
+    font-size: 1.8rem;
+    vertical-align: super; }
+    .step-navigation .step-caption .step-title {
+      vertical-align: super; }
+
+.step-navigation-step {
+  border-width: 0 1px 0 0; }
+  .step-navigation-step > span {
+    padding: 2px 10px;
+    color: #dddddd; }
+  .step-navigation-step.is-active > span {
+    color: #FED350;
+    font-weight: bold; }
+    .step-navigation-step.is-active > span:after {
+      content: initial; }
+
+.step-first-icon, .step-second-icon, .step-third-icon, .step-fourth-icon, .step-fifth-icon {
+  display: block;
+  font-size: 50px;
+  font-size: 5rem;
+  font-weight: 400; }
+
+.l-horizontal-samewidth-list > li {
+  margin: 0 5%;
+  width: 20%; }
+
+/*////////////////////////////
+////////// Calendar //////////
+////////////////////////////*/
+#navigationWrap {
+  position: relative;
+  margin-left: auto;
+  top: auto;
+  background: transparent !important;
+  margin-top: 13px;
+  margin-bottom: 7px; }
+
+/*///////////////////////////////////////////////
+///////////////////  MOBILE  ////////////////////
+///////////////////////////////////////////////*/
+.navbar-toggle {
+  padding: 19px 15px; }
+
+/*///////////////////////////////////////////////////////
+///////////////// Actual Flight List ////////////////////
+///////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+///////////////////////// Sigorta /////////////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+////////////////////// INSURANCE V2 ///////////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+////////////////// New Show Reservation ///////////////////
+/////////////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////
+/////////////  SSR THEME SPECIFIC  //////////////
+///////////////////////////////////////////////*/
+/*///////////////////////////////////////////////
+///////////////////  BUNDLE  ////////////////////
+///////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+///////////// AvailabilityResults Flights /////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+////////////////////// Member Login ///////////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+/////////////////////// Member Home ///////////////////////
+/////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////////////////////
+///////////////////// Show Reservation ////////////////////
+/////////////////////////////////////////////////////////*/
+/*
+.memberMainContent.show__reservation>.container>.row>div:nth-child(1) {
+	padding: 0;
+}
+*/
+/* BUGFIX: Flight Change sayfasindaki dugmeler ust uste binmesin */
+/*/////////////////////////////////////////////////////////
+/////////////// March 2016 Defect Summary /////////////////
+/////////////////////////////////////////////////////////*/
+/* Only for IE Hacks  */
+/* Firefox specific hack */
+@-moz-document url-prefix() {}
+.flaticon-credit50.step-fifth-icon {
+  text-align: center; }
+
+/*/////////////////////////////////////////////////////////
+/////////////////////// Bug Fixes /////////////////////////
+/////////////////////////////////////////////////////////*/
+/* Sticky'deki Cabin icin visual fix */
+/* Ticket Print sayfasinda PNR kismi nezih gorunsun */
+/* AvailabilityResults sayfasindaki tarih supremumlari duzgun gosterilsin */
+/* AvailabilityResults sayfasindaki ucus destinationlari biraz minik olsun */
+/* Connected flight infolarinin iconlari flight number iconu ile hizalansin */
+/* AvailabilityResults kum saati ve saat iconlarini cakismasin, sadece kum saati kalsin */
+/* Selectize-Control Input Dropdown Caret leri rtl ve ltr icin dogru yerlerde dursunlar */
+/* Hata mesajlari uyarilari nesma sarisi olsun */
+/* CheckinSelectSeat.xhtml sayfasindaki sigmayip asagi kayan koltuklar tasmasin  */
+/* BUGFIX: Availability xs responsive fix for overflowing paddings */
+/* ===============================================
+	Footer Section 
+=================================================*/
+/* ===============================================
+	Header Section 
+=================================================*/
+header {
+  background-color: #fff;
+  position: relative; }
+  header:before {
+    position: absolute;
+    width: 160px;
+    height: 191px;
+    background-size: 100% 100%;
+    left: 0;
+    top: 0;
+    content: '';
+    z-index: 9;
+    display: none; }
+  header:after {
+    position: absolute;
+    width: 132px;
+    height: 181px;
+    background-size: 100% 100%;
+    right: 0;
+    top: 0;
+    content: '';
+    z-index: 9;
+    display: none; }
+
+.loggNav {
+  padding: 0 0 0;
+  width: 100%; }
+
+.nav > li a {
+  color: #fff;
+  font-size: 14px;
+  background-repeat: no-repeat; }
+
+.navbar-nav > li a {
+  padding: 0 18px;
+  font-weight: normal; }
+  @media (max-width: 601px) {
+    .navbar-nav > li a {
+      height: 50px;
+      line-height: 50px; } }
+.navbar-nav > li:nth-child(7) a {
+  font-family: 'ge_ss_two_medium';
+  /*color: #468C00;*/ }
+
+/*.navbar-nav > li:last-child a{
+	color:#D90000;
+}*/
+.nav > li:last-child a {
+  background-image: none; }
+.nav > li > a:hover, .nav > li > a:visited, .nav > li > a:focus {
+  background-image: none;
+  color: #fff;
+  background-color: transparent; }
+.nav > li.active a {
+  background-image: none;
+  background-color: transparent; }
+.nav .opener {
+  top: 0;
+  right: 0;
+  z-index: 20;
+  width: 40px;
+  height: 40px;
+  display: none;
+  cursor: pointer;
+  background: #444;
+  text-align: center;
+  position: absolute; }
+  .nav .opener:after {
+    top: 18px;
+    left: 16px;
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 7px 5px 0;
+    border-color: #fff transparent transparent; }
+
+header nav.navbar {
+  position: relative; }
+  header nav.navbar:after {
+    background-color: rgba(0, 0, 0, 0);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: auto auto;
+    content: "";
+    height: 24px;
+    position: absolute;
+    top: 95%;
+    width: 292px;
+    z-index: 99; }
+
+.navbar-nav > li {
+  position: relative; }
+
+.nav > li > a:hover, .nav > li > a:visited, .nav > li > a:focus {
+  background-image: none;
+  color: #fff;
+  background-color: transparent !important;
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase; }
+.nav .opener {
+  top: 0;
+  right: 0;
+  z-index: 20;
+  width: 40px;
+  height: 40px;
+  display: none;
+  cursor: pointer;
+  background: #444;
+  text-align: center;
+  position: absolute; }
+
+.navbar-nav {
+  margin: 0;
+  margin-top: 10px; }
+
+.navbar-default {
+  background-color: transparent !important;
+  border-color: transparent !important; }
+  .navbar-default .navbar-nav > .active > a {
+    color: black;
+    background-color: #30312e;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase; }
+    .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+      color: black;
+      background-color: #30312e;
+      font-family: 'Roboto Condensed', sans-serif;
+      text-transform: uppercase; }
+  .navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: black;
+    background-color: #30312e; }
+
+.dropdown > a, .navbar-right li {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase; }
+  .dropdown > a:focus, .dropdown > a:hover, .navbar-right li:focus, .navbar-right li:hover {
+    background-color: transparent;
+    border-color: transparent; }
+
+.navbar-brand {
+  margin-top: 15px; }
+
+.navbar-default .navbar-toggle {
+  background-color: #30312e;
+  border-color: #30312e; }
+  .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: #30312e;
+    border-color: #30312e; }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: black; }
+.navbar-default .navbar-collapse {
+  border-color: #e7e7e7; }
+
+.navbar-toggle {
+  margin-top: 18px; }
+
+.navbar-brand img {
+  height: 45px;
+  width: auto; }
+
+.nesma-main .navbar-nav > li a {
+  height: 50px;
+  line-height: 50px; }
+  .nesma-main .navbar-nav > li a i {
+    padding-right: 5px; }
+
+.navbar-brand {
+  margin-top: 0 !important; }
+
+.nesma-main .navbar-nav > li:last-child:before {
+  top: 15px; }
+
+.first {
+  text-align: center !important; }
+
+.step-caption .step-first-icon, .step-caption .step-second-icon, .step-caption .step-third-icon, .step-caption .step-fourth-icon, .step-caption .step-fifth-icon {
+  font-size: 3rem; }
+
+.is-active .step-first-icon, .is-active .step-second-icon, .is-active .step-third-icon, .is-active .step-fourth-icon, .is-active .step-fifth-icon, .is-active .step-title, .is-deactive .step-first-icon, .is-deactive .step-second-icon, .is-deactive .step-third-icon, .is-deactive .step-fourth-icon, .is-deactive .step-fifth-icon, .is-deactive .step-title {
+  color: #d84434; }
+
+.step-navigation .step-caption {
+  font-size: 1.5rem !important; }
+
+#navigationWrap .step-navigation-wrap {
+  height: 90px; }
+
+.l-horizontal-samewidth-list .is-active .step-caption:after, .is-deactive .step-caption:after {
+  top: 50%; }
+
+.site-header-area .container {
+  padding: 0; }
+
+@media (max-width: 600px) {
+  .navbar-default .navbar-collapse {
+    float: left;
+    width: 100%; } }
+
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover {
+  background-color: #FED23F; }
+
+.navbar .caret {
+  color: #fff; }
+
+.navbar-header .navbar-toggle {
+  position: relative;
+  bottom: 8px;
+  padding: 15px 10px !important; }
+
+@media (max-width: 600px) {
+  .navbar-brand img {
+    position: relative;
+    top: 15px;
+    left: 5px; } }
+
+@media (max-width: 600px) {
+  .navbar-nav > li:last-child:before {
+    background: #fff; } }
+
+@media (max-width: 600px) {
+  .navbar-right {
+    text-align: right; } }
+
+body {
+  background-image: url(../../img/bg_gradient_blue.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-color: #f3f7fc; }
+
+nav.navbar.navbar-custom {
+  background-color: #fce100 !important;
+  border: none; }
+  nav.navbar.navbar-custom a {
+    color: #000; }
+    nav.navbar.navbar-custom a:hover {
+      color: #000; }
+
+.logo {
+  background: url(../../img/logo-big.png) no-repeat;
+  height: 60px;
+  background-position: 11% 47%;
+  margin-left: -13px;
+  border-radius: 110px;
+  z-index: -1;
+  margin-top: -16px; }
+
+.dropdown.language {
+  display: none; }
+
+/*------------------------------- General Colors ------------------------------- */
+/*------------------------------- Header ------------------------------- */
+/*------------------------------- Footer ------------------------------- */
+/*------------------------------- Modal ------------------------------- */
+/*------------------------------- PassengerInfo -------------------------------*/
+/*------------------------------- Ancillary -------------------------------*/
+/*------------------------------- PaymentInfo -------------------------------*/
+/*------------------------------- Confirmation -------------------------------*/
+/*------------------------------- CalendarView -------------------------------*/
+/*------------------------------- Button Colors ------------------------------- */
+.site-footer {
+  z-index: 1;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 600;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: auto;
+  margin-top: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 3px;
+  background-color: #f2f2f2 !important;
+  border-radius: 3px; }
+  .site-footer a {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: normal;
+    color: #383838; }
+    .site-footer a:active {
+      text-decoration: none; }
+    .site-footer a:hover {
+      text-decoration: none; }
+  .site-footer .copyright p:last-child {
+    margin-top: 10px; }
+
+.PaymentInfo .ticketpreview-sticky .tb1, .PaymentInfo .ticketpreview-sticky .tb2 {
+  background-color: transparent;
+  height: 27px;
+  font-weight: 400;
+  width: 50%;
+  vertical-align: middle; }
+
+.PaymentInfo {
+  background-color: transparent; }
+  .PaymentInfo label {
+    font-size: 1.4rem;
+    line-height: 1.5; }
+  .PaymentInfo .error-div {
+    border-radius: 4px;
+    font-size: 18.08px;
+    background-color: #e9282b;
+    color: #404040;
+    padding: 0 5px; }
+  .PaymentInfo .btn-danger {
+    font-size: 1.8rem;
+    background: #d84434 none repeat scroll 0 0 !important;
+    color: #fff !important;
+    border-radius: 5px;
+    border: none !important; }
+    .PaymentInfo .btn-danger:focus {
+      background: #d84434 none repeat scroll 0 0 !important;
+      color: #fff !important;
+      border: none !important; }
+    .PaymentInfo .btn-danger:hover {
+      border: none !important; }
+  .PaymentInfo .bar {
+    background-color: #e9282b; }
+  .PaymentInfo [data-toggle="collapse"] {
+    cursor: pointer;
+    user-select: none; }
+  .PaymentInfo .sticky {
+    display: inline-block;
+    z-index: 999;
+    width: 280px;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    margin-top: 7px; }
+    @media only screen and (max-width: 601px) {
+      .PaymentInfo .sticky {
+        width: 100%; } }
+  .PaymentInfo .clearline {
+    height: 10px;
+    display: block; }
+  .PaymentInfo .tb1 {
+    padding: 0;
+    width: 50%;
+    text-align: left; }
+    .PaymentInfo .tb1 strong {
+      font-weight: 600; }
+    .PaymentInfo .tb1.bold {
+      font-weight: bold; }
+  .PaymentInfo .tb32 {
+    padding: 0 5px; }
+  .PaymentInfo #currency {
+    padding-left: 5px;
+    background-color: #fff; }
+  .PaymentInfo .tb2 {
+    padding: 0 5PX;
+    width: 50%;
+    text-align: right; }
+  .PaymentInfo .tb3 {
+    background-color: #f2f2f2;
+    min-height: 35px;
+    color: #333;
+    font-weight: 700;
+    padding: 0;
+    background-color: #e2e2e2;
+    background-color: #fff;
+    background-color: transparent !important;
+    background-color: transparent !important; }
+  .PaymentInfo .change-currency-txt {
+    line-height: 35px;
+    font-size: 1.4rem; }
+  .PaymentInfo .well {
+    min-height: 20px;
+    padding: 10px;
+    color: #333;
+    margin-bottom: 10px; }
+  .PaymentInfo .ssr-selection {
+    font-weight: 400;
+    padding-bottom: 0;
+    padding-left: 0;
+    font-size: 2.5rem; }
+  .PaymentInfo select::-ms-expand {
+    display: none; }
+  .PaymentInfo validation {
+    display: none; }
+  .PaymentInfo .ticketpreview-sticky .tb32 {
+    text-align: right; }
+  .PaymentInfo .ticketpreview-sticky .tb2 {
+    text-align: right;
+    font-weight: 400;
+    height: 23px; }
+    .PaymentInfo .ticketpreview-sticky .tb2.bold {
+      font-weight: bold; }
+  .PaymentInfo .ticketpreview-sticky .tb3 {
+    background-color: transparent; }
+  .PaymentInfo .ticketpreview-sticky.ticket__prev__sidebar {
+    box-shadow: none; }
+  .PaymentInfo .ticketpreview-sticky .payment__summary__table__content {
+    background-color: #fff;
+    border: none;
+    color: #333; }
+  .PaymentInfo .ticketpreview-sticky #currency_select {
+    background-color: #fff;
+    border: none; }
+  .PaymentInfo label[for="buy-rules"] {
+    color: #767676; }
+  .PaymentInfo .tpp {
+    margin-bottom: 20px; }
+  .PaymentInfo .tppsh {
+    display: none; }
+  .PaymentInfo .tppdh {
+    display: none; }
+  .PaymentInfo .summary-head {
+    padding: 0;
+    margin: 0; }
+  .PaymentInfo .buySection {
+    min-width: 155px;
+    float: left;
+    margin-top: 20px; }
+  .PaymentInfo .paymentMiniContainer {
+    color: #333;
+    padding: 0; }
+  .PaymentInfo .buySectionButtons {
+    float: right;
+    padding: 0; }
+  .PaymentInfo small {
+    font-size: 100%; }
+  .PaymentInfo table {
+    width: 100%; }
+  .PaymentInfo .table {
+    width: 100%;
+    display: table; }
+  .PaymentInfo .ticketPreviewContinue {
+    padding: 0; }
+  .PaymentInfo .ports {
+    text-align: center;
+    padding: 0;
+    font-size: 1.2rem; }
+  .PaymentInfo .ticket__prev__summary {
+    padding: 20px 25px;
+    background-color: #fff;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 7px; }
+    .PaymentInfo .ticket__prev__summary .pass__flight__summary {
+      padding: 0;
+      margin: 0; }
+      .PaymentInfo .ticket__prev__summary .pass__flight__summary .pass__flight__title {
+        font-weight: 400;
+        padding-bottom: 0;
+        padding-left: 0;
+        font-size: 2.5rem; }
+    .PaymentInfo .ticket__prev__summary .pass__flight__summary__heading {
+      color: #333;
+      padding: 5px 0px;
+      font-size: 1.8rem;
+      color: #767676;
+      border-bottom: 2px solid #767676;
+      text-align: center;
+      margin-bottom: 10px; }
+      .PaymentInfo .ticket__prev__summary .pass__flight__summary__heading .pass__flight__summary__title {
+        font-weight: bold; }
+      @media only screen and (max-width: 601px) {
+        .PaymentInfo .ticket__prev__summary .pass__flight__summary__heading:before {
+          top: 15px; } }
+      @media only screen and (max-width: 601px) {
+        .PaymentInfo .ticket__prev__summary .pass__flight__summary__heading {
+          margin-bottom: 5px; } }
+    .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body {
+      padding: 15px;
+      font-size: 1.4rem; }
+      .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .pre__info {
+        padding: 0;
+        margin: 0; }
+        .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .pre__info .flight__dir {
+          padding: 0;
+          color: #383838;
+          font-weight: bold; }
+        .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .pre__info .payment-info-passenger-table {
+          color: #383838;
+          margin-top: 15px; }
+          .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .pre__info .payment-info-passenger-table td, .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .pre__info .payment-info-passenger-table th {
+            padding: 5px 0;
+            text-align: center; }
+          .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .pre__info .payment-info-passenger-table td {
+            color: #383838; }
+          .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .pre__info .payment-info-passenger-table .type {
+            width: 25%; }
+          .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .pre__info .payment-info-passenger-table .title {
+            width: 25%; }
+          .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .pre__info .payment-info-passenger-table .name {
+            width: 25%; }
+          .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .pre__info .payment-info-passenger-table .bdate {
+            width: 25%; }
+          .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .pre__info .payment-info-passenger-table .wheel-chair {
+            text-align: left;
+            font-weight: bold; }
+            .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .pre__info .payment-info-passenger-table .wheel-chair i {
+              padding-right: 3px;
+              font-weight: bold; }
+          @media only screen and (max-width: 601px) {
+            .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .pre__info .payment-info-passenger-table {
+              display: none; } }
+        .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .pre__info .payment-info-passenger-table-mobile {
+          display: none;
+          color: #767676; }
+          .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .pre__info .payment-info-passenger-table-mobile td {
+            padding: 5px 0;
+            color: #383838; }
+          .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .pre__info .payment-info-passenger-table-mobile .name {
+            color: #767676; }
+          @media only screen and (max-width: 601px) {
+            .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .pre__info .payment-info-passenger-table-mobile {
+              display: table; } }
+        .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .pre__info .pass__numbers .avatar__icon:before {
+          content: "\e046";
+          font-family: Flaticon;
+          font-style: normal;
+          margin-left: 2px;
+          margin-right: 2px; }
+      .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body {
+        padding: 0; }
+        .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .segment__body__info {
+          padding: 0;
+          margin: 0 0 15px 0; }
+        .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .segment__code {
+          padding-left: 19px;
+          color: #767676; }
+          @media only screen and (max-width: 601px) {
+            .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .segment__code {
+              padding-left: 0; } }
+        .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .segment__class, .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .cabin, .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .fare-group, .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .modal-area {
+          color: #383838;
+          margin-top: 10px;
+          font-weight: bold; }
+          .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .segment__class span, .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .cabin span, .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .fare-group span, .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .modal-area span {
+            font-weight: 400; }
+        .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .modal-area {
+          cursor: pointer;
+          color: #383838;
+          text-decoration: underline; }
+        .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .segment__ports {
+          font-weight: 600;
+          font-size: 1.6rem;
+          color: #767676;
+          text-align: left; }
+          .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .segment__ports .plane__divider {
+            max-width: 16px;
+            max-height: 16px;
+            background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAJCAYAAAALpr0TAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoxOTc5ODIzNy0yMTc3LWFiNGUtOWVmZC05ZDY1OTgzN2VhYzgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6QUYyRjUwNUIyQjBCMTFFNUEyNzRFMkY4QjM3QjE0MUEiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6QUYyRjUwNUEyQjBCMTFFNUEyNzRFMkY4QjM3QjE0MUEiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTQgKFdpbmRvd3MpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MTk3OTgyMzctMjE3Ny1hYjRlLTllZmQtOWQ2NTk4MzdlYWM4IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjE5Nzk4MjM3LTIxNzctYWI0ZS05ZWZkLTlkNjU5ODM3ZWFjOCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PnDLOWwAAAB4SURBVHjaYmZABVeB+BUQX2MgABqA+CUQi2CTlEJi6wLxfyBegq6IGYj3AvF3IGaF8v2A2AqInwAxE9QgFpDiyVBT8OFXIJXmQBwP9QgIbAZiSSBOB+KzUDGQuxk0kZyiDTVhOSFf1wPxayAWJaTwMhBHYJMACDAAsNUbvMTbUvcAAAAASUVORK5CYII=");
+            width: 10px;
+            height: 10px;
+            color: #333;
+            display: inline-block;
+            background-size: 10px; }
+          @media only screen and (max-width: 601px) {
+            .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .segment__ports .from, .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .segment__ports .to, .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .segment__ports .segment__code {
+              text-align: center; } }
+        .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .dep__time {
+          padding: 0;
+          margin: 10px 0 0 0;
+          text-align: left;
+          color: #383838; }
+          .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .dep__time .dep__time__title {
+            font-weight: 600;
+            color: #383838; }
+          .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .dep__time .dep__time__time {
+            color: #383838; }
+        .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .arr__time {
+          padding: 0;
+          margin: 10px 0 0 0;
+          text-align: left;
+          color: #383838; }
+          .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .arr__time .arr__time__title {
+            font-weight: 600;
+            color: #383838; }
+          .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .arr__time .arr__time__time {
+            color: #383838; }
+        .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .flight__icon:before {
+          font-family: Flaticon;
+          font-style: normal;
+          margin-left: 2px;
+          margin-right: 2px;
+          content: "\e03e"; }
+        @media only screen and (max-width: 601px) {
+          .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .segment__class, .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .cabin, .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .segment__body .fare-group {
+            margin-bottom: 5px; } }
+      .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .payment-info-ssr-table {
+        color: #383838;
+        margin-top: 15px; }
+        .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .payment-info-ssr-table td, .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .payment-info-ssr-table th {
+          padding: 5px 0;
+          text-align: center; }
+        .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .payment-info-ssr-table td {
+          color: #383838; }
+        .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .payment-info-ssr-table .name {
+          width: 30%; }
+        .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .payment-info-ssr-table .luggage {
+          width: 10%; }
+        .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .payment-info-ssr-table .seat {
+          width: 10%; }
+        .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .payment-info-ssr-table .catering {
+          width: 25%; }
+        .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .payment-info-ssr-table .ssr {
+          width: 25%; }
+        @media only screen and (max-width: 601px) {
+          .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .payment-info-ssr-table {
+            display: none; } }
+      @media only screen and (max-width: 601px) {
+        .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body .unique-flight .dep__time__time {
+          padding: 0 !important; } }
+      @media only screen and (max-width: 601px) {
+        .PaymentInfo .ticket__prev__summary .pass__flight__res__summary__body {
+          padding: 5px; } }
+    .PaymentInfo .ticket__prev__summary .flight__count {
+      font-size: 1.6rem;
+      color: #383838;
+      font-weight: bold; }
+    .PaymentInfo .ticket__prev__summary .accordion-toggle {
+      float: right;
+      font-size: 1.8rem;
+      color: #767676; }
+      .PaymentInfo .ticket__prev__summary .accordion-toggle i {
+        transition: all .3s ease; }
+      .PaymentInfo .ticket__prev__summary .accordion-toggle.not-checked i {
+        transform: rotate(180deg); }
+  .PaymentInfo .payment__area {
+    padding: 20px;
+    margin-top: 15px;
+    background-color: #fff;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 0px; }
+    .PaymentInfo .payment__area .payment__heading {
+      margin: 0;
+      padding: 5px 0px;
+      color: #767676;
+      border-bottom: 2px solid #767676;
+      margin-bottom: 10px; }
+      .PaymentInfo .payment__area .payment__heading .payment__title {
+        padding-left: 0;
+        font-size: 1.8rem;
+        margin: 0;
+        font-weight: bold; }
+        .PaymentInfo .payment__area .payment__heading .payment__title .total__payment {
+          float: right;
+          color: #333; }
+        .PaymentInfo .payment__area .payment__heading .payment__title .card__icon:before {
+          font-family: Flaticon;
+          font-style: normal;
+          margin-left: 2px;
+          margin-right: 5px;
+          content: "\e018"; }
+      @media only screen and (max-width: 601px) {
+        .PaymentInfo .payment__area .payment__heading:before {
+          top: 24px; } }
+    .PaymentInfo .payment__area .payment__selection__container {
+      height: auto;
+      min-height: 75px; }
+      .PaymentInfo .payment__area .payment__selection__container .buy__area {
+        padding: 0; }
+        .PaymentInfo .payment__area .payment__selection__container .buy__area .buy__with__cc {
+          padding: 0;
+          margin: 0; }
+          .PaymentInfo .payment__area .payment__selection__container .buy__area .buy__with__cc .cc__shot {
+            padding: 0; }
+            .PaymentInfo .payment__area .payment__selection__container .buy__area .buy__with__cc .cc__shot span.input-error {
+              position: sticky; }
+    .PaymentInfo .payment__area .bottom__cont__area {
+      background-color: #fafafa; }
+    .PaymentInfo .payment__area #paymentTabContainer {
+      box-shadow: none; }
+      .PaymentInfo .payment__area #paymentTabContainer #paymentTabContent {
+        border: none;
+        background-color: #fafafa !important; }
+      .PaymentInfo .payment__area #paymentTabContainer #paymentTabList li a {
+        background-color: #69b342;
+        border-radius: 0px;
+        color: #fff; }
+      .PaymentInfo .payment__area #paymentTabContainer #paymentTabList li.active a {
+        background-color: #0063ad !important;
+        color: #fff; }
+        .PaymentInfo .payment__area #paymentTabContainer #paymentTabList li.active a:before {
+          content: "";
+          position: absolute;
+          bottom: -10px;
+          left: 10px;
+          width: 0;
+          height: 0;
+          border-left: 5px solid transparent;
+          border-right: 5px solid transparent;
+          border-top: 10px solid #383838;
+          z-index: 999; }
+      @media only screen and (max-width: 601px) {
+        .PaymentInfo .payment__area #paymentTabContainer .nav-justified li {
+          margin: 5px 0; }
+        .PaymentInfo .payment__area #paymentTabContainer input[type=checkbox] {
+          display: none !important; } }
+  .PaymentInfo .bottom__cont__area .bottom__cont {
+    float: right;
+    padding: 23px; }
+    .PaymentInfo .bottom__cont__area .bottom__cont .buy__btn {
+      width: auto; }
+  .PaymentInfo .bottom__cont__area .bottom__reserve {
+    float: right;
+    padding: 0;
+    margin: 10px;
+    width: 30%; }
+    .PaymentInfo .bottom__cont__area .bottom__reserve .reserve__btn {
+      width: auto; }
+  .PaymentInfo .ticket__prev__sidebar .payment__summary__table {
+    background-color: transparent; }
+    .PaymentInfo .ticket__prev__sidebar .payment__summary__table .payment__summary__table__heading {
+      background-color: #fce100;
+      padding: 10px;
+      font-size: 1.6rem; }
+      .PaymentInfo .ticket__prev__sidebar .payment__summary__table .payment__summary__table__heading .payment__summary__table__title {
+        font-weight: bold;
+        color: #000; }
+  .PaymentInfo .ticket__prev__sidebar .currency__selector .currency__selector__wrap {
+    padding: 0;
+    margin: 0; }
+  .PaymentInfo .ticket__prev__sidebar .currency__selector .select__currency__form {
+    padding: 0;
+    margin: 0; }
+  .PaymentInfo .nopadding {
+    padding: 0; }
+  .PaymentInfo .tax__types__modal__link {
+    color: #d84434;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: underline; }
+    .PaymentInfo .tax__types__modal__link:hover {
+      color: #383838;
+      border-bottom: 1px solid #383838; }
+  .PaymentInfo input[type="checkbox"] ~ label::before {
+    border-radius: 4px; }
+  .PaymentInfo input[type="checkbox"] ~ label:hover:before {
+    border-color: #767676; }
+  .PaymentInfo .modal-header {
+    border-top: 0 !important;
+    background-color: #fc8d00 !important;
+    font-family: 'icomoon' !important; }
+    .PaymentInfo .modal-header .close {
+      line-height: 0.6;
+      color: #fff; }
+      .PaymentInfo .modal-header .close:focus {
+        outline: none !important; }
+    .PaymentInfo .modal-header .modal-title {
+      line-height: 1;
+      color: #fff; }
+  .PaymentInfo .navbar-nav {
+    padding-right: 0 !important; }
+  .PaymentInfo .dropdown-menu .flag {
+    margin-top: 15px; }
+  .PaymentInfo .form-control {
+    background-color: #fafafa;
+    border-radius: 0 !important;
+    border-bottom-width: 2px !important; }
+  .PaymentInfo .mainContainer {
+    border: none; }
+  .PaymentInfo select {
+    border: none;
+    border-bottom: 1px solid rgba(1, 67, 149, 0.2) !important;
+    box-shadow: none;
+    border-radius: 4px !important;
+    height: 35px; }
+    .PaymentInfo select:focus {
+      border: none;
+      border-bottom: 1px solid #aab2bd !important; }
+    .PaymentInfo select:active {
+      border: none;
+      border-bottom: 1px solid #aab2bd !important; }
+  .PaymentInfo .tb32 {
+    text-align: right; }
+  .PaymentInfo .btn-success {
+    background-color: #d20400;
+    border-color: #d20400; }
+    .PaymentInfo .btn-success:active {
+      background-color: #d20400;
+      border-color: #d20400; }
+    .PaymentInfo .btn-success:focus {
+      transition: all .3s linear;
+      background-color: #d20400;
+      border-color: #d20400;
+      color: #fff; }
+    .PaymentInfo .btn-success:hover {
+      transition: all .3s linear;
+      background-color: #d20400;
+      border-color: #d20400;
+      color: #fff; }
+  .PaymentInfo .payment__summary__table__content {
+    padding: 5px;
+    margin-bottom: 5px; }
+    .PaymentInfo .payment__summary__table__content .table-condensed > tbody > tr:nth-child(2n) {
+      background-color: #fff;
+      background-color: transparent !important; }
+  .PaymentInfo input[type=checkbox] + label {
+    user-select: none;
+    white-space: inherit; }
+  .PaymentInfo * html[xmlns*=""] .step-navigation-step {
+    width: 230px; }
+  .PaymentInfo #paymentTabList li a {
+    padding-top: 12px;
+    text-align: center; }
+  .PaymentInfo .front:hover:not(.card >) {
+    max-width: 27px;
+    max-height: 27px;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADUgAAA1IBEAAkSgAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAC4SURBVEiJ7ZQ7CgJBEERfGWxqJHgwz+AFTDyGZgp7AUMDjyB4AyNjAzPBuAw0WHadGfcHIlvQWdd7wTQj2/SZUa/0QfAfAkmZpJWki6R5ZcF24wEyYA/4PbfKTodwA7tOBAH4CRgnBcAMOAJLQG3gIcG1UMyLkrrwkOBQAmwBNYGHBFPgXAJtmsCDjxyQ1IZHrygi+RqePNMPklpw268LiUXSBFgAD2Bt+x4tlPspQdv8/m86CFrnCTspDyp52dYpAAAAAElFTkSuQmCCc1be9ed3910f4ce45b4edba01ad84c4f");
+    background-color: #fff; }
+  .PaymentInfo input[name*=rules]:checked + label {
+    color: #404067; }
+  .PaymentInfo #topHeader .dropdown .dropdown-menu a {
+    padding-left: 30px; }
+  .PaymentInfo input:-ms-input-placeholder {
+    color: #bbbbb7; }
+  .PaymentInfo .confirm__label label {
+    cursor: pointer; }
+  .PaymentInfo .reserve__accept label {
+    cursor: pointer; }
+  .PaymentInfo .container > .navbar-collapse {
+    padding: 0; }
+  .PaymentInfo .nav-tabs.nav-justified > .active > a {
+    box-shadow: 0 -2px 0 #383838 inset;
+    color: #383838; }
+    .PaymentInfo .nav-tabs.nav-justified > .active > a:focus {
+      box-shadow: 0 -2px 0 #383838 inset;
+      color: #383838; }
+    .PaymentInfo .nav-tabs.nav-justified > .active > a:hover {
+      box-shadow: 0 -2px 0 #383838 inset;
+      color: #383838; }
+  .PaymentInfo .nav-tabs.nav-justified > li > a:hover {
+    box-shadow: 0 -2px 0 #383838 inset;
+    color: #383838; }
+  .PaymentInfo .dropdown.language .dropdown-menu li {
+    min-height: 40px; }
+  .PaymentInfo .tab-content > .tab-pane {
+    padding-bottom: 0;
+    margin-bottom: 15px; }
+  .PaymentInfo .table-condensed > tbody > tr:nth-child(odd) {
+    background-color: #e2e2e2;
+    background-color: transparent !important; }
+
+@media only screen and (max-device-width: 768px) {
+  .PaymentInfo select {
+    text-indent: 1px;
+    text-overflow: ''; } }
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .PaymentInfo #paymentTabContainer .flaticon-card::before {
+    vertical-align: bottom !important; } }
+@media screen and (max-width: 760px) {
+  .PaymentInfo .payment__area #paymentTabContainer #paymentTabList li.active a:before {
+    border: none; } }
+@media screen and (max-width: 768px) {
+  .PaymentInfo .mainContainer {
+    margin-top: 0; } }
+@-moz-document url-prefix() {}
+table.fold-table > tbody > tr.view td, table.fold-table > tbody > tr.view th {
+  cursor: pointer; }
+table.fold-table > tbody > tr.view td:first-child .fa-caret-down,
+table.fold-table > tbody > tr.view th:first-child .fa-caret-down {
+  font-size: 21px;
+  top: 3px;
+  color: #767676;
+  transition: all .3s ease;
+  position: relative; }
+table.fold-table > tbody > tr.view.open td:first-child, table.fold-table > tbody > tr.view.open th:first-child {
+  color: #383838; }
+  table.fold-table > tbody > tr.view.open td:first-child .fa-caret-down, table.fold-table > tbody > tr.view.open th:first-child .fa-caret-down {
+    transform: rotate(-180deg);
+    color: #383838; }
+table.fold-table > tbody > tr.fold {
+  display: none; }
+  table.fold-table > tbody > tr.fold.open {
+    display: table-row; }
+
+.add-ssr-table-mobile {
+  color: #767676;
+  border-bottom: 1px solid #767676; }
+  @media only screen and (min-width: 601px) {
+    .add-ssr-table-mobile {
+      display: none !important; } }
+  .add-ssr-table-mobile td {
+    padding: 5px 0;
+    color: #383838; }
+  .add-ssr-table-mobile .name {
+    color: #767676; }
+  .add-ssr-table-mobile .name span {
+    font-weight: bold;
+    padding-left: 15px; }
+  .add-ssr-table-mobile .name i {
+    font-size: 21px;
+    top: 3px; }
+  .add-ssr-table-mobile .fold {
+    border-top: 1px solid #767676; }
+    .add-ssr-table-mobile .fold .payment-info-passenger-table-mobile td {
+      padding: 2px; }
+
+.accordion-toggle {
+  cursor: pointer; }
+
+.accordion-content {
+  display: none; }
+
+.accordion-content.default {
+  display: block; }
+
+@media only screen and (max-width: 601px) {
+  .add-ssr-table-mobile.accordion-content.default {
+    display: table;
+    border-bottom: 1px solid #767676; }
+    .add-ssr-table-mobile.accordion-content.default .name span {
+      font-weight: bold;
+      padding-left: 15px; }
+    .add-ssr-table-mobile.accordion-content.default .name i {
+      font-size: 21px;
+      top: 3px; }
+    .add-ssr-table-mobile.accordion-content.default .fold {
+      border-top: 1px solid #767676; }
+      .add-ssr-table-mobile.accordion-content.default .fold .payment-info-passenger-table-mobile td {
+        padding: 2px; } }
+@media only screen and (min-width: 601px) {
+  .add-ssr-table-mobile.accordion-content.default {
+    display: none !important; } }
+
+.fold-content {
+  width: 100%; }
+
+.modal-content .modal-currency {
+  font-weight: bold; }
+.modal-content table tr td {
+  padding: 8px 15px !important; }
+.modal-content .modal-footer .btn {
+  border-color: #d20400;
+  background-color: #d20400;
+  color: #fff;
+  border-radius: 0; }
+
+.tb32 {
+  padding: 0 5px !important; }
+
+/*payment option accordion begin */
+.accordionContainer .accordion_title {
+  background: url(../../img/arrowRight.png) #383838 no-repeat center right 20px;
+  border-radius: 0px;
+  cursor: pointer;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  color: #fff;
+  font-weight: bold;
+  padding-left: 20px; }
+
+.accordionContainer .accordion_title.active {
+  background: url(../../img/arrowDown.png) #383838 no-repeat center right 20px;
+  color: #383838; }
+
+.paymentTabContainer.accordionContainer {
+  padding: 59px 21px 19px 11px; }
+
+.accordionContainer .payment__area {
+  padding-bottom: 15px; }
+
+.accordionContainer .loyalty__login {
+  margin-top: 10px;
+  margin-bottom: 15px; }
+
+.accordionContainer .accordion_content {
+  padding: 10px; }
+
+.accordionContainer #payment-reservation-block, .accordionContainer .captured-card-content {
+  padding-left: 25px; }
+
+.accordionContainer .reserve__btn,
+.accordionContainer .buy__points__btn {
+  width: auto; }
+
+.accordionContainer #binCodePaymentOptions {
+  padding-left: 50px; }
+
+.accordionContainer #binCodePaymentOptions input[type="radio"] ~ label {
+  font-size: 1.6rem;
+  color: #3B5D9E;
+  font-weight: 700;
+  line-height: 2;
+  display: block;
+  padding-top: 0; }
+
+.accordionContainer #binCodePaymentOptions input[type="radio"]:checked ~ label:before {
+  font-size: 24px;
+  line-height: 8px;
+  bottom: 7px; }
+
+.accordionContainer #binCodePaymentOptions input[type="radio"] ~ label:before {
+  bottom: 7px; }
+
+.accordionContainer #binCodePaymentOptions .binCodePaymentOptionsTitle {
+  font-size: 1.5rem; }
+
+.accordionContainer #binCodePaymentOptions .binCodePaymentOptionsTitle .show {
+  display: block; }
+
+.payment-error {
+  padding: 25px 15px;
+  background-color: #fafafa; }
+  .payment-error i {
+    padding-right: 3px;
+    font-weight: bold;
+    color: #e9282b;
+    font-size: 1.8rem; }
+  .payment-error span {
+    color: #e9282b;
+    font-weight: bold; }
+
+input[type="checkbox"] ~ label::before {
+  border-radius: 0px;
+  content: "\2713 " !important; }
+input[type="checkbox"] ~ label:before {
+  border-color: #767676; }
+input[type="checkbox"] ~ label:hover:before {
+  border-color: #767676; }
+
+input[type="checkbox"]:checked ~ label:before {
+  color: #fff !important;
+  border-color: #0063ad !important;
+  background-color: #0063ad; }
+
+/*payment option accordion end */
+.ajax-cover {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  position: fixed;
+  background: black;
+  background: rgba(0, 0, 0, 0.5);
+  filter: alpha(opacity=70);
+  z-index: 99999999999999999; }
+
+.ajax-text {
+  color: #fff !important; }
+
+.input-group select {
+  -moz-appearance: none;
+  /* Firefox */
+  -webkit-appearance: none;
+  /* Safari and Chrome */
+  appearance: none; }
+.input-group:after {
+  content: '';
+  right: 15px;
+  top: 15px;
+  height: 34px;
+  position: absolute;
+  pointer-events: none;
+  border-style: solid;
+  border-width: 5px 5px 0 5px;
+  border-color: #808080 transparent transparent transparent; }
+
+.ticket-preview-sticky .btn-blue {
+  font-size: 1.8rem;
+  background: #d20400 none repeat scroll 0 0 !important;
+  color: #fff !important;
+  border-radius: 5px;
+  border: none !important; }
+
+.card .front .lower .number {
+  font-size: 22px !important; }
+
+@media only screen and (max-width: 601px) {
+  .reserve__accept label {
+    white-space: normal !important; } }
+
+.buySection .form-control {
+  box-shadow: none;
+  border-left-color: transparent !important;
+  border-top-color: transparent !important;
+  border-right-color: transparent !important;
+  border-bottom: 2px solid rgba(1, 67, 149, 0.2) !important; }
+
+.PaymentInfo .accordionContainer .accordion_title {
+  background: url(../../img/arrowRight.png) #fff no-repeat center right 20px;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 45px;
+  line-height: 45px;
+  margin-bottom: 3px;
+  margin-top: 3px;
+  font-weight: bold;
+  padding-left: 50px;
+  border: 1px solid #dddd;
+  color: #383838;
+  font-size: 2rem;
+  position: relative; }
+
+.PaymentInfo .accordionContainer .accordion_title.active {
+  background: url(../../img/arrowDown.png) #fff no-repeat center right 20px;
+  border-left: 1px solid #ddd;
+  margin-bottom: 0;
+  border-right: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  border-radius: 0;
+  border-bottom: none; }
+
+.PaymentInfo .paymentTabContainer.accordionContainer {
+  padding: 3px 3px 0px 2px; }
+
+.PaymentInfo .accordionContainer .payment__area {
+  padding-bottom: 15px; }
+
+.PaymentInfo .accordionContainer .loyalty__login {
+  margin-top: 10px;
+  margin-bottom: 15px; }
+
+.PaymentInfo .accordionContainer .accordion_content {
+  padding: 10px; }
+
+.PaymentInfo .accordionContainer #payment-reservation-block, .PaymentInfo .accordionContainer .captured-card-content {
+  padding-left: 25px; }
+
+.PaymentInfo .accordionContainer .captured-card-text {
+  margin-top: 10px; }
+
+.PaymentInfo .accordionContainer .reserve__btn,
+.PaymentInfo .accordionContainer .buy__points__btn {
+  width: auto; }
+
+.PaymentInfo .accordionContainer .binCodePaymentOptions {
+  background-color: #e6e6e6;
+  border: 1px solid black;
+  padding: 10px;
+  margin-left: 15px; }
+
+.PaymentInfo .accordionContainer #binCodePaymentOptions input[type="radio"] ~ label {
+  font-size: 1.6rem;
+  color: #3B5D9E;
+  font-weight: 700;
+  line-height: 2;
+  display: block;
+  padding-top: 0; }
+
+.PaymentInfo .accordionContainer #binCodePaymentOptions input[type="radio"]:checked ~ label:before {
+  font-size: 24px;
+  line-height: 8px;
+  bottom: 7px; }
+
+.PaymentInfo .accordionContainer #binCodePaymentOptions input[type="radio"] ~ label:before {
+  bottom: 7px; }
+
+.PaymentInfo .accordionContainer #binCodePaymentOptions .binCodePaymentOptionsTitle {
+  font-size: 1.6rem;
+  color: #3B5D9E;
+  font-weight: 700; }
+
+.PaymentInfo .accordionContainer #binCodePaymentOptions .binCodePaymentOptionsTitle .show {
+  display: block; }
+
+#CREDIT_CARD_tab {
+  padding: 10px 0; }
+
+.buy__with__cc .card-wrapper .card-container {
+  margin-right: 0; }
+
+.PaymentInfo .paymentTabContent #LOYALTY_REDEMPTION_tab .member__login__title {
+  display: none; }
+
+.PaymentInfo .paymentTabContent #LOYALTY_REDEMPTION_tab .loyalty__login {
+  padding-bottom: 10px; }
+
+.PaymentInfo .paymentTabContent #LOYALTY_REDEMPTION_tab .loyalty__login .col-lg-12 {
+  text-align: center; }
+  .PaymentInfo .paymentTabContent #LOYALTY_REDEMPTION_tab .loyalty__login .col-lg-12 .login__btn {
+    width: 25%;
+    font-size: 2rem; }
+
+.PaymentInfo .paymentTabContent #LOYALTY_REDEMPTION_tab .form-signin {
+  width: 50%;
+  float: none; }
+
+.PaymentInfo .paymentTabContent #LOYALTY_REDEMPTION_tab .form-signin .button__area {
+  margin-top: 10px; }
+
+.PaymentInfo #CREDIT_CARD_tab .confirm__label, .captured-card-content #rules-and-conditions .confirm__label, #BKM_EXPRESS_tab .confirm__label {
+  color: #0063ad;
+  padding: 18px 12px 0 10px; }
+
+.bkm_express_explanation {
+  margin-top: 10px; }
+
+#BKM_EXPRESS_tab {
+  padding-left: 25px; }
+
+.UPOP, .BKM_EXPRESS, .JCB, .GIROGATE_ALIPAY {
+  position: relative; }
+
+.UPOP::after {
+  content: url(../../img/upop-external.png);
+  position: absolute;
+  right: 46px;
+  top: 4px; }
+
+.BKM_EXPRESS::after {
+  content: url(../../img/bkm-express-external.png);
+  position: absolute;
+  right: 52px;
+  top: 4px; }
+
+.JCB::after {
+  content: url(../../img/jcb-external.png);
+  position: absolute;
+  right: 75px;
+  top: 4px; }
+
+.GIROGATE_ALIPAY::after {
+  background-image: url(../../img/alipay-external.png);
+  position: absolute;
+  right: 30px;
+  top: 12px;
+  height: 30px;
+  content: '';
+  background-size: 80px 20px;
+  width: 120px;
+  background-repeat: no-repeat; }
+
+.GIROGATE_IDEAL::after {
+  background-image: url(../../img/ideal-external.png);
+  position: absolute;
+  right: 0px;
+  top: 12px;
+  height: 30px;
+  content: '';
+  background-size: 40px 20px;
+  width: 120px;
+  background-repeat: no-repeat; }
+
+.GIROGATE_SOFORT::after {
+  background-image: url(../../img/sofort-external.png);
+  position: absolute;
+  right: 20px;
+  top: 12px;
+  height: 30px;
+  content: '';
+  background-size: 65px 16px;
+  width: 120px;
+  background-repeat: no-repeat; }
+
+.PaymentInfo .accordionContainer .accordion_title.active::before {
+  content: url(../../img/radio-on-button.png);
+  position: absolute;
+  left: 15px; }
+
+.PaymentInfo .accordionContainer .accordion_title::before {
+  content: url(../../img/radio-off-button.png);
+  position: absolute;
+  left: 15px; }
+
+.PaymentInfo .CREDIT_CARD::after {
+  content: url(../../img/cards-acccordion.png);
+  position: absolute;
+  right: 75px;
+  top: 6px; }
+
+.PaymentInfo .LOYALTY_REDEMPTION::after {
+  content: url(../../img/loyalty-payment.png);
+  position: absolute;
+  right: 75px;
+  top: 0px; }
+
+.PaymentInfo .RES::after {
+  content: url(../../img/reservation-payment.png);
+  position: absolute;
+  right: 75px;
+  top: 4px; }
+
+.PaymentInfo .accordion_content {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  background: #fff; }
+
+.PaymentInfo .paymentTabContent .accordion-bottom-area {
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background: #fff;
+  float: left; }
+
+.PaymentInfo .accordionContainer #payment-reservation-block {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #fff;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  border-bottom: 1px solid #ddd; }
+
+.PaymentInfo .accordionContainer #payment-reservation-block .dangerous-goods {
+  padding-left: 0 !important; }
+
+.bin-rule-alert-div a {
+  text-decoration: underline;
+  float: right; }
+
+.bin-rule-alert-div {
+  margin-bottom: 5px; }
+
+@media (max-width: 601px) {
+  .accordion_title::after {
+    content: '' !important;
+    background: none; }
+
+  .PaymentInfo .paymentTabContainer.accordionContainer {
+    padding: 0; }
+
+  .bin-rule-alert-div a {
+    float: left; }
+
+  .PaymentInfo #CREDIT_CARD_tab .confirm__label, .PaymentInfo .girogate_content .confirm__label {
+    width: 100%;
+    margin: 0; }
+
+  .PaymentInfo .paymentTabContent #LOYALTY_REDEMPTION_tab .form-signin {
+    width: 100%; }
+
+  .PaymentInfo .paymentTabContent #LOYALTY_REDEMPTION_tab .form-signin .button__area {
+    margin-top: 0; }
+
+  .PaymentInfo .paymentTabContent #LOYALTY_REDEMPTION_tab .loyalty__login .col-lg-12 .login__btn {
+    width: auto;
+    margin-right: 0; }
+
+  .loyalty__login .loyalty__login__icon {
+    background: none; } }
+.PaymentInfo .accordion_content .bottom__cont__area, #payment-reservation-block .bottom__cont__area {
+  background-color: #fff; }
+
+.PaymentInfo .accordion_content .form-control, .PaymentInfo .accordion_content .form-control:focus {
+  background-color: #fff;
+  box-shadow: inset 0 -1px 0 #dddddd; }
+
+.PaymentInfo .accordion_title #expiry-month, .PaymentInfo .accordion_title #expiry-year {
+  border: none !important;
+  box-shadow: inset 0 -1px 0 #dddddd; }
+
+.payment-attention {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 100000; }
+
+.payment-attention-body {
+  height: auto; }
+
+.payment-attention-body .accept-button {
+  background: #8E282C;
+  color: white; }
+
+.payment-attention-body .accept-button:hover {
+  background: #762226; }
+
+.payment-attention-body .modal-dialog {
+  height: 100%; }
+
+.payment-attention-body .modal-body {
+  overflow-y: auto;
+  height: calc(100% - 132px); }
+
+.payment-attention-body .modal-content {
+  height: 100%; }
+
+.payment-attention-body .accept-button {
+  background-color: #FED350; }
+
+.payment-attention-body .accept-button:hover {
+  background-color: #b17001; }
+
+.dangerous-image {
+  background-image: url("../../img/dangerous-goods-NEW.png");
+  height: 233px;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.reserve__accept label {
+  color: #005495; }
+
+.sadad__input {
+  height: 25px; }
+
+.sadadmodal {
+  margin: 10px 0; }
+
+#SADAD_tab #rules-and-conditions {
+  margin-top: 10px; }
+
+.tile.purple-2.tile__body {
+  display: none; }
+
+.show-inline {
+  display: inline-block !important; }
+
+.accordion_content .blue-bar {
+  text-align: center; }
+.accordion_content .form-signin {
+  margin: 0 auto; }
+
+.btn-warning, .btn-warning.active, .btn-warning.disabled, .btn-warning:active, .btn-warning[disabled] {
+  background-color: #717174;
+  border-color: #717174; }
+
+.paymentinfo-disclaimer {
+  padding: 5px 15px;
+  border: 1px solid #69b342;
+  margin-top: 15px; }
+
+.selectize-dropdown .active {
+  background-color: #4ba8de; }
+
+.cc__shot span.input-error {
+  font-size: 11px;
+  margin-left: 14px;
+  position: sticky;
+  float: left; }
+
+@media only screen and (max-width: 601px) {
+  .btn_BOH {
+    position: relative;
+    right: 45px; } }
+
+@media only screen and (max-width: 601px) {
+  .payment-type-image {
+    display: none; } }
+#CREDIT_CARD_tab .payment-types {
+  display: none; }
+
+/*# sourceMappingURL=paymentInfo.css.map */
